@@ -1,6 +1,6 @@
 # Journal - Enterprise Java
 
-![Project Description] (README.md)
+[Project Description] (README.md)
 
 ---
 ### Week of 1/18/2016
