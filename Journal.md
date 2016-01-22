@@ -2,6 +2,8 @@
 
 [Project Description] (README.md)
 
+[Project Plan] (ProjectPlan.md)
+
 ---
 ### Week of 1/18/2016
 ##### Hours working on JavaEE: 12
