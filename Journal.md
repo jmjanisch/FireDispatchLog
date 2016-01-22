@@ -1,4 +1,6 @@
-# Journal
+# Journal - Enterprise Java
+
+![Project Description] (README.md)
 
 ### Week of 1/18/2016
 ##### Hours working on JavaEE: 12
