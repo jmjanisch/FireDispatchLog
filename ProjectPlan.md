@@ -12,8 +12,8 @@
 - [X] Begin project plan
 
 ### Week 2
-- [ ] Document application flow - wireframes have clickable links in the online version.
-- [ ] Complete screen design (on paper)
+- [X] Document application flow - wireframes have clickable links in the online version.
+- [X] Complete screen design (on paper)
 - [X] Add project to repository
 - [X] Deploy application to Openshift
 - [X] Weekly journal entry
@@ -22,7 +22,7 @@ more detail.
 
 ### Week 3
 - [ ] Create project structure in IntelliJ
-- [ ] Add in bootstrap
+- [ ] Finalize UI Screens
 - [ ] Create database and all tables/columns locally
 - [ ] Weekly journal entry
 - [ ] Create class diagram
