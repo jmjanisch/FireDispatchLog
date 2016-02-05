@@ -6,7 +6,7 @@
 
 ---
 ### Week of 2/01/2016
-##### Hours working on JavaEE: 8.0
+##### Hours working on JavaEE: 8.25
 
 * Think of production name for project (0.5) (It's now known as EmberIMS)
 * Install Visio 2016 on Window's VM so I can create an ERD diagram (0.5) (this was difficult since it was a download and I have no cd drive on the computer)
@@ -18,6 +18,7 @@
 * Layout Personnel Page (1.0)
 * Setup Project in IntelliJ (0.5)
 * Build Entities using ERD as a Reference (1.0)
+* Journal Entries (0.25)
 
 ---
 ### Week of 1/25/2016
