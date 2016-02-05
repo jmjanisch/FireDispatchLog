@@ -43,4 +43,5 @@
 * Layout Personnel Page (1.0)
 * Setup Project in IntelliJ (0.5)
 * Build Entities using ERD as a Reference (1.0)
+
 ---
