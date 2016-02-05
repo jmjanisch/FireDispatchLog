@@ -30,3 +30,17 @@
 * Readings for week 3 - To Do
 
 ---
+### Week of 2/01/2016
+##### Hours working on JavaEE: 8.0
+
+* Think of production name for project (0.5) (It's now known as EmberIMS)
+* Install Visio 2016 on Window's VM so I can create an ERD diagram (0.5) (this was difficult since it was a download and I have no cd drive on the computer)
+* Make ERD diagram of EmberIMS (1.0)
+* Research Bootstrap layout tools (0.5)
+* Install Pinegrow and learn how to use it. (0.5)
+* Layout Dashboard Page (2.0)
+* Layout Department Page (1.0)
+* Layout Personnel Page (1.0)
+* Setup Project in IntelliJ (0.5)
+* Build Entities using ERD as a Reference (1.0)
+---
