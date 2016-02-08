@@ -15,12 +15,12 @@ public class Department {
     private String phoneNumber;
     private String contactFirstName;
     private String contactLastName;
-    private String contactEmailAddress;
+    private String contactEmail;
 
     public Department() {
     }
 
-    public Department(int id, String departmentNumber, String departmentName, String departmentAddress, String city, String state, String zipcode, String phoneNumber, String contactFirstName, String contactLastName, String contactEmailAddress) {
+    public Department(int id, String departmentNumber, String departmentName, String departmentAddress, String city, String state, String zipcode, String phoneNumber, String contactFirstName, String contactLastName, String contactEmail) {
         this.id = id;
         this.departmentNumber = departmentNumber;
         this.departmentName = departmentName;
@@ -31,7 +31,7 @@ public class Department {
         this.phoneNumber = phoneNumber;
         this.contactFirstName = contactFirstName;
         this.contactLastName = contactLastName;
-        this.contactEmailAddress = contactEmailAddress;
+        this.contactEmail = contactEmail;
     }
 
     public int getId() {
@@ -114,12 +114,12 @@ public class Department {
         this.contactLastName = contactLastName;
     }
 
-    public String getContactEmailAddress() {
-        return contactEmailAddress;
+    public String getContactEmail() {
+        return contactEmail;
     }
 
-    public void setContactEmailAddress(String contactEmailAddress) {
-        this.contactEmailAddress = contactEmailAddress;
+    public void setContactEmail(String contactEmail) {
+        this.contactEmail = contactEmail;
     }
 
     @Override
@@ -135,7 +135,7 @@ public class Department {
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", contactFirstName='" + contactFirstName + '\'' +
                 ", contactLastName='" + contactLastName + '\'' +
-                ", contactEmailAddress='" + contactEmailAddress + '\'' +
+                ", contactEmail='" + contactEmail + '\'' +
                 '}';
     }
 }

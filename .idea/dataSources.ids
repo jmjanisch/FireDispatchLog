@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - EmberIMS@localhost" uuid="513e88af-59e0-41db-82d5-639d11ab66bd">
+    <database-info product="MySQL" version="5.7.10-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="emberims"/>
+      <table id="2" parent="1" name="department"/>
+      <column id="3" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(9)</data-type>
+      </column>
+      <column id="4" parent="2" name="department_id">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="5" parent="2" name="name">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="6" parent="2" name="address">
+        <data-type>varchar(80)</data-type>
+      </column>
+      <column id="7" parent="2" name="city">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="8" parent="2" name="state">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="9" parent="2" name="zipcode">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="10" parent="2" name="contact_first_name">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="11" parent="2" name="contact_last_name">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="12" parent="2" name="contact_phone">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="13" parent="2" name="contact_email">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="14" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
