@@ -19,7 +19,10 @@ import java.util.List;
  */
 public class DepartmentDaoWithHibernate implements DepartmentDao {
 
-    private final Logger log = Logger.getLogger(this.getClass());
+    //private final Logger log = Logger.getLogger(this.getClass());
+
+    private org.apache.log4j.Logger log = Logger.getLogger(this.getClass());
+
 
     @Override
     public List<Department> getAllDepartments() {

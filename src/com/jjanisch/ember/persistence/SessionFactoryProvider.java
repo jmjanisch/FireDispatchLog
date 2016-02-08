@@ -19,7 +19,7 @@ public class SessionFactoryProvider {
         try {
 
             Configuration configuration = new Configuration();
-            configuration.configure("hibernate/hibernate.cfg.xml");
+            configuration.configure();
             //Use config file path explicitly
             //configuration.configure("hibernate/hibernate.cfg.xml");
             serviceRegistry = new StandardServiceRegistryBuilder()
@@ -30,7 +30,7 @@ public class SessionFactoryProvider {
 
         } catch (Throwable ex) {
             System.err.println("Initial SessionFactory "
-                    + "creation failed." + ex);
+                    + "creation failed. " + ex);
             throw new ExceptionInInitializerError(ex);
         }
     }
