@@ -1,46 +1,34 @@
 package com.jjanisch.ember.persistence;
 
+import org.hibernate.Hibernate;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.service.*;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-
+import org.hibernate.service.ServiceRegistry;
+import org.hibernate.service.ServiceRegistryBuilder;
 
 /**
  * This file provides a SessionFactory for use with DAOS using Hibernate
- * @author javahonk.com
+ * @author paulawaite
+ * @version 1.0 10/21/15.
  */
 public class SessionFactoryProvider {
 
-    private static SessionFactory sessionFactory = buildSessionFactory();
-    private static ServiceRegistry serviceRegistry;
+    private static SessionFactory sessionFactory;
 
-    private static SessionFactory buildSessionFactory() {
-        try {
-
-            Configuration configuration = new Configuration();
-            configuration.configure();
-            //Use config file path explicitly
-            //configuration.configure("hibernate/hibernate.cfg.xml");
-            serviceRegistry = new StandardServiceRegistryBuilder()
-                    .applySettings(configuration.getProperties()).build();
-            sessionFactory = configuration
-                    .buildSessionFactory(serviceRegistry);
-            return sessionFactory;
-
-        } catch (Throwable ex) {
-            System.err.println("Initial SessionFactory "
-                    + "creation failed. " + ex);
-            throw new ExceptionInInitializerError(ex);
-        }
+    public static void createSessionFactory() {
+        Configuration configuration = new Configuration();
+        configuration.configure();
+        ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(
+                configuration.getProperties()). buildServiceRegistry();
+        sessionFactory = configuration.buildSessionFactory(serviceRegistry);
     }
 
     public static SessionFactory getSessionFactory() {
+        if (sessionFactory == null) {
+            createSessionFactory();
+        }
         return sessionFactory;
-    }
 
-    public static void shutdown() {
-        // Close caches and connection pools
-        getSessionFactory().close();
     }
 }
+

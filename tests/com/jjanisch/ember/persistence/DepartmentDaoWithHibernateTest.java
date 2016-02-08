@@ -55,7 +55,7 @@ public class DepartmentDaoWithHibernateTest {
         department.setDepartmentName("Test Department");
         department.setDepartmentAddress("Test Address");
         department.setCity("TestCity");
-        department.setState("TestState");
+        department.setState("ZZ");
         department.setZipcode("TestZip");
         department.setContactFirstName("TestFirstName");
         department.setContactLastName("TestLastName");
