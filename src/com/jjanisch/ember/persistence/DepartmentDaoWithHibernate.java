@@ -104,7 +104,7 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
     }
 
     @Override
-    public void deleteDepartment(Department department) {
+    public Boolean deleteDepartment(Department department) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction dbTransaction = null;
@@ -118,10 +118,12 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
         } catch (HibernateException error) {
              if (dbTransaction != null) dbTransaction.rollback();
              error.printStackTrace();
+            return false;
         } finally {
             session.close();
         }
 
+        return true;
     }
 
     @Override

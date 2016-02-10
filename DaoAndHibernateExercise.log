@@ -5157,3 +5157,973 @@ com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 's
 2016-02-09 21:44:15,152 1831 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Returning connection to pool, pool size: 1
 2016-02-09 21:44:15,152 1831 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Released JDBC connection
 2016-02-09 21:44:15,152 1831 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Logical connection closed
+2016-02-10 09:32:16,076 0    [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-02-10 09:32:16,101 25   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@50675690
+2016-02-10 09:32:16,101 25   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@50675690
+2016-02-10 09:32:16,102 26   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@50675690
+2016-02-10 09:32:16,103 27   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@22a71081
+2016-02-10 09:32:16,105 29   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration true_false -> org.hibernate.type.TrueFalseType@c39f790
+2016-02-10 09:32:16,105 29   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration yes_no -> org.hibernate.type.YesNoType@5f150435
+2016-02-10 09:32:16,107 31   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@73035e27
+2016-02-10 09:32:16,107 31   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@73035e27
+2016-02-10 09:32:16,107 31   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@73035e27
+2016-02-10 09:32:16,108 32   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration character -> org.hibernate.type.CharacterType@77f03bb1
+2016-02-10 09:32:16,108 32   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char -> org.hibernate.type.CharacterType@77f03bb1
+2016-02-10 09:32:16,108 32   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@77f03bb1
+2016-02-10 09:32:16,111 35   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@4b6995df
+2016-02-10 09:32:16,111 35   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@4b6995df
+2016-02-10 09:32:16,114 38   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4b6995df
+2016-02-10 09:32:16,115 39   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration integer -> org.hibernate.type.IntegerType@445b84c0
+2016-02-10 09:32:16,116 40   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration int -> org.hibernate.type.IntegerType@445b84c0
+2016-02-10 09:32:16,116 40   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@445b84c0
+2016-02-10 09:32:16,118 42   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@34033bd0
+2016-02-10 09:32:16,119 43   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@34033bd0
+2016-02-10 09:32:16,119 43   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Long -> org.hibernate.type.LongType@34033bd0
+2016-02-10 09:32:16,121 45   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@2aafb23c
+2016-02-10 09:32:16,121 45   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@2aafb23c
+2016-02-10 09:32:16,121 45   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2aafb23c
+2016-02-10 09:32:16,133 57   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@28864e92
+2016-02-10 09:32:16,134 58   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@28864e92
+2016-02-10 09:32:16,134 58   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@28864e92
+2016-02-10 09:32:16,137 61   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@649d209a
+2016-02-10 09:32:16,137 61   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@649d209a
+2016-02-10 09:32:16,138 62   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@2a18f23c
+2016-02-10 09:32:16,139 63   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@2a18f23c
+2016-02-10 09:32:16,140 64   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration string -> org.hibernate.type.StringType@1b40d5f0
+2016-02-10 09:32:16,140 64   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.String -> org.hibernate.type.StringType@1b40d5f0
+2016-02-10 09:32:16,141 65   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@71c7db30
+2016-02-10 09:32:16,142 66   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1fbc7afb
+2016-02-10 09:32:16,143 67   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration url -> org.hibernate.type.UrlType@7e0babb1
+2016-02-10 09:32:16,143 67   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.net.URL -> org.hibernate.type.UrlType@7e0babb1
+2016-02-10 09:32:16,145 69   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration date -> org.hibernate.type.DateType@35bbe5e8
+2016-02-10 09:32:16,145 69   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Date -> org.hibernate.type.DateType@35bbe5e8
+2016-02-10 09:32:16,147 71   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration time -> org.hibernate.type.TimeType@129a8472
+2016-02-10 09:32:16,147 71   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@129a8472
+2016-02-10 09:32:16,150 74   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timestamp -> org.hibernate.type.TimestampType@e580929
+2016-02-10 09:32:16,150 74   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@e580929
+2016-02-10 09:32:16,150 74   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@e580929
+2016-02-10 09:32:16,152 76   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4c203ea1
+2016-02-10 09:32:16,153 77   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar -> org.hibernate.type.CalendarType@7c30a502
+2016-02-10 09:32:16,155 79   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7c30a502
+2016-02-10 09:32:16,155 79   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7c30a502
+2016-02-10 09:32:16,155 79   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@43a25848
+2016-02-10 09:32:16,157 81   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration locale -> org.hibernate.type.LocaleType@1e643faf
+2016-02-10 09:32:16,157 81   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1e643faf
+2016-02-10 09:32:16,158 82   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration currency -> org.hibernate.type.CurrencyType@880ec60
+2016-02-10 09:32:16,158 82   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@880ec60
+2016-02-10 09:32:16,158 82   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timezone -> org.hibernate.type.TimeZoneType@511baa65
+2016-02-10 09:32:16,159 83   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@511baa65
+2016-02-10 09:32:16,159 83   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration class -> org.hibernate.type.ClassType@19dfb72a
+2016-02-10 09:32:16,159 83   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@19dfb72a
+2016-02-10 09:32:16,161 85   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2d6e8792
+2016-02-10 09:32:16,161 85   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2d6e8792
+2016-02-10 09:32:16,161 85   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@506e6d5e
+2016-02-10 09:32:16,162 86   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@6442b0a6
+2016-02-10 09:32:16,163 87   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration binary -> org.hibernate.type.BinaryType@2f7a2457
+2016-02-10 09:32:16,163 87   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte[] -> org.hibernate.type.BinaryType@2f7a2457
+2016-02-10 09:32:16,163 87   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [B -> org.hibernate.type.BinaryType@2f7a2457
+2016-02-10 09:32:16,166 90   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6cd8737
+2016-02-10 09:32:16,166 90   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6cd8737
+2016-02-10 09:32:16,166 90   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6cd8737
+2016-02-10 09:32:16,167 91   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration image -> org.hibernate.type.ImageType@1a407d53
+2016-02-10 09:32:16,168 92   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration characters -> org.hibernate.type.CharArrayType@668bc3d5
+2016-02-10 09:32:16,168 92   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char[] -> org.hibernate.type.CharArrayType@668bc3d5
+2016-02-10 09:32:16,168 92   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [C -> org.hibernate.type.CharArrayType@668bc3d5
+2016-02-10 09:32:16,169 93   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6b2fad11
+2016-02-10 09:32:16,169 93   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6b2fad11
+2016-02-10 09:32:16,169 93   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6b2fad11
+2016-02-10 09:32:16,169 93   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration text -> org.hibernate.type.TextType@dfd3711
+2016-02-10 09:32:16,170 94   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ntext -> org.hibernate.type.NTextType@64616ca2
+2016-02-10 09:32:16,174 98   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration blob -> org.hibernate.type.BlobType@90f6bfd
+2016-02-10 09:32:16,174 98   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@90f6bfd
+2016-02-10 09:32:16,174 98   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6b143ee9
+2016-02-10 09:32:16,196 120  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration clob -> org.hibernate.type.ClobType@234bef66
+2016-02-10 09:32:16,196 120  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@234bef66
+2016-02-10 09:32:16,198 122  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nclob -> org.hibernate.type.NClobType@3c09711b
+2016-02-10 09:32:16,199 123  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3c09711b
+2016-02-10 09:32:16,199 123  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4590c9c3
+2016-02-10 09:32:16,199 123  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6574b225
+2016-02-10 09:32:16,200 124  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration serializable -> org.hibernate.type.SerializableType@6ea12c19
+2016-02-10 09:32:16,202 126  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration object -> org.hibernate.type.ObjectType@5ae9a829
+2016-02-10 09:32:16,202 126  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5ae9a829
+2016-02-10 09:32:16,202 126  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7ac7a4e4
+2016-02-10 09:32:16,202 126  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6d78f375
+2016-02-10 09:32:16,202 126  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@50c87b21
+2016-02-10 09:32:16,202 126  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5f375618
+2016-02-10 09:32:16,202 126  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1810399e
+2016-02-10 09:32:16,202 126  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@32d992b2
+2016-02-10 09:32:16,203 127  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@215be6bb
+2016-02-10 09:32:16,203 127  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4439f31e
+2016-02-10 09:32:16,216 140  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-02-10 09:32:16,220 144  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-02-10 09:32:16,222 146  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-02-10 09:32:16,223 147  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-02-10 09:32:16,233 157  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2016-02-10 09:32:16,234 158  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2016-02-10 09:32:16,234 158  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2016-02-10 09:32:16,234 158  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2016-02-10 09:32:16,235 159  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2016-02-10 09:32:16,235 159  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2016-02-10 09:32:16,236 160  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2016-02-10 09:32:16,236 160  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2016-02-10 09:32:16,237 161  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2016-02-10 09:32:16,237 161  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2016-02-10 09:32:16,238 162  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2016-02-10 09:32:16,238 162  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2016-02-10 09:32:16,239 163  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2016-02-10 09:32:16,239 163  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2016-02-10 09:32:16,240 164  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2016-02-10 09:32:16,242 166  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-10 09:32:16,242 166  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-10 09:32:16,290 214  [main] TRACE org.hibernate.cfg.EJB3DTDEntityResolver  - Resolving XML entity -//Hibernate/Hibernate Configuration DTD//EN : http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd
+2016-02-10 09:32:16,290 214  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2016-02-10 09:32:16,290 214  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2016-02-10 09:32:16,291 215  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+2016-02-10 09:32:16,310 234  [main] DEBUG org.hibernate.cfg.Configuration  - dialect=org.hibernate.dialect.MySQL5Dialect
+2016-02-10 09:32:16,310 234  [main] DEBUG org.hibernate.cfg.Configuration  - connection.url=jdbc:mysql://localhost:3306/EmberIMS
+2016-02-10 09:32:16,310 234  [main] DEBUG org.hibernate.cfg.Configuration  - connection.driver_class=com.mysql.jdbc.Driver
+2016-02-10 09:32:16,310 234  [main] DEBUG org.hibernate.cfg.Configuration  - connection.username=root
+2016-02-10 09:32:16,310 234  [main] DEBUG org.hibernate.cfg.Configuration  - connection.password=student
+2016-02-10 09:32:16,311 235  [main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Department.hbm.xml] for mapping
+2016-02-10 09:32:16,311 235  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Department.hbm.xml
+2016-02-10 09:32:16,363 287  [main] TRACE org.hibernate.cfg.EJB3DTDEntityResolver  - Resolving XML entity -//Hibernate/Hibernate Mapping DTD//EN : http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd
+2016-02-10 09:32:16,363 287  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+2016-02-10 09:32:16,363 287  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2016-02-10 09:32:16,364 288  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+2016-02-10 09:32:16,392 316  [main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named class [com.jjanisch.ember.entity.Department] for mapping
+2016-02-10 09:32:16,397 321  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-02-10 09:32:16,398 322  [main] DEBUG org.hibernate.cfg.Configuration  - Properties: {hibernate.connection.password=student, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_72\jre\bin, java.vm.version=25.72-b15, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7532, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Student\Documents\JavaEE\Ember, java.runtime.version=1.8.0_72-b15, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_72\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Student\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_72\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Ruby193\bin;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, connection.password=student, user.home=C:\Users\Student, user.timezone=America/Chicago, connection.username=root, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.class.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar;C:\Users\Student\Documents\JavaEE\Ember\out\test\Ember;C:\Users\Student\Documents\JavaEE\Ember\out\production\Ember;C:\tomEE\lib\javaee-api-6.0-6.jar;C:\tomEE\lib\jsp-api.jar;C:\tomEE\lib\servlet-api.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit-4.12.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\log4j.jar;C:\Users\Student\.IntelliJIdea15\config\jdbc-drivers\mysql-connector-java-5.1.35-bin.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-commons-annotations-4.0.2.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\antlr-2.7.7.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\dom4j-1.6.1.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\javassist-3.15.0-GA.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\jboss-logging-3.1.0.GA.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-core-4.2.2.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\resources\geronimo-osgi-locator-1.0.jar, user.name=Student, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.jjanisch.ember.persistence.DepartmentDaoWithHibernateTest,testDeleteDepartment, java.home=C:\Program Files\Java\jdk1.8.0_72\jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:mysql://localhost:3306/EmberIMS, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_72, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_72\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_72\jre\classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/EmberIMS, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=amd64}
+2016-02-10 09:32:16,411 335  [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2016-02-10 09:32:16,456 380  [main] DEBUG org.hibernate.cfg.Configuration  - Preparing to build session factory with filters : {}
+2016-02-10 09:32:16,457 381  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+2016-02-10 09:32:16,463 387  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jdbc.connections.spi.ConnectionProvider]
+2016-02-10 09:32:16,464 388  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-10 09:32:16,468 392  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-02-10 09:32:16,468 392  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-02-10 09:32:16,469 393  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/EmberIMS]
+2016-02-10 09:32:16,469 393  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=student}
+2016-02-10 09:32:16,469 393  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jdbc.dialect.spi.DialectFactory]
+2016-02-10 09:32:16,471 395  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jdbc.dialect.spi.DialectResolver]
+2016-02-10 09:32:16,493 417  [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Total checked-out connections: 0
+2016-02-10 09:32:16,493 417  [main] DEBUG org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Opening new JDBC connection
+2016-02-10 09:32:16,831 755  [main] DEBUG org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Created connection to: jdbc:mysql://localhost:3306/EmberIMS, Isolation Level: 4
+2016-02-10 09:32:16,831 755  [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Database ->
+       name : MySQL
+    version : 5.7.10-log
+      major : 5
+      minor : 7
+2016-02-10 09:32:16,831 755  [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )
+      major : 5
+      minor : 1
+2016-02-10 09:32:16,840 764  [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - JDBC version : 4.0
+2016-02-10 09:32:16,878 802  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-02-10 09:32:16,879 803  [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Returning connection to pool, pool size: 1
+2016-02-10 09:32:16,889 813  [main] TRACE org.hibernate.cfg.Configuration  - Starting secondPassCompile() processing
+2016-02-10 09:32:16,905 829  [main] DEBUG org.hibernate.cfg.Configuration  - Processing hbm.xml files
+2016-02-10 09:32:16,915 839  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: com.jjanisch.ember.entity.Department -> department
+2016-02-10 09:32:16,918 842  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: id -> id
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: departmentNumber -> department_id
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: departmentName -> name
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: departmentAddress -> address
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: city -> city
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: state -> state
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: zipcode -> zipcode
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: contactFirstName -> contact_first_name
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: contactLastName -> contact_last_name
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: phoneNumber -> contact_phone
+2016-02-10 09:32:16,924 848  [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: contactEmail -> contact_email
+2016-02-10 09:32:16,925 849  [main] DEBUG org.hibernate.cfg.Configuration  - Process annotated classes
+2016-02-10 09:32:16,926 850  [main] DEBUG org.hibernate.cfg.Configuration  - Processing fk mappings (*ToOne and JoinedSubclass)
+2016-02-10 09:32:16,963 887  [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+2016-02-10 09:32:16,963 887  [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+2016-02-10 09:32:16,964 888  [main] DEBUG org.hibernate.cfg.Configuration  - Processing collection mappings
+2016-02-10 09:32:16,964 888  [main] DEBUG org.hibernate.cfg.Configuration  - Processing native query and ResultSetMapping mappings
+2016-02-10 09:32:16,964 888  [main] DEBUG org.hibernate.cfg.Configuration  - Processing association property references
+2016-02-10 09:32:16,964 888  [main] DEBUG org.hibernate.cfg.Configuration  - Creating tables' unique integer identifiers
+2016-02-10 09:32:16,964 888  [main] DEBUG org.hibernate.cfg.Configuration  - Processing foreign key constraints
+2016-02-10 09:32:16,970 894  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jta.platform.spi.JtaPlatform]
+2016-02-10 09:32:16,978 902  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+2016-02-10 09:32:16,978 902  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+2016-02-10 09:32:16,978 902  [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+2016-02-10 09:32:16,978 902  [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+2016-02-10 09:32:16,978 902  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+2016-02-10 09:32:16,978 902  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Wrap result sets: disabled
+2016-02-10 09:32:16,978 902  [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+2016-02-10 09:32:16,978 902  [main] DEBUG org.hibernate.cfg.SettingsFactory  - multi-tenancy strategy : NONE
+2016-02-10 09:32:16,978 902  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+2016-02-10 09:32:16,979 903  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.engine.transaction.spi.TransactionFactory]
+2016-02-10 09:32:16,980 904  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-10 09:32:16,983 907  [main] TRACE org.hibernate.loader.BatchFetchStyle  - Interpreting BatchFetchStyle from setting : null
+2016-02-10 09:32:16,983 907  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Using BatchFetchStyle : LEGACY
+2016-02-10 09:32:16,987 911  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+2016-02-10 09:32:16,988 912  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+2016-02-10 09:32:16,988 912  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+2016-02-10 09:32:16,988 912  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+2016-02-10 09:32:16,989 913  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+2016-02-10 09:32:16,989 913  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default null ordering: none
+2016-02-10 09:32:16,990 914  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+2016-02-10 09:32:16,992 916  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-10 09:32:16,992 916  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+2016-02-10 09:32:16,993 917  [main] DEBUG org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: disabled
+2016-02-10 09:32:16,993 917  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+2016-02-10 09:32:16,993 917  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+2016-02-10 09:32:16,993 917  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2016-02-10 09:32:16,993 917  [main] DEBUG org.hibernate.cfg.SettingsFactory  - org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+2016-02-10 09:32:16,993 917  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+2016-02-10 09:32:16,993 917  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+2016-02-10 09:32:16,993 917  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache direct-reference entries: disabled
+2016-02-10 09:32:16,994 918  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+2016-02-10 09:32:16,994 918  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+2016-02-10 09:32:16,994 918  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+2016-02-10 09:32:16,994 918  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+2016-02-10 09:32:16,994 918  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2016-02-10 09:32:16,994 918  [main] DEBUG org.hibernate.cfg.SettingsFactory  - Allow initialization of lazy state outside session : : disabled
+2016-02-10 09:32:16,994 918  [main] DEBUG org.hibernate.cfg.SettingsFactory  - JTA Track by Thread: enabled
+2016-02-10 09:32:17,001 925  [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Building session factory
+2016-02-10 09:32:17,002 926  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+2016-02-10 09:32:17,008 932  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.engine.spi.CacheImplementor]
+2016-02-10 09:32:17,010 934  [main] TRACE org.hibernate.type.TypeFactory  - Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@123ef382
+2016-02-10 09:32:17,011 935  [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Session factory constructed with filter configurations : {}
+2016-02-10 09:32:17,011 935  [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=student, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_72\jre\bin, java.vm.version=25.72-b15, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7532, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Student\Documents\JavaEE\Ember, java.runtime.version=1.8.0_72-b15, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_72\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Student\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_72\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Ruby193\bin;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\Student, connection.password=student, user.timezone=America/Chicago, java.awt.printerjob=sun.awt.windows.WPrinterJob, connection.username=root, java.specification.version=1.8, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\bin, file.encoding=UTF-8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, user.name=Student, java.class.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar;C:\Users\Student\Documents\JavaEE\Ember\out\test\Ember;C:\Users\Student\Documents\JavaEE\Ember\out\production\Ember;C:\tomEE\lib\javaee-api-6.0-6.jar;C:\tomEE\lib\jsp-api.jar;C:\tomEE\lib\servlet-api.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit-4.12.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\log4j.jar;C:\Users\Student\.IntelliJIdea15\config\jdbc-drivers\mysql-connector-java-5.1.35-bin.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-commons-annotations-4.0.2.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\antlr-2.7.7.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\dom4j-1.6.1.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\javassist-3.15.0-GA.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\jboss-logging-3.1.0.GA.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-core-4.2.2.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\resources\geronimo-osgi-locator-1.0.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.8.0_72\jre, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.jjanisch.ember.persistence.DepartmentDaoWithHibernateTest,testDeleteDepartment, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/EmberIMS, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_72, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_72\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_72\jre\classes, java.vendor=Oracle Corporation, idea.junit.sm_runner=, file.separator=\, connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/EmberIMS, sun.cpu.isalist=amd64, dialect=org.hibernate.dialect.MySQL5Dialect}
+2016-02-10 09:32:17,046 970  [main] DEBUG org.hibernate.cfg.beanvalidation.TypeSafeActivator  - Unable to acquire Bean Validation ValidatorFactory, skipping activation
+2016-02-10 09:32:17,047 971  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+2016-02-10 09:32:17,047 971  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+2016-02-10 09:32:17,057 981  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+2016-02-10 09:32:17,342 1266 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [departmentNumber], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,343 1267 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [departmentName], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,343 1267 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [departmentAddress], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,343 1267 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [city], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,343 1267 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [state], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,343 1267 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [zipcode], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,344 1268 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [contactFirstName], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,344 1268 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [contactLastName], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,344 1268 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [phoneNumber], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,344 1268 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [contactEmail], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:32:17,344 1268 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.IntegerType@445b84c0], incoming type = [org.hibernate.type.IntegerType@445b84c0]
+2016-02-10 09:32:17,355 1279 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: com.jjanisch.ember.entity.Department
+2016-02-10 09:32:17,355 1279 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select id from department where id =?
+2016-02-10 09:32:17,355 1279 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select department_.id, department_.department_id as departme2_0_, department_.name as name3_0_, department_.address as address4_0_, department_.city as city5_0_, department_.state as state6_0_, department_.zipcode as zipcode7_0_, department_.contact_first_name as contact8_0_, department_.contact_last_name as contact9_0_, department_.contact_phone as contact10_0_, department_.contact_email as contact11_0_ from department department_ where department_.id=?
+2016-02-10 09:32:17,356 1280 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-02-10 09:32:17,356 1280 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update department set department_id=?, name=?, address=?, city=?, state=?, zipcode=?, contact_first_name=?, contact_last_name=?, contact_phone=?, contact_email=? where id=?
+2016-02-10 09:32:17,358 1282 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from department where id=?
+2016-02-10 09:32:17,358 1282 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Identity insert: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-02-10 09:32:17,564 1488 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [NONE]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:32:17,564 1488 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [READ]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:32:17,565 1489 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [UPGRADE]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:32:17,565 1489 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [UPGRADE_NOWAIT]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:32:17,565 1489 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [FORCE]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:32:17,565 1489 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [PESSIMISTIC_READ]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? lock in share mode
+2016-02-10 09:32:17,565 1489 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [PESSIMISTIC_WRITE]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:32:17,577 1501 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [PESSIMISTIC_FORCE_INCREMENT]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:32:17,578 1502 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [OPTIMISTIC]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:32:17,578 1502 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [OPTIMISTIC_FORCE_INCREMENT]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:32:17,582 1506 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity com.jjanisch.ember.entity.Department: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:32:17,582 1506 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity com.jjanisch.ember.entity.Department: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:32:17,764 1688 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@140c9f39
+2016-02-10 09:32:17,765 1689 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jndi.spi.JndiService]
+2016-02-10 09:32:17,767 1691 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Registering SessionFactory: 5238abff-9b36-4471-978f-f6929d8502c5 (<unnamed>)
+2016-02-10 09:32:17,767 1691 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Not binding SessionFactory to JNDI, no JNDI name configured
+2016-02-10 09:32:17,768 1692 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiated session factory
+2016-02-10 09:32:17,768 1692 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Checking 0 named HQL queries
+2016-02-10 09:32:17,768 1692 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Checking 0 named SQL queries
+2016-02-10 09:32:17,768 1692 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.config.spi.ConfigurationService]
+2016-02-10 09:32:17,773 1697 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+2016-02-10 09:32:17,776 1700 [main] DEBUG org.hibernate.stat.internal.StatisticsInitiator  - Statistics initialized [enabled=false]
+2016-02-10 09:32:17,813 1737 [main] TRACE org.hibernate.internal.SessionImpl  - Opened session at timestamp: 14551183377
+2016-02-10 09:32:17,816 1740 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - begin
+2016-02-10 09:32:17,816 1740 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtaining JDBC connection
+2016-02-10 09:32:17,816 1740 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Total checked-out connections: 0
+2016-02-10 09:32:17,816 1740 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Using pooled JDBC connection, pool size: 0
+2016-02-10 09:32:17,816 1740 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtained JDBC connection
+2016-02-10 09:32:17,816 1740 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - initial autocommit status: false
+2016-02-10 09:32:17,823 1747 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+2016-02-10 09:32:17,845 1769 [main] TRACE org.hibernate.event.internal.DefaultSaveOrUpdateEventListener  - Saving transient instance
+2016-02-10 09:32:17,847 1771 [main] TRACE org.hibernate.event.internal.AbstractSaveEventListener  - Saving [com.jjanisch.ember.entity.Department#<null>]
+2016-02-10 09:32:17,852 1776 [main] TRACE org.hibernate.engine.spi.ActionQueue  - Adding an EntityIdentityInsertAction for [com.jjanisch.ember.entity.Department] object
+2016-02-10 09:32:17,852 1776 [main] TRACE org.hibernate.engine.spi.ActionQueue  - Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.jjanisch.ember.entity.Department#<null>]]
+2016-02-10 09:32:17,853 1777 [main] TRACE org.hibernate.engine.spi.ActionQueue  - Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.jjanisch.ember.entity.Department#<null>]]
+2016-02-10 09:32:17,853 1777 [main] TRACE org.hibernate.engine.spi.ActionQueue  - Executing insertions before resolved early-insert
+2016-02-10 09:32:17,853 1777 [main] DEBUG org.hibernate.engine.spi.ActionQueue  - Executing identity-insert immediately
+2016-02-10 09:32:17,854 1778 [main] TRACE org.hibernate.persister.entity.AbstractEntityPersister  - Inserting entity: com.jjanisch.ember.entity.Department (native id)
+2016-02-10 09:32:17,858 1782 [main] DEBUG org.hibernate.SQL  - insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-02-10 09:32:17,871 1795 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering statement [com.mysql.jdbc.JDBC4PreparedStatement@196a42c3: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values (** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2016-02-10 09:32:17,871 1795 [main] TRACE org.hibernate.persister.entity.AbstractEntityPersister  - Dehydrating entity: [com.jjanisch.ember.entity.Department#<null>]
+2016-02-10 09:32:17,875 1799 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [1] as [VARCHAR] - 55555
+2016-02-10 09:32:17,875 1799 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [2] as [VARCHAR] - Test Department
+2016-02-10 09:32:17,875 1799 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [3] as [VARCHAR] - Test Address
+2016-02-10 09:32:17,876 1800 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [4] as [VARCHAR] - TestCity
+2016-02-10 09:32:17,877 1801 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [5] as [VARCHAR] - ZZ
+2016-02-10 09:32:17,877 1801 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [6] as [VARCHAR] - TestZip
+2016-02-10 09:32:17,877 1801 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [7] as [VARCHAR] - TestFirstName
+2016-02-10 09:32:17,877 1801 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [8] as [VARCHAR] - TestLastName
+2016-02-10 09:32:17,877 1801 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [9] as [VARCHAR] - 608 555-1212
+2016-02-10 09:32:17,877 1801 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [10] as [VARCHAR] - test@testdomain.com
+2016-02-10 09:32:18,263 2187 [main] DEBUG org.hibernate.id.IdentifierGeneratorHelper  - Natively generated identity: 104
+2016-02-10 09:32:18,264 2188 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Releasing result set [com.mysql.jdbc.JDBC4ResultSet@606e4010]
+2016-02-10 09:32:18,264 2188 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing result set [com.mysql.jdbc.JDBC4ResultSet@606e4010]
+2016-02-10 09:32:18,264 2188 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Releasing statement [com.mysql.jdbc.JDBC4PreparedStatement@196a42c3: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values ('55555', 'Test Department', 'Test Address', 'TestCity', 'ZZ', 'TestZip', 'TestFirstName', 'TestLastName', '608 555-1212', 'test@testdomain.com')]
+2016-02-10 09:32:18,264 2188 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing prepared statement [com.mysql.jdbc.JDBC4PreparedStatement@196a42c3: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values ('55555', 'Test Department', 'Test Address', 'TestCity', 'ZZ', 'TestZip', 'TestFirstName', 'TestLastName', '608 555-1212', 'test@testdomain.com')]
+2016-02-10 09:32:18,264 2188 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Starting after statement execution processing [ON_CLOSE]
+2016-02-10 09:32:18,266 2190 [main] TRACE org.hibernate.action.internal.UnresolvedEntityInsertActions  - No unresolved entity inserts that depended on [[com.jjanisch.ember.entity.Department#104]]
+2016-02-10 09:32:18,267 2191 [main] TRACE org.hibernate.action.internal.UnresolvedEntityInsertActions  - No entity insert actions have non-nullable, transient entity dependencies.
+2016-02-10 09:32:18,267 2191 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - committing
+2016-02-10 09:32:18,267 2191 [main] TRACE org.hibernate.internal.SessionImpl  - Automatically flushing session
+2016-02-10 09:32:18,267 2191 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Flushing session
+2016-02-10 09:32:18,267 2191 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Processing flush-time cascades
+2016-02-10 09:32:18,268 2192 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Dirty checking collections
+2016-02-10 09:32:18,268 2192 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Flushing entities and processing referenced collections
+2016-02-10 09:32:18,269 2193 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Processing unreferenced collections
+2016-02-10 09:32:18,269 2193 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Scheduling collection removes/(re)creates/updates
+2016-02-10 09:32:18,269 2193 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2016-02-10 09:32:18,270 2194 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2016-02-10 09:32:18,270 2194 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - Listing entities:
+2016-02-10 09:32:18,270 2194 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - com.jjanisch.ember.entity.Department{departmentName=Test Department, zipcode=TestZip, departmentAddress=Test Address, phoneNumber=608 555-1212, city=TestCity, contactEmail=test@testdomain.com, departmentNumber=55555, contactFirstName=TestFirstName, contactLastName=TestLastName, id=104, state=ZZ}
+2016-02-10 09:32:18,270 2194 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Executing flush
+2016-02-10 09:32:18,270 2194 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Starting after statement execution processing [ON_CLOSE]
+2016-02-10 09:32:18,271 2195 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Post flush
+2016-02-10 09:32:18,271 2195 [main] TRACE org.hibernate.internal.SessionImpl  - before transaction completion
+2016-02-10 09:32:18,277 2201 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - committed JDBC Connection
+2016-02-10 09:32:18,278 2202 [main] TRACE org.hibernate.engine.transaction.internal.TransactionCoordinatorImpl  - after transaction completion
+2016-02-10 09:32:18,278 2202 [main] TRACE org.hibernate.internal.SessionImpl  - after transaction completion
+2016-02-10 09:32:18,278 2202 [main] INFO  com.jjanisch.ember.persistence.DepartmentDaoWithHibernate  - Added Department: Department{id=104, departmentNumber='55555', departmentName='Test Department', departmentAddress='Test Address', city='TestCity', state='ZZ', zipcode='TestZip', phoneNumber='608 555-1212', contactFirstName='TestFirstName', contactLastName='TestLastName', contactEmail='test@testdomain.com'} with id of: 104
+2016-02-10 09:32:18,279 2203 [main] TRACE org.hibernate.internal.SessionImpl  - Closing session
+2016-02-10 09:32:18,279 2203 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@1750fbeb]
+2016-02-10 09:32:18,279 2203 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Closing logical connection
+2016-02-10 09:32:18,279 2203 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Releasing JDBC connection
+2016-02-10 09:32:18,279 2203 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Returning connection to pool, pool size: 1
+2016-02-10 09:32:18,279 2203 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Released JDBC connection
+2016-02-10 09:32:18,279 2203 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Logical connection closed
+2016-02-10 09:32:18,284 2208 [main] TRACE org.hibernate.internal.SessionImpl  - Opened session at timestamp: 14551183382
+2016-02-10 09:32:18,284 2208 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - begin
+2016-02-10 09:32:18,284 2208 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtaining JDBC connection
+2016-02-10 09:32:18,284 2208 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Total checked-out connections: 0
+2016-02-10 09:32:18,284 2208 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Using pooled JDBC connection, pool size: 0
+2016-02-10 09:32:18,284 2208 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtained JDBC connection
+2016-02-10 09:32:18,284 2208 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - initial autocommit status: false
+2016-02-10 09:32:18,287 2211 [main] TRACE org.hibernate.engine.query.spi.QueryPlanCache  - Unable to locate HQL query plan in cache; generating (FROM Department D WHERE D.id =104)
+2016-02-10 09:32:18,308 2232 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - parse() - HQL: FROM com.jjanisch.ember.entity.Department D WHERE D.id =104
+2016-02-10 09:32:18,318 2242 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'FROM'
+    |     \-[RANGE] Node: 'RANGE'
+    |        +-[DOT] Node: '.'
+    |        |  +-[DOT] Node: '.'
+    |        |  |  +-[DOT] Node: '.'
+    |        |  |  |  +-[DOT] Node: '.'
+    |        |  |  |  |  +-[IDENT] Node: 'com'
+    |        |  |  |  |  \-[IDENT] Node: 'jjanisch'
+    |        |  |  |  \-[IDENT] Node: 'ember'
+    |        |  |  \-[IDENT] Node: 'entity'
+    |        |  \-[IDENT] Node: 'Department'
+    |        \-[ALIAS] Node: 'D'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'D'
+          |  \-[IDENT] Node: 'id'
+          \-[NUM_INT] Node: '104'
+
+2016-02-10 09:32:18,318 2242 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter  - throwQueryException() : no errors
+2016-02-10 09:32:18,334 2258 [main] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker  - select << begin [level=1, statement=select]
+2016-02-10 09:32:18,345 2269 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromElement  - FromClause{level=1} : com.jjanisch.ember.entity.Department (D) -> department0_
+2016-02-10 09:32:18,346 2270 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode  - Resolved : D -> department0_.id
+2016-02-10 09:32:18,347 2271 [main] TRACE org.hibernate.hql.internal.ast.tree.FromElement  - Handling property dereference [com.jjanisch.ember.entity.Department (D) -> id (class)]
+2016-02-10 09:32:18,347 2271 [main] DEBUG org.hibernate.hql.internal.ast.tree.DotNode  - getDataType() : id -> org.hibernate.type.IntegerType@445b84c0
+2016-02-10 09:32:18,347 2271 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode  - Resolved : D.id -> department0_.id
+2016-02-10 09:32:18,349 2273 [main] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker  - select : finishing up [level=1, statement=select]
+2016-02-10 09:32:18,349 2273 [main] DEBUG org.hibernate.hql.internal.ast.HqlSqlWalker  - processQuery() :  ( SELECT ( FromClause{level=1} department department0_ ) ( WHERE ( = ( department0_.id department0_.id id ) 104 ) ) )
+2016-02-10 09:32:18,352 2276 [main] DEBUG org.hibernate.hql.internal.ast.HqlSqlWalker  - Derived SELECT clause created.
+2016-02-10 09:32:18,356 2280 [main] DEBUG org.hibernate.hql.internal.ast.util.JoinProcessor  - Using FROM fragment [department department0_]
+2016-02-10 09:32:18,356 2280 [main] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker  - select >> end [level=1, statement=select]
+2016-02-10 09:32:18,357 2281 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (department)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'department0_.id as id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=D,role=null,tableName=department,tableAlias=department0_,origin=null,columns={,className=com.jjanisch.ember.entity.Department}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[D], fromElementByTableAlias=[department0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'department department0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=D,role=null,tableName=department,tableAlias=department0_,origin=null,columns={,className=com.jjanisch.ember.entity.Department}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'department0_.id' {propertyName=id,dereferenceType=ALL,propertyPath=id,path=D.id,tableAlias=department0_,className=com.jjanisch.ember.entity.Department,classAlias=D}
+          |  +-[ALIAS_REF] IdentNode: 'department0_.id' {alias=D, className=com.jjanisch.ember.entity.Department, tableAlias=department0_}
+          |  \-[IDENT] IdentNode: 'id' {originalText=id}
+          \-[NUM_INT] LiteralNode: '104'
+
+2016-02-10 09:32:18,357 2281 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter  - throwQueryException() : no errors
+2016-02-10 09:32:18,363 2287 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - HQL: FROM com.jjanisch.ember.entity.Department D WHERE D.id =104
+2016-02-10 09:32:18,363 2287 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - SQL: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=104
+2016-02-10 09:32:18,363 2287 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter  - throwQueryException() : no errors
+2016-02-10 09:32:18,367 2291 [main] TRACE org.hibernate.engine.query.spi.HQLQueryPlan  - HQL param location recognition took 2 mills (FROM Department D WHERE D.id =104)
+2016-02-10 09:32:18,370 2294 [main] TRACE org.hibernate.engine.query.spi.QueryPlanCache  - Located HQL query plan in cache (FROM Department D WHERE D.id =104)
+2016-02-10 09:32:18,370 2294 [main] TRACE org.hibernate.engine.query.spi.HQLQueryPlan  - Find: FROM Department D WHERE D.id =104
+2016-02-10 09:32:18,370 2294 [main] TRACE org.hibernate.engine.spi.QueryParameters  - Named parameters: {}
+2016-02-10 09:32:18,372 2296 [main] DEBUG org.hibernate.SQL  - select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=104
+2016-02-10 09:32:18,372 2296 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering statement [com.mysql.jdbc.JDBC4PreparedStatement@16612a51: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=104]
+2016-02-10 09:32:18,372 2296 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering last query statement [com.mysql.jdbc.JDBC4PreparedStatement@16612a51: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=104]
+2016-02-10 09:32:18,372 2296 [main] TRACE org.hibernate.loader.Loader  - Bound [1] parameters total
+2016-02-10 09:32:18,373 2297 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering result set [com.mysql.jdbc.JDBC4ResultSet@79defdc]
+2016-02-10 09:32:18,373 2297 [main] TRACE org.hibernate.loader.Loader  - Processing result set
+2016-02-10 09:32:18,373 2297 [main] DEBUG org.hibernate.loader.Loader  - Result set row: 0
+2016-02-10 09:32:18,376 2300 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [104] as column [id1_0_]
+2016-02-10 09:32:18,376 2300 [main] DEBUG org.hibernate.loader.Loader  - Result row: EntityKey[com.jjanisch.ember.entity.Department#104]
+2016-02-10 09:32:18,376 2300 [main] TRACE org.hibernate.loader.Loader  - Initializing object from ResultSet: [com.jjanisch.ember.entity.Department#104]
+2016-02-10 09:32:18,377 2301 [main] TRACE org.hibernate.persister.entity.AbstractEntityPersister  - Hydrating entity: [com.jjanisch.ember.entity.Department#104]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [55555] as column [departme2_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [Test Department] as column [name3_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [Test Address] as column [address4_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestCity] as column [city5_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [ZZ] as column [state6_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestZip] as column [zipcode7_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestFirstName] as column [contact8_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestLastName] as column [contact9_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [608 555-1212] as column [contact10_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [test@testdomain.com] as column [contact11_0_]
+2016-02-10 09:32:18,378 2302 [main] TRACE org.hibernate.loader.Loader  - Done processing result set (1 rows)
+2016-02-10 09:32:18,379 2303 [main] TRACE org.hibernate.loader.Loader  - Total objects hydrated: 1
+2016-02-10 09:32:18,379 2303 [main] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [com.jjanisch.ember.entity.Department#104]
+2016-02-10 09:32:18,381 2305 [main] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [com.jjanisch.ember.entity.Department#104]
+2016-02-10 09:32:18,381 2305 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Releasing statement [com.mysql.jdbc.JDBC4PreparedStatement@16612a51: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=104]
+2016-02-10 09:32:18,381 2305 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing result set [com.mysql.jdbc.JDBC4ResultSet@79defdc]
+2016-02-10 09:32:18,381 2305 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing prepared statement [com.mysql.jdbc.JDBC4PreparedStatement@16612a51: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=104]
+2016-02-10 09:32:18,381 2305 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Starting after statement execution processing [ON_CLOSE]
+2016-02-10 09:32:18,390 2314 [main] TRACE org.hibernate.engine.internal.StatefulPersistenceContext  - Initializing non-lazy collections
+2016-02-10 09:32:18,408 2332 [main] TRACE org.hibernate.internal.SessionImpl  - Closing session
+2016-02-10 09:32:18,408 2332 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@222a59e6]
+2016-02-10 09:32:18,408 2332 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Closing logical connection
+2016-02-10 09:32:18,409 2333 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Releasing JDBC connection
+2016-02-10 09:32:18,409 2333 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Returning connection to pool, pool size: 1
+2016-02-10 09:32:18,409 2333 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Released JDBC connection
+2016-02-10 09:32:18,409 2333 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Logical connection closed
+2016-02-10 09:38:30,641 0    [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-02-10 09:38:30,663 22   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@50675690
+2016-02-10 09:38:30,663 22   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@50675690
+2016-02-10 09:38:30,663 22   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@50675690
+2016-02-10 09:38:30,664 23   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@22a71081
+2016-02-10 09:38:30,665 24   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration true_false -> org.hibernate.type.TrueFalseType@c39f790
+2016-02-10 09:38:30,666 25   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration yes_no -> org.hibernate.type.YesNoType@5f150435
+2016-02-10 09:38:30,667 26   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@73035e27
+2016-02-10 09:38:30,667 26   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@73035e27
+2016-02-10 09:38:30,667 26   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@73035e27
+2016-02-10 09:38:30,668 27   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration character -> org.hibernate.type.CharacterType@77f03bb1
+2016-02-10 09:38:30,668 27   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char -> org.hibernate.type.CharacterType@77f03bb1
+2016-02-10 09:38:30,669 28   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@77f03bb1
+2016-02-10 09:38:30,671 30   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@4b6995df
+2016-02-10 09:38:30,671 30   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@4b6995df
+2016-02-10 09:38:30,672 31   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4b6995df
+2016-02-10 09:38:30,673 32   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration integer -> org.hibernate.type.IntegerType@445b84c0
+2016-02-10 09:38:30,674 33   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration int -> org.hibernate.type.IntegerType@445b84c0
+2016-02-10 09:38:30,674 33   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@445b84c0
+2016-02-10 09:38:30,678 37   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@34033bd0
+2016-02-10 09:38:30,678 37   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@34033bd0
+2016-02-10 09:38:30,679 38   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Long -> org.hibernate.type.LongType@34033bd0
+2016-02-10 09:38:30,684 43   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@2aafb23c
+2016-02-10 09:38:30,684 43   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@2aafb23c
+2016-02-10 09:38:30,684 43   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2aafb23c
+2016-02-10 09:38:30,688 47   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@28864e92
+2016-02-10 09:38:30,688 47   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@28864e92
+2016-02-10 09:38:30,688 47   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@28864e92
+2016-02-10 09:38:30,690 49   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@649d209a
+2016-02-10 09:38:30,690 49   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@649d209a
+2016-02-10 09:38:30,691 50   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@2a18f23c
+2016-02-10 09:38:30,692 51   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@2a18f23c
+2016-02-10 09:38:30,692 51   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration string -> org.hibernate.type.StringType@1b40d5f0
+2016-02-10 09:38:30,692 51   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.String -> org.hibernate.type.StringType@1b40d5f0
+2016-02-10 09:38:30,694 53   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@71c7db30
+2016-02-10 09:38:30,694 53   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1fbc7afb
+2016-02-10 09:38:30,696 55   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration url -> org.hibernate.type.UrlType@7e0babb1
+2016-02-10 09:38:30,696 55   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.net.URL -> org.hibernate.type.UrlType@7e0babb1
+2016-02-10 09:38:30,697 56   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration date -> org.hibernate.type.DateType@35bbe5e8
+2016-02-10 09:38:30,698 57   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Date -> org.hibernate.type.DateType@35bbe5e8
+2016-02-10 09:38:30,699 58   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration time -> org.hibernate.type.TimeType@129a8472
+2016-02-10 09:38:30,700 59   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@129a8472
+2016-02-10 09:38:30,702 61   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timestamp -> org.hibernate.type.TimestampType@e580929
+2016-02-10 09:38:30,702 61   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@e580929
+2016-02-10 09:38:30,702 61   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@e580929
+2016-02-10 09:38:30,703 62   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4c203ea1
+2016-02-10 09:38:30,704 63   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar -> org.hibernate.type.CalendarType@7c30a502
+2016-02-10 09:38:30,706 65   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7c30a502
+2016-02-10 09:38:30,706 65   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7c30a502
+2016-02-10 09:38:30,707 66   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@43a25848
+2016-02-10 09:38:30,708 67   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration locale -> org.hibernate.type.LocaleType@1e643faf
+2016-02-10 09:38:30,708 67   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1e643faf
+2016-02-10 09:38:30,709 68   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration currency -> org.hibernate.type.CurrencyType@880ec60
+2016-02-10 09:38:30,710 69   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@880ec60
+2016-02-10 09:38:30,711 70   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timezone -> org.hibernate.type.TimeZoneType@511baa65
+2016-02-10 09:38:30,711 70   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@511baa65
+2016-02-10 09:38:30,711 70   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration class -> org.hibernate.type.ClassType@19dfb72a
+2016-02-10 09:38:30,712 71   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@19dfb72a
+2016-02-10 09:38:30,713 72   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2d6e8792
+2016-02-10 09:38:30,713 72   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2d6e8792
+2016-02-10 09:38:30,714 73   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@506e6d5e
+2016-02-10 09:38:30,714 73   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@6442b0a6
+2016-02-10 09:38:30,715 74   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration binary -> org.hibernate.type.BinaryType@2f7a2457
+2016-02-10 09:38:30,715 74   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte[] -> org.hibernate.type.BinaryType@2f7a2457
+2016-02-10 09:38:30,715 74   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [B -> org.hibernate.type.BinaryType@2f7a2457
+2016-02-10 09:38:30,717 76   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6cd8737
+2016-02-10 09:38:30,717 76   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6cd8737
+2016-02-10 09:38:30,717 76   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6cd8737
+2016-02-10 09:38:30,718 77   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration image -> org.hibernate.type.ImageType@1a407d53
+2016-02-10 09:38:30,721 80   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration characters -> org.hibernate.type.CharArrayType@668bc3d5
+2016-02-10 09:38:30,722 81   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char[] -> org.hibernate.type.CharArrayType@668bc3d5
+2016-02-10 09:38:30,722 81   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [C -> org.hibernate.type.CharArrayType@668bc3d5
+2016-02-10 09:38:30,723 82   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6b2fad11
+2016-02-10 09:38:30,723 82   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6b2fad11
+2016-02-10 09:38:30,723 82   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6b2fad11
+2016-02-10 09:38:30,724 83   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration text -> org.hibernate.type.TextType@dfd3711
+2016-02-10 09:38:30,725 84   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ntext -> org.hibernate.type.NTextType@64616ca2
+2016-02-10 09:38:30,729 88   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration blob -> org.hibernate.type.BlobType@90f6bfd
+2016-02-10 09:38:30,729 88   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@90f6bfd
+2016-02-10 09:38:30,729 88   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6b143ee9
+2016-02-10 09:38:30,738 97   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration clob -> org.hibernate.type.ClobType@234bef66
+2016-02-10 09:38:30,738 97   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@234bef66
+2016-02-10 09:38:30,741 100  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nclob -> org.hibernate.type.NClobType@3c09711b
+2016-02-10 09:38:30,742 101  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3c09711b
+2016-02-10 09:38:30,742 101  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4590c9c3
+2016-02-10 09:38:30,743 102  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6574b225
+2016-02-10 09:38:30,744 103  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration serializable -> org.hibernate.type.SerializableType@6ea12c19
+2016-02-10 09:38:30,746 105  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration object -> org.hibernate.type.ObjectType@5ae9a829
+2016-02-10 09:38:30,746 105  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5ae9a829
+2016-02-10 09:38:30,747 106  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7ac7a4e4
+2016-02-10 09:38:30,747 106  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6d78f375
+2016-02-10 09:38:30,747 106  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@50c87b21
+2016-02-10 09:38:30,747 106  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5f375618
+2016-02-10 09:38:30,747 106  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1810399e
+2016-02-10 09:38:30,748 107  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@32d992b2
+2016-02-10 09:38:30,748 107  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@215be6bb
+2016-02-10 09:38:30,748 107  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4439f31e
+2016-02-10 09:38:30,763 122  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-02-10 09:38:30,768 127  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-02-10 09:38:30,770 129  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-02-10 09:38:30,772 131  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-02-10 09:38:30,780 139  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2016-02-10 09:38:30,781 140  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2016-02-10 09:38:30,782 141  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2016-02-10 09:38:30,782 141  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2016-02-10 09:38:30,783 142  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2016-02-10 09:38:30,783 142  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2016-02-10 09:38:30,785 144  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2016-02-10 09:38:30,787 146  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2016-02-10 09:38:30,787 146  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2016-02-10 09:38:30,788 147  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2016-02-10 09:38:30,789 148  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2016-02-10 09:38:30,789 148  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2016-02-10 09:38:30,789 148  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2016-02-10 09:38:30,790 149  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2016-02-10 09:38:30,791 150  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2016-02-10 09:38:30,793 152  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-02-10 09:38:30,793 152  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-02-10 09:38:30,856 215  [main] TRACE org.hibernate.cfg.EJB3DTDEntityResolver  - Resolving XML entity -//Hibernate/Hibernate Configuration DTD//EN : http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd
+2016-02-10 09:38:30,857 216  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2016-02-10 09:38:30,857 216  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2016-02-10 09:38:30,857 216  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+2016-02-10 09:38:30,885 244  [main] DEBUG org.hibernate.cfg.Configuration  - dialect=org.hibernate.dialect.MySQL5Dialect
+2016-02-10 09:38:30,885 244  [main] DEBUG org.hibernate.cfg.Configuration  - connection.url=jdbc:mysql://localhost:3306/EmberIMS
+2016-02-10 09:38:30,885 244  [main] DEBUG org.hibernate.cfg.Configuration  - connection.driver_class=com.mysql.jdbc.Driver
+2016-02-10 09:38:30,885 244  [main] DEBUG org.hibernate.cfg.Configuration  - connection.username=root
+2016-02-10 09:38:30,885 244  [main] DEBUG org.hibernate.cfg.Configuration  - connection.password=student
+2016-02-10 09:38:30,885 244  [main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Department.hbm.xml] for mapping
+2016-02-10 09:38:30,885 244  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Department.hbm.xml
+2016-02-10 09:38:30,916 275  [main] TRACE org.hibernate.cfg.EJB3DTDEntityResolver  - Resolving XML entity -//Hibernate/Hibernate Mapping DTD//EN : http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd
+2016-02-10 09:38:30,916 275  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+2016-02-10 09:38:30,916 275  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2016-02-10 09:38:30,917 276  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+2016-02-10 09:38:30,958 317  [main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named class [com.jjanisch.ember.entity.Department] for mapping
+2016-02-10 09:38:30,969 328  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-02-10 09:38:30,969 328  [main] DEBUG org.hibernate.cfg.Configuration  - Properties: {hibernate.connection.password=student, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_72\jre\bin, java.vm.version=25.72-b15, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7533, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Student\Documents\JavaEE\Ember, java.runtime.version=1.8.0_72-b15, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_72\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Student\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_72\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Ruby193\bin;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, connection.password=student, user.home=C:\Users\Student, user.timezone=America/Chicago, connection.username=root, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.class.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar;C:\Users\Student\Documents\JavaEE\Ember\out\test\Ember;C:\Users\Student\Documents\JavaEE\Ember\out\production\Ember;C:\tomEE\lib\javaee-api-6.0-6.jar;C:\tomEE\lib\jsp-api.jar;C:\tomEE\lib\servlet-api.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit-4.12.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\log4j.jar;C:\Users\Student\.IntelliJIdea15\config\jdbc-drivers\mysql-connector-java-5.1.35-bin.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-commons-annotations-4.0.2.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\antlr-2.7.7.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\dom4j-1.6.1.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\javassist-3.15.0-GA.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\jboss-logging-3.1.0.GA.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-core-4.2.2.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\resources\geronimo-osgi-locator-1.0.jar, user.name=Student, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.jjanisch.ember.persistence.DepartmentDaoWithHibernateTest,testDeleteDepartment, java.home=C:\Program Files\Java\jdk1.8.0_72\jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:mysql://localhost:3306/EmberIMS, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_72, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_72\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_72\jre\classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/EmberIMS, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=amd64}
+2016-02-10 09:38:30,996 355  [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2016-02-10 09:38:31,057 416  [main] DEBUG org.hibernate.cfg.Configuration  - Preparing to build session factory with filters : {}
+2016-02-10 09:38:31,058 417  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+2016-02-10 09:38:31,088 447  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jdbc.connections.spi.ConnectionProvider]
+2016-02-10 09:38:31,103 462  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-10 09:38:31,119 478  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-02-10 09:38:31,119 478  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-02-10 09:38:31,119 478  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/EmberIMS]
+2016-02-10 09:38:31,119 478  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=student}
+2016-02-10 09:38:31,120 479  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jdbc.dialect.spi.DialectFactory]
+2016-02-10 09:38:31,121 480  [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jdbc.dialect.spi.DialectResolver]
+2016-02-10 09:38:31,200 559  [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Total checked-out connections: 0
+2016-02-10 09:38:31,200 559  [main] DEBUG org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Opening new JDBC connection
+2016-02-10 09:38:31,549 908  [main] DEBUG org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Created connection to: jdbc:mysql://localhost:3306/EmberIMS, Isolation Level: 4
+2016-02-10 09:38:31,549 908  [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Database ->
+       name : MySQL
+    version : 5.7.10-log
+      major : 5
+      minor : 7
+2016-02-10 09:38:31,549 908  [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )
+      major : 5
+      minor : 1
+2016-02-10 09:38:31,549 908  [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - JDBC version : 4.0
+2016-02-10 09:38:31,575 934  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-02-10 09:38:31,608 967  [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Returning connection to pool, pool size: 1
+2016-02-10 09:38:31,615 974  [main] TRACE org.hibernate.cfg.Configuration  - Starting secondPassCompile() processing
+2016-02-10 09:38:31,672 1031 [main] DEBUG org.hibernate.cfg.Configuration  - Processing hbm.xml files
+2016-02-10 09:38:31,682 1041 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: com.jjanisch.ember.entity.Department -> department
+2016-02-10 09:38:31,685 1044 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: id -> id
+2016-02-10 09:38:31,689 1048 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: departmentNumber -> department_id
+2016-02-10 09:38:31,689 1048 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: departmentName -> name
+2016-02-10 09:38:31,689 1048 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: departmentAddress -> address
+2016-02-10 09:38:31,689 1048 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: city -> city
+2016-02-10 09:38:31,689 1048 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: state -> state
+2016-02-10 09:38:31,690 1049 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: zipcode -> zipcode
+2016-02-10 09:38:31,690 1049 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: contactFirstName -> contact_first_name
+2016-02-10 09:38:31,690 1049 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: contactLastName -> contact_last_name
+2016-02-10 09:38:31,690 1049 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: phoneNumber -> contact_phone
+2016-02-10 09:38:31,690 1049 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: contactEmail -> contact_email
+2016-02-10 09:38:31,690 1049 [main] DEBUG org.hibernate.cfg.Configuration  - Process annotated classes
+2016-02-10 09:38:31,692 1051 [main] DEBUG org.hibernate.cfg.Configuration  - Processing fk mappings (*ToOne and JoinedSubclass)
+2016-02-10 09:38:31,695 1054 [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+2016-02-10 09:38:31,695 1054 [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+2016-02-10 09:38:31,695 1054 [main] DEBUG org.hibernate.cfg.Configuration  - Processing collection mappings
+2016-02-10 09:38:31,695 1054 [main] DEBUG org.hibernate.cfg.Configuration  - Processing native query and ResultSetMapping mappings
+2016-02-10 09:38:31,695 1054 [main] DEBUG org.hibernate.cfg.Configuration  - Processing association property references
+2016-02-10 09:38:31,709 1068 [main] DEBUG org.hibernate.cfg.Configuration  - Creating tables' unique integer identifiers
+2016-02-10 09:38:31,709 1068 [main] DEBUG org.hibernate.cfg.Configuration  - Processing foreign key constraints
+2016-02-10 09:38:31,711 1070 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jta.platform.spi.JtaPlatform]
+2016-02-10 09:38:31,714 1073 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+2016-02-10 09:38:31,714 1073 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+2016-02-10 09:38:31,714 1073 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+2016-02-10 09:38:31,714 1073 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+2016-02-10 09:38:31,714 1073 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+2016-02-10 09:38:31,714 1073 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Wrap result sets: disabled
+2016-02-10 09:38:31,714 1073 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+2016-02-10 09:38:31,714 1073 [main] DEBUG org.hibernate.cfg.SettingsFactory  - multi-tenancy strategy : NONE
+2016-02-10 09:38:31,714 1073 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+2016-02-10 09:38:31,717 1076 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.engine.transaction.spi.TransactionFactory]
+2016-02-10 09:38:31,717 1076 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-02-10 09:38:31,720 1079 [main] TRACE org.hibernate.loader.BatchFetchStyle  - Interpreting BatchFetchStyle from setting : null
+2016-02-10 09:38:31,721 1080 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Using BatchFetchStyle : LEGACY
+2016-02-10 09:38:31,721 1080 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+2016-02-10 09:38:31,721 1080 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+2016-02-10 09:38:31,721 1080 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+2016-02-10 09:38:31,721 1080 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+2016-02-10 09:38:31,721 1080 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+2016-02-10 09:38:31,721 1080 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default null ordering: none
+2016-02-10 09:38:31,722 1081 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+2016-02-10 09:38:31,725 1084 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-02-10 09:38:31,726 1085 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+2016-02-10 09:38:31,726 1085 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: disabled
+2016-02-10 09:38:31,726 1085 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+2016-02-10 09:38:31,726 1085 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+2016-02-10 09:38:31,726 1085 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2016-02-10 09:38:31,726 1085 [main] DEBUG org.hibernate.cfg.SettingsFactory  - org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache direct-reference entries: disabled
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Allow initialization of lazy state outside session : : disabled
+2016-02-10 09:38:31,727 1086 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JTA Track by Thread: enabled
+2016-02-10 09:38:31,733 1092 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Building session factory
+2016-02-10 09:38:31,734 1093 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+2016-02-10 09:38:31,740 1099 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.engine.spi.CacheImplementor]
+2016-02-10 09:38:31,743 1102 [main] TRACE org.hibernate.type.TypeFactory  - Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@123ef382
+2016-02-10 09:38:31,744 1103 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Session factory constructed with filter configurations : {}
+2016-02-10 09:38:31,744 1103 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=student, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_72\jre\bin, java.vm.version=25.72-b15, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7533, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Student\Documents\JavaEE\Ember, java.runtime.version=1.8.0_72-b15, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_72\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Student\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_72\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Ruby193\bin;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\Student, connection.password=student, user.timezone=America/Chicago, java.awt.printerjob=sun.awt.windows.WPrinterJob, connection.username=root, java.specification.version=1.8, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\bin, file.encoding=UTF-8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, user.name=Student, java.class.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar;C:\Users\Student\Documents\JavaEE\Ember\out\test\Ember;C:\Users\Student\Documents\JavaEE\Ember\out\production\Ember;C:\tomEE\lib\javaee-api-6.0-6.jar;C:\tomEE\lib\jsp-api.jar;C:\tomEE\lib\servlet-api.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit-4.12.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\log4j.jar;C:\Users\Student\.IntelliJIdea15\config\jdbc-drivers\mysql-connector-java-5.1.35-bin.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-commons-annotations-4.0.2.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\antlr-2.7.7.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\dom4j-1.6.1.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\javassist-3.15.0-GA.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\jboss-logging-3.1.0.GA.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\lib\hibernate-core-4.2.2.Final.jar;C:\Users\Student\Documents\JavaEE\Ember\resources\geronimo-osgi-locator-1.0.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.8.0_72\jre, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 com.jjanisch.ember.persistence.DepartmentDaoWithHibernateTest,testDeleteDepartment, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/EmberIMS, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_72, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_72\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_72\jre\classes, java.vendor=Oracle Corporation, idea.junit.sm_runner=, file.separator=\, connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/EmberIMS, sun.cpu.isalist=amd64, dialect=org.hibernate.dialect.MySQL5Dialect}
+2016-02-10 09:38:31,780 1139 [main] DEBUG org.hibernate.cfg.beanvalidation.TypeSafeActivator  - Unable to acquire Bean Validation ValidatorFactory, skipping activation
+2016-02-10 09:38:31,781 1140 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+2016-02-10 09:38:31,781 1140 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+2016-02-10 09:38:31,787 1146 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [departmentNumber], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [departmentName], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [departmentAddress], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [city], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [state], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [zipcode], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [contactFirstName], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [contactLastName], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [phoneNumber], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [contactEmail], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+2016-02-10 09:38:31,891 1250 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping  - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.IntegerType@445b84c0], incoming type = [org.hibernate.type.IntegerType@445b84c0]
+2016-02-10 09:38:31,896 1255 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: com.jjanisch.ember.entity.Department
+2016-02-10 09:38:31,896 1255 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select id from department where id =?
+2016-02-10 09:38:31,896 1255 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select department_.id, department_.department_id as departme2_0_, department_.name as name3_0_, department_.address as address4_0_, department_.city as city5_0_, department_.state as state6_0_, department_.zipcode as zipcode7_0_, department_.contact_first_name as contact8_0_, department_.contact_last_name as contact9_0_, department_.contact_phone as contact10_0_, department_.contact_email as contact11_0_ from department department_ where department_.id=?
+2016-02-10 09:38:31,896 1255 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-02-10 09:38:31,897 1256 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update department set department_id=?, name=?, address=?, city=?, state=?, zipcode=?, contact_first_name=?, contact_last_name=?, contact_phone=?, contact_email=? where id=?
+2016-02-10 09:38:31,897 1256 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from department where id=?
+2016-02-10 09:38:31,897 1256 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Identity insert: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-02-10 09:38:31,919 1278 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [NONE]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:38:31,919 1278 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [READ]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:38:31,919 1278 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [UPGRADE]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:38:31,919 1278 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [UPGRADE_NOWAIT]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:38:31,919 1278 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [FORCE]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:38:31,919 1278 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [PESSIMISTIC_READ]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? lock in share mode
+2016-02-10 09:38:31,919 1278 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [PESSIMISTIC_WRITE]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:38:31,921 1280 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [PESSIMISTIC_FORCE_INCREMENT]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=? for update
+2016-02-10 09:38:31,921 1280 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [OPTIMISTIC]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:38:31,921 1280 [main] DEBUG org.hibernate.loader.Loader  - Static select for entity com.jjanisch.ember.entity.Department [OPTIMISTIC_FORCE_INCREMENT]: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:38:31,926 1285 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity com.jjanisch.ember.entity.Department: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:38:31,926 1285 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity com.jjanisch.ember.entity.Department: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:38:32,420 1779 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@140c9f39
+2016-02-10 09:38:32,420 1779 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jndi.spi.JndiService]
+2016-02-10 09:38:32,422 1781 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Registering SessionFactory: ba26cf7c-4560-4b75-8169-27b5b37e7177 (<unnamed>)
+2016-02-10 09:38:32,422 1781 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Not binding SessionFactory to JNDI, no JNDI name configured
+2016-02-10 09:38:32,422 1781 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiated session factory
+2016-02-10 09:38:32,422 1781 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Checking 0 named HQL queries
+2016-02-10 09:38:32,422 1781 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Checking 0 named SQL queries
+2016-02-10 09:38:32,423 1782 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.config.spi.ConfigurationService]
+2016-02-10 09:38:32,425 1784 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+2016-02-10 09:38:32,428 1787 [main] DEBUG org.hibernate.stat.internal.StatisticsInitiator  - Statistics initialized [enabled=false]
+2016-02-10 09:38:32,456 1815 [main] TRACE org.hibernate.internal.SessionImpl  - Opened session at timestamp: 14551187124
+2016-02-10 09:38:32,458 1817 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - begin
+2016-02-10 09:38:32,458 1817 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtaining JDBC connection
+2016-02-10 09:38:32,458 1817 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Total checked-out connections: 0
+2016-02-10 09:38:32,459 1818 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Using pooled JDBC connection, pool size: 0
+2016-02-10 09:38:32,459 1818 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtained JDBC connection
+2016-02-10 09:38:32,459 1818 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - initial autocommit status: false
+2016-02-10 09:38:32,464 1823 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+2016-02-10 09:38:32,484 1843 [main] TRACE org.hibernate.event.internal.DefaultSaveOrUpdateEventListener  - Saving transient instance
+2016-02-10 09:38:32,486 1845 [main] TRACE org.hibernate.event.internal.AbstractSaveEventListener  - Saving [com.jjanisch.ember.entity.Department#<null>]
+2016-02-10 09:38:32,490 1849 [main] TRACE org.hibernate.engine.spi.ActionQueue  - Adding an EntityIdentityInsertAction for [com.jjanisch.ember.entity.Department] object
+2016-02-10 09:38:32,490 1849 [main] TRACE org.hibernate.engine.spi.ActionQueue  - Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.jjanisch.ember.entity.Department#<null>]]
+2016-02-10 09:38:32,491 1850 [main] TRACE org.hibernate.engine.spi.ActionQueue  - Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.jjanisch.ember.entity.Department#<null>]]
+2016-02-10 09:38:32,491 1850 [main] TRACE org.hibernate.engine.spi.ActionQueue  - Executing insertions before resolved early-insert
+2016-02-10 09:38:32,491 1850 [main] DEBUG org.hibernate.engine.spi.ActionQueue  - Executing identity-insert immediately
+2016-02-10 09:38:32,492 1851 [main] TRACE org.hibernate.persister.entity.AbstractEntityPersister  - Inserting entity: com.jjanisch.ember.entity.Department (native id)
+2016-02-10 09:38:32,495 1854 [main] DEBUG org.hibernate.SQL  - insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-02-10 09:38:32,505 1864 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering statement [com.mysql.jdbc.JDBC4PreparedStatement@196a42c3: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values (** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2016-02-10 09:38:32,505 1864 [main] TRACE org.hibernate.persister.entity.AbstractEntityPersister  - Dehydrating entity: [com.jjanisch.ember.entity.Department#<null>]
+2016-02-10 09:38:32,508 1867 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [1] as [VARCHAR] - 55555
+2016-02-10 09:38:32,508 1867 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [2] as [VARCHAR] - Test Department
+2016-02-10 09:38:32,508 1867 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [3] as [VARCHAR] - Test Address
+2016-02-10 09:38:32,508 1867 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [4] as [VARCHAR] - TestCity
+2016-02-10 09:38:32,508 1867 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [5] as [VARCHAR] - ZZ
+2016-02-10 09:38:32,509 1868 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [6] as [VARCHAR] - TestZip
+2016-02-10 09:38:32,509 1868 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [7] as [VARCHAR] - TestFirstName
+2016-02-10 09:38:32,509 1868 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [8] as [VARCHAR] - TestLastName
+2016-02-10 09:38:32,509 1868 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [9] as [VARCHAR] - 608 555-1212
+2016-02-10 09:38:32,509 1868 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [10] as [VARCHAR] - test@testdomain.com
+2016-02-10 09:38:32,889 2248 [main] DEBUG org.hibernate.id.IdentifierGeneratorHelper  - Natively generated identity: 105
+2016-02-10 09:38:32,889 2248 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Releasing result set [com.mysql.jdbc.JDBC4ResultSet@606e4010]
+2016-02-10 09:38:32,889 2248 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing result set [com.mysql.jdbc.JDBC4ResultSet@606e4010]
+2016-02-10 09:38:32,889 2248 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Releasing statement [com.mysql.jdbc.JDBC4PreparedStatement@196a42c3: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values ('55555', 'Test Department', 'Test Address', 'TestCity', 'ZZ', 'TestZip', 'TestFirstName', 'TestLastName', '608 555-1212', 'test@testdomain.com')]
+2016-02-10 09:38:32,890 2249 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing prepared statement [com.mysql.jdbc.JDBC4PreparedStatement@196a42c3: insert into department (department_id, name, address, city, state, zipcode, contact_first_name, contact_last_name, contact_phone, contact_email) values ('55555', 'Test Department', 'Test Address', 'TestCity', 'ZZ', 'TestZip', 'TestFirstName', 'TestLastName', '608 555-1212', 'test@testdomain.com')]
+2016-02-10 09:38:32,890 2249 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Starting after statement execution processing [ON_CLOSE]
+2016-02-10 09:38:32,891 2250 [main] TRACE org.hibernate.action.internal.UnresolvedEntityInsertActions  - No unresolved entity inserts that depended on [[com.jjanisch.ember.entity.Department#105]]
+2016-02-10 09:38:32,892 2251 [main] TRACE org.hibernate.action.internal.UnresolvedEntityInsertActions  - No entity insert actions have non-nullable, transient entity dependencies.
+2016-02-10 09:38:32,892 2251 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - committing
+2016-02-10 09:38:32,892 2251 [main] TRACE org.hibernate.internal.SessionImpl  - Automatically flushing session
+2016-02-10 09:38:32,892 2251 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Flushing session
+2016-02-10 09:38:32,892 2251 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Processing flush-time cascades
+2016-02-10 09:38:32,893 2252 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Dirty checking collections
+2016-02-10 09:38:32,893 2252 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Flushing entities and processing referenced collections
+2016-02-10 09:38:32,894 2253 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Processing unreferenced collections
+2016-02-10 09:38:32,894 2253 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Scheduling collection removes/(re)creates/updates
+2016-02-10 09:38:32,895 2254 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2016-02-10 09:38:32,895 2254 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2016-02-10 09:38:32,895 2254 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - Listing entities:
+2016-02-10 09:38:32,895 2254 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - com.jjanisch.ember.entity.Department{departmentName=Test Department, zipcode=TestZip, departmentAddress=Test Address, phoneNumber=608 555-1212, city=TestCity, contactEmail=test@testdomain.com, departmentNumber=55555, contactFirstName=TestFirstName, contactLastName=TestLastName, id=105, state=ZZ}
+2016-02-10 09:38:32,896 2255 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Executing flush
+2016-02-10 09:38:32,896 2255 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Starting after statement execution processing [ON_CLOSE]
+2016-02-10 09:38:32,896 2255 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Post flush
+2016-02-10 09:38:32,896 2255 [main] TRACE org.hibernate.internal.SessionImpl  - before transaction completion
+2016-02-10 09:38:32,897 2256 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - committed JDBC Connection
+2016-02-10 09:38:32,897 2256 [main] TRACE org.hibernate.engine.transaction.internal.TransactionCoordinatorImpl  - after transaction completion
+2016-02-10 09:38:32,897 2256 [main] TRACE org.hibernate.internal.SessionImpl  - after transaction completion
+2016-02-10 09:38:32,898 2257 [main] INFO  com.jjanisch.ember.persistence.DepartmentDaoWithHibernate  - Added Department: Department{id=105, departmentNumber='55555', departmentName='Test Department', departmentAddress='Test Address', city='TestCity', state='ZZ', zipcode='TestZip', phoneNumber='608 555-1212', contactFirstName='TestFirstName', contactLastName='TestLastName', contactEmail='test@testdomain.com'} with id of: 105
+2016-02-10 09:38:32,898 2257 [main] TRACE org.hibernate.internal.SessionImpl  - Closing session
+2016-02-10 09:38:32,898 2257 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@1750fbeb]
+2016-02-10 09:38:32,898 2257 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Closing logical connection
+2016-02-10 09:38:32,898 2257 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Releasing JDBC connection
+2016-02-10 09:38:32,898 2257 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Returning connection to pool, pool size: 1
+2016-02-10 09:38:32,898 2257 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Released JDBC connection
+2016-02-10 09:38:32,898 2257 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Logical connection closed
+2016-02-10 09:38:32,899 2258 [main] TRACE org.hibernate.internal.SessionImpl  - Opened session at timestamp: 14551187128
+2016-02-10 09:38:32,899 2258 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - begin
+2016-02-10 09:38:32,899 2258 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtaining JDBC connection
+2016-02-10 09:38:32,900 2259 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Total checked-out connections: 0
+2016-02-10 09:38:32,900 2259 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Using pooled JDBC connection, pool size: 0
+2016-02-10 09:38:32,900 2259 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtained JDBC connection
+2016-02-10 09:38:32,900 2259 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - initial autocommit status: false
+2016-02-10 09:38:32,903 2262 [main] TRACE org.hibernate.engine.query.spi.QueryPlanCache  - Unable to locate HQL query plan in cache; generating (FROM Department D WHERE D.id =105)
+2016-02-10 09:38:32,922 2281 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - parse() - HQL: FROM com.jjanisch.ember.entity.Department D WHERE D.id =105
+2016-02-10 09:38:32,930 2289 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'FROM'
+    |     \-[RANGE] Node: 'RANGE'
+    |        +-[DOT] Node: '.'
+    |        |  +-[DOT] Node: '.'
+    |        |  |  +-[DOT] Node: '.'
+    |        |  |  |  +-[DOT] Node: '.'
+    |        |  |  |  |  +-[IDENT] Node: 'com'
+    |        |  |  |  |  \-[IDENT] Node: 'jjanisch'
+    |        |  |  |  \-[IDENT] Node: 'ember'
+    |        |  |  \-[IDENT] Node: 'entity'
+    |        |  \-[IDENT] Node: 'Department'
+    |        \-[ALIAS] Node: 'D'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'D'
+          |  \-[IDENT] Node: 'id'
+          \-[NUM_INT] Node: '105'
+
+2016-02-10 09:38:32,930 2289 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter  - throwQueryException() : no errors
+2016-02-10 09:38:32,948 2307 [main] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker  - select << begin [level=1, statement=select]
+2016-02-10 09:38:32,958 2317 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromElement  - FromClause{level=1} : com.jjanisch.ember.entity.Department (D) -> department0_
+2016-02-10 09:38:32,959 2318 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode  - Resolved : D -> department0_.id
+2016-02-10 09:38:32,960 2319 [main] TRACE org.hibernate.hql.internal.ast.tree.FromElement  - Handling property dereference [com.jjanisch.ember.entity.Department (D) -> id (class)]
+2016-02-10 09:38:32,960 2319 [main] DEBUG org.hibernate.hql.internal.ast.tree.DotNode  - getDataType() : id -> org.hibernate.type.IntegerType@445b84c0
+2016-02-10 09:38:32,960 2319 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode  - Resolved : D.id -> department0_.id
+2016-02-10 09:38:32,961 2320 [main] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker  - select : finishing up [level=1, statement=select]
+2016-02-10 09:38:32,962 2321 [main] DEBUG org.hibernate.hql.internal.ast.HqlSqlWalker  - processQuery() :  ( SELECT ( FromClause{level=1} department department0_ ) ( WHERE ( = ( department0_.id department0_.id id ) 105 ) ) )
+2016-02-10 09:38:32,965 2324 [main] DEBUG org.hibernate.hql.internal.ast.HqlSqlWalker  - Derived SELECT clause created.
+2016-02-10 09:38:32,968 2327 [main] DEBUG org.hibernate.hql.internal.ast.util.JoinProcessor  - Using FROM fragment [department department0_]
+2016-02-10 09:38:32,968 2327 [main] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker  - select >> end [level=1, statement=select]
+2016-02-10 09:38:32,968 2327 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (department)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'department0_.id as id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=D,role=null,tableName=department,tableAlias=department0_,origin=null,columns={,className=com.jjanisch.ember.entity.Department}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[D], fromElementByTableAlias=[department0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'department department0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=D,role=null,tableName=department,tableAlias=department0_,origin=null,columns={,className=com.jjanisch.ember.entity.Department}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'department0_.id' {propertyName=id,dereferenceType=ALL,propertyPath=id,path=D.id,tableAlias=department0_,className=com.jjanisch.ember.entity.Department,classAlias=D}
+          |  +-[ALIAS_REF] IdentNode: 'department0_.id' {alias=D, className=com.jjanisch.ember.entity.Department, tableAlias=department0_}
+          |  \-[IDENT] IdentNode: 'id' {originalText=id}
+          \-[NUM_INT] LiteralNode: '105'
+
+2016-02-10 09:38:32,968 2327 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter  - throwQueryException() : no errors
+2016-02-10 09:38:32,974 2333 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - HQL: FROM com.jjanisch.ember.entity.Department D WHERE D.id =105
+2016-02-10 09:38:32,974 2333 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl  - SQL: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=105
+2016-02-10 09:38:32,974 2333 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter  - throwQueryException() : no errors
+2016-02-10 09:38:32,976 2335 [main] TRACE org.hibernate.engine.query.spi.HQLQueryPlan  - HQL param location recognition took 0 mills (FROM Department D WHERE D.id =105)
+2016-02-10 09:38:32,979 2338 [main] TRACE org.hibernate.engine.query.spi.QueryPlanCache  - Located HQL query plan in cache (FROM Department D WHERE D.id =105)
+2016-02-10 09:38:32,979 2338 [main] TRACE org.hibernate.engine.query.spi.HQLQueryPlan  - Find: FROM Department D WHERE D.id =105
+2016-02-10 09:38:32,979 2338 [main] TRACE org.hibernate.engine.spi.QueryParameters  - Named parameters: {}
+2016-02-10 09:38:32,982 2341 [main] DEBUG org.hibernate.SQL  - select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=105
+2016-02-10 09:38:32,983 2342 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering statement [com.mysql.jdbc.JDBC4PreparedStatement@16612a51: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=105]
+2016-02-10 09:38:32,983 2342 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering last query statement [com.mysql.jdbc.JDBC4PreparedStatement@16612a51: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=105]
+2016-02-10 09:38:32,983 2342 [main] TRACE org.hibernate.loader.Loader  - Bound [1] parameters total
+2016-02-10 09:38:32,984 2343 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering result set [com.mysql.jdbc.JDBC4ResultSet@79defdc]
+2016-02-10 09:38:32,984 2343 [main] TRACE org.hibernate.loader.Loader  - Processing result set
+2016-02-10 09:38:32,984 2343 [main] DEBUG org.hibernate.loader.Loader  - Result set row: 0
+2016-02-10 09:38:32,987 2346 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [105] as column [id1_0_]
+2016-02-10 09:38:32,987 2346 [main] DEBUG org.hibernate.loader.Loader  - Result row: EntityKey[com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:32,987 2346 [main] TRACE org.hibernate.loader.Loader  - Initializing object from ResultSet: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:32,988 2347 [main] TRACE org.hibernate.persister.entity.AbstractEntityPersister  - Hydrating entity: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:32,988 2347 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [55555] as column [departme2_0_]
+2016-02-10 09:38:32,988 2347 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [Test Department] as column [name3_0_]
+2016-02-10 09:38:32,988 2347 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [Test Address] as column [address4_0_]
+2016-02-10 09:38:33,000 2359 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestCity] as column [city5_0_]
+2016-02-10 09:38:33,000 2359 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [ZZ] as column [state6_0_]
+2016-02-10 09:38:33,000 2359 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestZip] as column [zipcode7_0_]
+2016-02-10 09:38:33,000 2359 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestFirstName] as column [contact8_0_]
+2016-02-10 09:38:33,000 2359 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestLastName] as column [contact9_0_]
+2016-02-10 09:38:33,000 2359 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [608 555-1212] as column [contact10_0_]
+2016-02-10 09:38:33,000 2359 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [test@testdomain.com] as column [contact11_0_]
+2016-02-10 09:38:33,000 2359 [main] TRACE org.hibernate.loader.Loader  - Done processing result set (1 rows)
+2016-02-10 09:38:33,001 2360 [main] TRACE org.hibernate.loader.Loader  - Total objects hydrated: 1
+2016-02-10 09:38:33,001 2360 [main] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,002 2361 [main] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,002 2361 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Releasing statement [com.mysql.jdbc.JDBC4PreparedStatement@16612a51: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=105]
+2016-02-10 09:38:33,002 2361 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing result set [com.mysql.jdbc.JDBC4ResultSet@79defdc]
+2016-02-10 09:38:33,002 2361 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing prepared statement [com.mysql.jdbc.JDBC4PreparedStatement@16612a51: select department0_.id as id1_0_, department0_.department_id as departme2_0_, department0_.name as name3_0_, department0_.address as address4_0_, department0_.city as city5_0_, department0_.state as state6_0_, department0_.zipcode as zipcode7_0_, department0_.contact_first_name as contact8_0_, department0_.contact_last_name as contact9_0_, department0_.contact_phone as contact10_0_, department0_.contact_email as contact11_0_ from department department0_ where department0_.id=105]
+2016-02-10 09:38:33,002 2361 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Starting after statement execution processing [ON_CLOSE]
+2016-02-10 09:38:33,002 2361 [main] TRACE org.hibernate.engine.internal.StatefulPersistenceContext  - Initializing non-lazy collections
+2016-02-10 09:38:33,002 2361 [main] TRACE org.hibernate.internal.SessionImpl  - Closing session
+2016-02-10 09:38:33,002 2361 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@222a59e6]
+2016-02-10 09:38:33,002 2361 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Closing logical connection
+2016-02-10 09:38:33,002 2361 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Releasing JDBC connection
+2016-02-10 09:38:33,003 2362 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Returning connection to pool, pool size: 1
+2016-02-10 09:38:33,005 2364 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Released JDBC connection
+2016-02-10 09:38:33,005 2364 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Logical connection closed
+2016-02-10 09:38:33,005 2364 [main] TRACE org.hibernate.internal.SessionImpl  - Opened session at timestamp: 14551187130
+2016-02-10 09:38:33,005 2364 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - begin
+2016-02-10 09:38:33,005 2364 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtaining JDBC connection
+2016-02-10 09:38:33,005 2364 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Total checked-out connections: 0
+2016-02-10 09:38:33,005 2364 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Using pooled JDBC connection, pool size: 0
+2016-02-10 09:38:33,005 2364 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtained JDBC connection
+2016-02-10 09:38:33,005 2364 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - initial autocommit status: false
+2016-02-10 09:38:33,006 2365 [main] TRACE org.hibernate.event.internal.DefaultLoadEventListener  - Loading entity: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,007 2366 [main] TRACE org.hibernate.event.internal.DefaultLoadEventListener  - Attempting to resolve: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,007 2366 [main] TRACE org.hibernate.event.internal.DefaultLoadEventListener  - Object not resolved in any cache: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,007 2366 [main] TRACE org.hibernate.persister.entity.AbstractEntityPersister  - Fetching entity: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,007 2366 [main] DEBUG org.hibernate.loader.Loader  - Loading entity: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,007 2366 [main] DEBUG org.hibernate.SQL  - select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=?
+2016-02-10 09:38:33,007 2366 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering statement [com.mysql.jdbc.JDBC4PreparedStatement@4bff7da0: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=** NOT SPECIFIED **]
+2016-02-10 09:38:33,007 2366 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering last query statement [com.mysql.jdbc.JDBC4PreparedStatement@4bff7da0: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=** NOT SPECIFIED **]
+2016-02-10 09:38:33,007 2366 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [1] as [INTEGER] - 105
+2016-02-10 09:38:33,008 2367 [main] TRACE org.hibernate.loader.Loader  - Bound [2] parameters total
+2016-02-10 09:38:33,009 2368 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering result set [com.mysql.jdbc.JDBC4ResultSet@47c81abf]
+2016-02-10 09:38:33,009 2368 [main] TRACE org.hibernate.loader.Loader  - Processing result set
+2016-02-10 09:38:33,009 2368 [main] DEBUG org.hibernate.loader.Loader  - Result set row: 0
+2016-02-10 09:38:33,009 2368 [main] DEBUG org.hibernate.loader.Loader  - Result row: EntityKey[com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,009 2368 [main] TRACE org.hibernate.loader.Loader  - Initializing object from ResultSet: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,009 2368 [main] TRACE org.hibernate.persister.entity.AbstractEntityPersister  - Hydrating entity: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,009 2368 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [55555] as column [departme2_0_0_]
+2016-02-10 09:38:33,009 2368 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [Test Department] as column [name3_0_0_]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [Test Address] as column [address4_0_0_]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestCity] as column [city5_0_0_]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [ZZ] as column [state6_0_0_]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestZip] as column [zipcode7_0_0_]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestFirstName] as column [contact8_0_0_]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [TestLastName] as column [contact9_0_0_]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [608 555-1212] as column [contact10_0_0_]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor  - Found [test@testdomain.com] as column [contact11_0_0_]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.loader.Loader  - Done processing result set (1 rows)
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.loader.Loader  - Total objects hydrated: 1
+2016-02-10 09:38:33,010 2369 [main] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,010 2369 [main] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Releasing statement [com.mysql.jdbc.JDBC4PreparedStatement@4bff7da0: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=105]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing result set [com.mysql.jdbc.JDBC4ResultSet@47c81abf]
+2016-02-10 09:38:33,010 2369 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing prepared statement [com.mysql.jdbc.JDBC4PreparedStatement@4bff7da0: select department0_.id as id1_0_0_, department0_.department_id as departme2_0_0_, department0_.name as name3_0_0_, department0_.address as address4_0_0_, department0_.city as city5_0_0_, department0_.state as state6_0_0_, department0_.zipcode as zipcode7_0_0_, department0_.contact_first_name as contact8_0_0_, department0_.contact_last_name as contact9_0_0_, department0_.contact_phone as contact10_0_0_, department0_.contact_email as contact11_0_0_ from department department0_ where department0_.id=105]
+2016-02-10 09:38:33,011 2370 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Starting after statement execution processing [ON_CLOSE]
+2016-02-10 09:38:33,011 2370 [main] TRACE org.hibernate.engine.internal.StatefulPersistenceContext  - Initializing non-lazy collections
+2016-02-10 09:38:33,011 2370 [main] DEBUG org.hibernate.loader.Loader  - Done entity load
+2016-02-10 09:38:33,011 2370 [main] TRACE org.hibernate.event.internal.DefaultDeleteEventListener  - Deleting a persistent instance
+2016-02-10 09:38:33,012 2371 [main] TRACE org.hibernate.event.internal.DefaultDeleteEventListener  - Deleting [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,012 2371 [main] TRACE org.hibernate.internal.SessionImpl  - Setting cache mode to: GET
+2016-02-10 09:38:33,012 2371 [main] TRACE org.hibernate.internal.SessionImpl  - Setting cache mode to: NORMAL
+2016-02-10 09:38:33,013 2372 [main] TRACE org.hibernate.internal.SessionImpl  - Setting cache mode to: GET
+2016-02-10 09:38:33,013 2372 [main] TRACE org.hibernate.internal.SessionImpl  - Setting cache mode to: NORMAL
+2016-02-10 09:38:33,013 2372 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - committing
+2016-02-10 09:38:33,013 2372 [main] TRACE org.hibernate.internal.SessionImpl  - Automatically flushing session
+2016-02-10 09:38:33,013 2372 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Flushing session
+2016-02-10 09:38:33,013 2372 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Processing flush-time cascades
+2016-02-10 09:38:33,013 2372 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Dirty checking collections
+2016-02-10 09:38:33,013 2372 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Flushing entities and processing referenced collections
+2016-02-10 09:38:33,013 2372 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Processing unreferenced collections
+2016-02-10 09:38:33,013 2372 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Scheduling collection removes/(re)creates/updates
+2016-02-10 09:38:33,013 2372 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2016-02-10 09:38:33,013 2372 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2016-02-10 09:38:33,013 2372 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - Listing entities:
+2016-02-10 09:38:33,013 2372 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - com.jjanisch.ember.entity.Department{departmentName=Test Department, zipcode=TestZip, departmentAddress=Test Address, phoneNumber=608 555-1212, city=TestCity, contactEmail=test@testdomain.com, departmentNumber=55555, contactFirstName=TestFirstName, contactLastName=TestLastName, id=105, state=ZZ}
+2016-02-10 09:38:33,013 2372 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Executing flush
+2016-02-10 09:38:33,016 2375 [main] TRACE org.hibernate.persister.entity.AbstractEntityPersister  - Deleting entity: [com.jjanisch.ember.entity.Department#105]
+2016-02-10 09:38:33,016 2375 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.engine.jdbc.batch.spi.BatchBuilder]
+2016-02-10 09:38:33,018 2377 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl  - Initializing service [role=org.hibernate.service.jmx.spi.JmxService]
+2016-02-10 09:38:33,019 2378 [main] TRACE org.hibernate.engine.jdbc.batch.internal.BatchBuilderImpl  - Building batch [size=1]
+2016-02-10 09:38:33,019 2378 [main] DEBUG org.hibernate.SQL  - delete from department where id=?
+2016-02-10 09:38:33,020 2379 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Registering statement [com.mysql.jdbc.JDBC4PreparedStatement@1b410b60: delete from department where id=** NOT SPECIFIED **]
+2016-02-10 09:38:33,020 2379 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder  - binding parameter [1] as [INTEGER] - 105
+2016-02-10 09:38:33,025 2384 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Releasing statement [com.mysql.jdbc.JDBC4PreparedStatement@1b410b60: delete from department where id=105]
+2016-02-10 09:38:33,026 2385 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing prepared statement [com.mysql.jdbc.JDBC4PreparedStatement@1b410b60: delete from department where id=105]
+2016-02-10 09:38:33,026 2385 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Starting after statement execution processing [ON_CLOSE]
+2016-02-10 09:38:33,026 2385 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Starting after statement execution processing [ON_CLOSE]
+2016-02-10 09:38:33,026 2385 [main] TRACE org.hibernate.event.internal.AbstractFlushingEventListener  - Post flush
+2016-02-10 09:38:33,026 2385 [main] TRACE org.hibernate.internal.SessionImpl  - before transaction completion
+2016-02-10 09:38:33,046 2405 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - committed JDBC Connection
+2016-02-10 09:38:33,046 2405 [main] TRACE org.hibernate.engine.transaction.internal.TransactionCoordinatorImpl  - after transaction completion
+2016-02-10 09:38:33,046 2405 [main] TRACE org.hibernate.internal.SessionImpl  - after transaction completion
+2016-02-10 09:38:33,046 2405 [main] TRACE org.hibernate.internal.SessionImpl  - Closing session
+2016-02-10 09:38:33,046 2405 [main] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@77659b30]
+2016-02-10 09:38:33,046 2405 [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - HHH000420: Closing un-released batch
+2016-02-10 09:38:33,046 2405 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Closing logical connection
+2016-02-10 09:38:33,046 2405 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Releasing JDBC connection
+2016-02-10 09:38:33,046 2405 [main] TRACE org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Returning connection to pool, pool size: 1
+2016-02-10 09:38:33,046 2405 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Released JDBC connection
+2016-02-10 09:38:33,046 2405 [main] TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Logical connection closed

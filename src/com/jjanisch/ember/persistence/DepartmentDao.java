@@ -26,7 +26,7 @@ public interface DepartmentDao {
      *
      *  @param department to be deleted
      */
-    public void deleteDepartment(Department department);
+    public Boolean deleteDepartment(Department department);
 
     /**
      * Add a department

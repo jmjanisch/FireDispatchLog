@@ -71,6 +71,33 @@ public class DepartmentDaoWithHibernateTest {
 
     @Test
     public void testDeleteDepartment() throws Exception {
+        DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
+        int insertedDepartmentId = 0;
+
+        //create user to add
+        Department department = new Department();
+        department.setDepartmentNumber("55555");
+        department.setDepartmentName("Test Department");
+        department.setDepartmentAddress("Test Address");
+        department.setCity("TestCity");
+        department.setState("ZZ");
+        department.setZipcode("TestZip");
+        department.setContactFirstName("TestFirstName");
+        department.setContactLastName("TestLastName");
+        department.setPhoneNumber("608 555-1212");
+        department.setContactEmail("test@testdomain.com");
+
+        department.setId(0);
+
+        insertedDepartmentId = dao.addDepartment(department);
+
+        // Check department is in DB
+        dao.getDepartment(insertedDepartmentId);
+        assertNotNull(insertedDepartmentId);
+
+        // Delete the department
+        Boolean wasDepartmentDeleted = dao.deleteDepartment(department);
+        assertTrue(wasDepartmentDeleted);
 
     }
 
@@ -82,7 +109,7 @@ public class DepartmentDaoWithHibernateTest {
         DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
         int insertedDepartmentId = 0;
 
-        //create user to add
+        //create department to add
         Department department = new Department();
         department.setDepartmentNumber("55555");
         department.setDepartmentName("Test Department");

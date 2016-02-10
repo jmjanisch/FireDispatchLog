@@ -60,8 +60,8 @@ public class DepartmentDaoWithSql implements DepartmentDao {
     }
 
     @Override
-    public void deleteDepartment(Department department) {
-
+    public Boolean deleteDepartment(Department department) {
+        return true;
     }
 
     @Override
