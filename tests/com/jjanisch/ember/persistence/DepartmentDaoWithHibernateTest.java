@@ -7,6 +7,7 @@ import com.jjanisch.ember.entity.Department;
 import org.junit.Test;
 
 import javax.ejb.TransactionAttribute;
+import java.util.*;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -23,20 +24,49 @@ import static org.junit.Assert.*;
  */
 public class DepartmentDaoWithHibernateTest {
 
-    @Before
-    public void setUp() throws Exception {
-        // Make connection to database
-
-    }
 
     @Test
     public void testGetAllDepartments() throws Exception {
+        DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
 
+        List<Department> departments = new ArrayList<Department>();
+
+        departments = dao.getAllDepartments();
+
+        assertTrue(departments.size() > 0);
+    }
+
+    @Test
+    public void testGetDepartment() throws Exception {
+        DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
+
+        Department testDepartment = new Department();
+
+        testDepartment = dao.getDepartment(102);
+
+        assertNotNull(testDepartment);
     }
 
     @Test
     public void testUpdateDepartment() throws Exception {
+        DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
 
+        // New Department Parameters
+        Department department = new Department();
+
+        department.setId(102);
+        department.setDepartmentNumber("11111");
+        department.setDepartmentName("Update Department");
+        department.setDepartmentAddress("Update Address");
+        department.setCity("UpdateCity");
+        department.setState("AA");
+        department.setZipcode("UpdateZip");
+        department.setContactFirstName("UpdateFirstName");
+        department.setContactLastName("UpdateLastName");
+        department.setPhoneNumber("999 999-0000");
+        department.setContactEmail("update@testdomain.com");
+
+        dao.updateDepartment(department);
     }
 
     @Test
@@ -44,11 +74,14 @@ public class DepartmentDaoWithHibernateTest {
 
     }
 
+
+
     @Test
     public void testAddDepartment() throws Exception {
 
         DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
         int insertedDepartmentId = 0;
+
         //create user to add
         Department department = new Department();
         department.setDepartmentNumber("55555");
