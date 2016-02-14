@@ -9,44 +9,79 @@
     <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
       <schema id="1" name="emberims"/>
       <table id="2" parent="1" name="department"/>
-      <column id="3" parent="2" name="id">
+      <table id="3" parent="1" name="apparatus"/>
+      <column id="4" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(9)</data-type>
       </column>
-      <column id="4" parent="2" name="department_id">
+      <column id="5" parent="2" name="department_id">
         <data-type>varchar(10)</data-type>
       </column>
-      <column id="5" parent="2" name="name">
+      <column id="6" parent="2" name="name">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="6" parent="2" name="address">
+      <column id="7" parent="2" name="address">
         <data-type>varchar(80)</data-type>
       </column>
-      <column id="7" parent="2" name="city">
+      <column id="8" parent="2" name="city">
         <data-type>varchar(25)</data-type>
       </column>
-      <column id="8" parent="2" name="state">
+      <column id="9" parent="2" name="state">
         <data-type>varchar(2)</data-type>
       </column>
-      <column id="9" parent="2" name="zipcode">
+      <column id="10" parent="2" name="zipcode">
         <data-type>varchar(10)</data-type>
       </column>
-      <column id="10" parent="2" name="contact_first_name">
+      <column id="11" parent="2" name="contact_first_name">
         <data-type>varchar(25)</data-type>
       </column>
-      <column id="11" parent="2" name="contact_last_name">
+      <column id="12" parent="2" name="contact_last_name">
         <data-type>varchar(25)</data-type>
       </column>
-      <column id="12" parent="2" name="contact_phone">
+      <column id="13" parent="2" name="contact_phone">
         <data-type>varchar(25)</data-type>
       </column>
-      <column id="13" parent="2" name="contact_email">
+      <column id="14" parent="2" name="contact_email">
         <data-type>varchar(50)</data-type>
       </column>
-      <key id="14" parent="2" name="PRIMARY">
+      <key id="15" parent="2" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
+      <column id="16" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="17" parent="3" name="designation">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="18" parent="3" name="type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="19" parent="3" name="make">
+        <mandatory>1</mandatory>
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="20" parent="3" name="inServiceDate">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="21" parent="3" name="waterCapacity">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="22" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="23" parent="3" name="departmentId">
+        <columns>id</columns>
+        <ref-key>~.department.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
     </database-model>
   </data-source>
 </component>

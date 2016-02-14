@@ -37,8 +37,39 @@
 
 
 </div>
+    
+    <form>
+        <div>
+            <div class="form-group"> 
+                <label class="control-label" for="designation">Apparatus Designation:</label>
+                <input type="text" class="form-control" id="designation" placeholder="Apparatus Designation">
+            </div>
+
+            <div class="form-group"> 
+                <label class="control-label" for="type">Apparatus Type:</label>
+                <input type="text" class="form-control" id="type" placeholder="Apparatus Type">
+            </div>
+
+            <div class="form-group"> 
+                <label class="control-label" for="make">Apparatus Make:</label>
+                <input type="text" class="form-control" id="make" placeholder="Apparatus Make">
+            </div>
+
+            <div class="form-group"> 
+                <label class="control-label" for="inService">In Service Date:</label>
+                <input type="text" class="form-control" id="inService" placeholder="01/01/2000">
+            </div>
+
+            <div class="form-group"> 
+                <label class="control-label" for="waterCapacity">Water Capacity:</label>
+                <input type="text" class="form-control" id="waterCapacity" placeholder="3500">
+            </div>
+
+        </div>
+    </form>
+
     <div class="btn-group"> 
-        <button type="button" class="btn btn-success btn-lg">Update</button>                         
+        <button type="button" class="btn btn-success btn-lg">Add/Update</button>                         
     </div>           
               
     <div class="btn-group"> 

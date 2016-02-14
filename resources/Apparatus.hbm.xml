@@ -1,0 +1,21 @@
+<hibernate-mapping>
+    <class name="com.jjanisch.ember.entity.Apparatus" table="apparatus">
+        <meta attribute="class-description">
+            This class contains the apparatus detail.
+        </meta>
+
+        <!--Add id for the key -->
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+
+        <!--Add a property for all other instance variables/columns-->
+        <property name="designation" column="designation" type="string"/>
+        <property name="type" column="type" type="string"/>
+        <property name="make" column="make" type="string"/>
+        <property name="inServiceDate" column="inServiceDate" type="date"/>
+        <property name="waterCapacity" column="waterCapacity" type="int"/>
+        <property name="departmentId" column="departmentId" type="int"/>
+
+    </class>
+</hibernate-mapping>

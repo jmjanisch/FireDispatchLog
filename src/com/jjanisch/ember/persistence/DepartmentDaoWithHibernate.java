@@ -1,12 +1,10 @@
 package com.jjanisch.ember.persistence;
 
 import com.jjanisch.ember.entity.Department;
-import com.sun.deploy.resources.Deployment_pt_BR;
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
 import java.util.*;
 
 
@@ -14,8 +12,6 @@ import java.util.*;
  * Created by Justin Janisch on 2/7/2016.
  */
 public class DepartmentDaoWithHibernate implements DepartmentDao {
-
-    //private final Logger log = Logger.getLogger(this.getClass());
 
     private org.apache.log4j.Logger log = Logger.getLogger(this.getClass());
 
