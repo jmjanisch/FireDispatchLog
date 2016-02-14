@@ -5,6 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <c:set var="pageTitle" value="Department Profile" scope="request" />
+
+
 <c:import url="siteHeader.jsp" />
 
 <body>
@@ -12,13 +14,15 @@
 <c:import url="siteNavBar.jsp" />
 <c:import url="siteSideBar.jsp" />
 
-<!-- CONTENT -->
+
 <c:import url="contentDepartmentProfile.jsp" />
-<hr />
-<c:import url="contentDepartmentApparatus.jsp" />
+
+<h1>DEPARTMENT NUMBER: ${properties["departmentNumber"]}</h1>
+
 </div>
 </div>
-</div>
+
+
 
 
 <!-- Bootstrap core JavaScript-->

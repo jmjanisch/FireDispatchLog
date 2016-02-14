@@ -6,7 +6,7 @@
                 <li><a href="#">Create Incident</a></li>
                 <li><a href="#">Personnel</a></li>
                 <li><a href="#">Reports</a></li>
-                <li><a href="departmentProfile.jsp">Department Profile</a></li>
+                <li><a href="/loadDepartmentInfo">Department Profile</a></li>
                 <li><a href="#">Export File</a></li>
             </ul>
         </div>
