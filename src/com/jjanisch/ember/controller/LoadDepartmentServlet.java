@@ -1,4 +1,4 @@
-package com.jjanisch.ember;
+package com.jjanisch.ember.controller;
 
 import javax.servlet.*;
 import com.jjanisch.ember.entity.Department;

@@ -72,7 +72,7 @@ public class DepartmentDaoWithSql implements DepartmentDao {
     private Department createDepartmentFromResults(ResultSet results) throws SQLException {
         Department department = new Department();
         department.setId(results.getInt("id"));
-        department.setDepartmentNumber(results.getString("department_id"));
+        department.setDepartmentNumber(results.getInt("department_id"));
         department.setDepartmentName(results.getString("name"));
         department.setDepartmentAddress(results.getString("address"));
         department.setCity(results.getString("city"));

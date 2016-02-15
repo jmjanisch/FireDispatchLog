@@ -6,7 +6,7 @@ package com.jjanisch.ember.entity;
 public class Department {
 
     private int id;
-    private String departmentNumber;
+    private int departmentNumber;
     private String departmentName;
     private String departmentAddress;
     private String city;
@@ -20,7 +20,7 @@ public class Department {
     public Department() {
     }
 
-    public Department(int id, String departmentNumber, String departmentName, String departmentAddress, String city, String state, String zipcode, String phoneNumber, String contactFirstName, String contactLastName, String contactEmail) {
+    public Department(int id, int departmentNumber, String departmentName, String departmentAddress, String city, String state, String zipcode, String phoneNumber, String contactFirstName, String contactLastName, String contactEmail) {
         this.id = id;
         this.departmentNumber = departmentNumber;
         this.departmentName = departmentName;
@@ -42,11 +42,11 @@ public class Department {
         this.id = id;
     }
 
-    public String getDepartmentNumber() {
+    public int getDepartmentNumber() {
         return departmentNumber;
     }
 
-    public void setDepartmentNumber(String departmentNumber) {
+    public void setDepartmentNumber(int departmentNumber) {
         this.departmentNumber = departmentNumber;
     }
 

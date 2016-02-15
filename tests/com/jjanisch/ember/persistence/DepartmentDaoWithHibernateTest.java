@@ -66,7 +66,7 @@ public class DepartmentDaoWithHibernateTest {
         Department department = new Department();
 
         department.setId(102);
-        department.setDepartmentNumber("11111");
+        department.setDepartmentNumber(11111);
         department.setDepartmentName("Update Department");
         department.setDepartmentAddress("Update Address");
         department.setCity("UpdateCity");
@@ -87,7 +87,7 @@ public class DepartmentDaoWithHibernateTest {
 
         //create user to add
         Department department = new Department();
-        department.setDepartmentNumber("55555");
+        department.setDepartmentNumber(55555);
         department.setDepartmentName("Test Department");
         department.setDepartmentAddress("Test Address");
         department.setCity("TestCity");
@@ -122,7 +122,7 @@ public class DepartmentDaoWithHibernateTest {
 
         //create department to add
         Department department = new Department();
-        department.setDepartmentNumber("55555");
+        department.setDepartmentNumber(55555);
         department.setDepartmentName("Test Department");
         department.setDepartmentAddress("Test Address");
         department.setCity("TestCity");
