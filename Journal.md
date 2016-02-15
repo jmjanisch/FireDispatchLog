@@ -5,6 +5,18 @@
 [Project Plan] (ProjectPlan.md)
 
 ---
+### Week of 2/8/2016
+##### Hours working on JavaEE: 9.75
+
+* Convert UI HTML Files to JSP's (2.0)
+* Setup Apparatus Table and Primary Key link to Department Table (0.5)
+* Review Servlets, JSTL, JSPs, HTTP Sessions (1.5)
+* Set up Servlet for Department Profile and link to JSP (2.0)
+* Troubleshoot Servlet data access to DB and present using JSTL (2.0)
+* Troubleshoot Hibernate connection error (1.5)
+* Code Reviews (In process)
+* Journal (0.25)
+
 ### Week of 2/01/2016
 ##### Hours working on JavaEE: 10.75
 
