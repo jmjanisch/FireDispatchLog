@@ -34,20 +34,18 @@ public class LoadDepartmentServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         currentDepartment = new Department();
-        //DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
+        DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
 
-        int departmentNumber = Integer.parseInt(properties.getProperty("departmentNumber"));
+        String departmentNumber = properties.getProperty("departmentNumber");
         System.out.println("Department Number Parse: " + departmentNumber);
 
-        //currentDepartment = dao.getDepartment(departmentNumber);
+        currentDepartment = dao.getDepartmentBy(departmentNumber);
 
 
         request.setAttribute("departmentInfo", currentDepartment);
 
         String url = "/departmentProfile.jsp";
-        System.out.println("DEPARTMENT ID IN SERVLET: " + properties.getProperty("departmentNumber"));
-        //System.out.println("DEPARTMENT INFO - DEPARTMENT: " + currentDepartment.getDepartmentName());
-
+        
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
 
         dispatcher.forward(request, response);

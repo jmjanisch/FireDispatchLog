@@ -48,6 +48,17 @@ public class DepartmentDaoWithHibernateTest {
     }
 
     @Test
+    public void testGetDepartmentBy() throws Exception {
+        DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
+
+        Department testDepartment = new Department();
+
+        testDepartment = dao.getDepartmentBy("13170");
+
+        assertNotNull(testDepartment);
+    }
+
+    @Test
     public void testUpdateDepartment() throws Exception {
         DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
 

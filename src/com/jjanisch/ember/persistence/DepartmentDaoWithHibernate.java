@@ -68,6 +68,30 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
         return departments.get(0);
     }
 
+    public Department getDepartmentBy(String departmentId) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        List<Department> departments = new ArrayList<Department>();
+        Transaction dbTransaction = null;
+
+
+        String query = ("FROM Department D WHERE D.departmentNumber = " + departmentId);
+
+        log.info("GetDepartmentBy Query: " + query);
+
+        try {
+            dbTransaction = session.beginTransaction();
+            departments = session.createQuery(query).list();
+
+        } catch (HibernateException error) {
+            if (dbTransaction!=null) dbTransaction.rollback();
+            error.printStackTrace();
+        } finally {
+            session.close();
+        }
+
+        return departments.get(0);
+    }
+
     @Override
     public void updateDepartment(Department department) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();

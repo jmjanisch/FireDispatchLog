@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a57136-1312-4cb0-b093-4fefe5e26a4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jjanisch/ember/LoadDepartmentServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Ember_war_exploded/WEB-INF/classes/com/jjanisch/ember/LoadDepartmentServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Ember_war_exploded/WEB-INF/classes/com/jjanisch/ember/LoadDepartmentServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ember/com/jjanisch/ember/LoadDepartmentServlet.class" afterPath="$PROJECT_DIR$/out/production/Ember/com/jjanisch/ember/LoadDepartmentServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ember/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.class" afterPath="$PROJECT_DIR$/out/production/Ember/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Ember/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.class" afterPath="$PROJECT_DIR$/out/test/Ember/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Ember_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Ember_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Ember_war_exploded/departmentProfile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Ember_war_exploded/departmentProfile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/departmentProfile.jsp" afterPath="$PROJECT_DIR$/web/departmentProfile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/siteSideBar.jsp" afterPath="$PROJECT_DIR$/web/siteSideBar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DaoAndHibernateExercise.log" afterPath="$PROJECT_DIR$/DaoAndHibernateExercise.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jjanisch/ember/LoadDepartmentServlet.java" afterPath="$PROJECT_DIR$/src/com/jjanisch/ember/LoadDepartmentServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.java" afterPath="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java" afterPath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java" />
     </list>
     <ignored path="EmberIMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="33" />
+              <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -79,16 +84,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-18.62069">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DepartmentDaoWithHibernateTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="74" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -114,6 +109,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="contentDepartmentProfile.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/contentDepartmentProfile.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,8 +132,8 @@
       <file leaf-file-name="LoadDepartmentServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/LoadDepartmentServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54933876">
-              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.5005203">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -169,14 +174,14 @@
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/SessionFactoryProvider.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDao.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithSql.java" />
-        <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/resources/Apparatus.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/Apparatus.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/web/siteSideBar.jsp" />
         <option value="$PROJECT_DIR$/web/departmentProfile.jsp" />
+        <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/LoadDepartmentServlet.java" />
       </list>
     </option>
@@ -189,8 +194,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -232,7 +237,9 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Problems" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -373,7 +380,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39425287" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/geronimo-osgi-locator-1.0.jar!/" />
@@ -390,33 +397,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TomEE Server.Unnamed">
-    <configuration default="false" name="DepartmentDaoWithHibernateTest.testAddDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Ember" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
-      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.DepartmentDaoWithHibernateTest" />
-      <option name="METHOD_NAME" value="testAddDepartment" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TomEE Server.TomEE 7.0.63">
     <configuration default="false" name="DepartmentDaoWithHibernateTest.testGetAllDepartments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -512,6 +493,32 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DepartmentDaoWithHibernateTest.testGetDepartmentBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Ember" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.DepartmentDaoWithHibernateTest" />
+      <option name="METHOD_NAME" value="testGetDepartmentBy" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -1034,13 +1041,30 @@
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="TomEE_7_0_63_EmberIMS" />
+      </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Ember:war exploded" />
@@ -1050,19 +1074,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="TomEE Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="TomEE Server.TomEE 7.0.63" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testAddDepartment" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetAllDepartments" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testUpdateDepartment" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetDepartment" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testDeleteDepartment" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetAllDepartments" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testUpdateDepartment" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetDepartment" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testDeleteDepartment" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetDepartmentBy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testDeleteDepartment" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetDepartment" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testUpdateDepartment" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetAllDepartments" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testAddDepartment" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetDepartmentBy" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testDeleteDepartment" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetDepartment" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testUpdateDepartment" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DepartmentDaoWithHibernateTest.testGetAllDepartments" />
       </list>
     </recent_temporary>
   </component>
@@ -1084,44 +1108,44 @@
       <workItem from="1455382099272" duration="714000" />
       <workItem from="1455398938464" duration="1628000" />
       <workItem from="1455400901382" duration="3638000" />
-      <workItem from="1455462547975" duration="16861000" />
+      <workItem from="1455462547975" duration="21888000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DepartmentDaoWithHibernateTest_testDeleteDepartment - 2016.02.13 at 15h 48m 53s.xml">
+    <history-entry file="DepartmentDaoWithHibernateTest_testDeleteDepartment - 2016.02.14 at 17h 44m 02s.xml">
       <configuration name="DepartmentDaoWithHibernateTest.testDeleteDepartment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentDaoWithHibernateTest_testDeleteDepartment - 2016.02.13 at 15h 53m 04s.xml">
-      <configuration name="DepartmentDaoWithHibernateTest.testDeleteDepartment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepartmentDaoWithHibernateTest_testGetAllDepartments - 2016.02.09 at 12h 27m 16s.xml">
-      <configuration name="DepartmentDaoWithHibernateTest.testGetAllDepartments" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartment - 2016.02.09 at 17h 49m 51s.xml">
+    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartment - 2016.02.14 at 17h 43m 35s.xml">
       <configuration name="DepartmentDaoWithHibernateTest.testGetDepartment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartment - 2016.02.09 at 21h 31m 08s.xml">
-      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartment" configurationId="JUnit" />
+    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartmentBy - 2016.02.14 at 17h 48m 03s.xml">
+      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartmentBy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartment - 2016.02.09 at 21h 36m 22s.xml">
-      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartment" configurationId="JUnit" />
+    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartmentBy - 2016.02.14 at 17h 49m 55s.xml">
+      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartmentBy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartment - 2016.02.09 at 21h 43m 06s.xml">
-      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartment" configurationId="JUnit" />
+    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartmentBy - 2016.02.14 at 18h 55m 23s.xml">
+      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartmentBy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartment - 2016.02.09 at 21h 44m 15s.xml">
-      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartment" configurationId="JUnit" />
+    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartmentBy - 2016.02.14 at 18h 58m 45s.xml">
+      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartmentBy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentDaoWithHibernateTest_testUpdateDepartment - 2016.02.09 at 13h 13m 07s.xml">
-      <configuration name="DepartmentDaoWithHibernateTest.testUpdateDepartment" configurationId="JUnit" />
+    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartmentBy - 2016.02.14 at 19h 02m 54s.xml">
+      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartmentBy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentDaoWithHibernateTest_testUpdateDepartment - 2016.02.09 at 15h 00m 03s.xml">
-      <configuration name="DepartmentDaoWithHibernateTest.testUpdateDepartment" configurationId="JUnit" />
+    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartmentBy - 2016.02.14 at 19h 04m 02s.xml">
+      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartmentBy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartmentBy - 2016.02.14 at 19h 05m 00s.xml">
+      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartmentBy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepartmentDaoWithHibernateTest_testGetDepartmentBy - 2016.02.14 at 19h 07m 41s.xml">
+      <configuration name="DepartmentDaoWithHibernateTest.testGetDepartmentBy" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67312000" />
+    <option name="totallyTimeSpent" value="72339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -1137,7 +1161,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1963434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21383148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1480,14 +1504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/513e88af-59e0-41db-82d5-639d11ab66bd">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1556,14 +1572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.62069">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/siteSideBar.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.275862">
@@ -1580,30 +1588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/departmentProfile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.827587">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="74" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/contentDepartmentProfile.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1612,10 +1596,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/departmentProfile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.827587">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.62069">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/LoadDepartmentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54933876">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.5005203">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
         </state>
       </provider>
