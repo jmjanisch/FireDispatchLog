@@ -15,7 +15,7 @@
         </id>
         <!--Add a property for all other instance variables/columns-->
         <property name="departmentNumber" column="department_id"
-                  type="string"/>
+                  type="int"/>
         <property name="departmentName" column="name"
                   type="string"/>
         <property name="departmentAddress" column="address"

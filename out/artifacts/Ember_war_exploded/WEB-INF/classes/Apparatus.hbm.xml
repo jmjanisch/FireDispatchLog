@@ -13,9 +13,9 @@
         <property name="designation" column="designation" type="string"/>
         <property name="type" column="type" type="string"/>
         <property name="make" column="make" type="string"/>
-        <property name="inServiceDate" column="inServiceDate" type="date"/>
-        <property name="waterCapacity" column="waterCapacity" type="int"/>
-        <property name="departmentId" column="departmentId" type="int"/>
+        <property name="inServiceDate" column="in_service_date" type="date"/>
+        <property name="waterCapacity" column="water_capacity" type="int"/>
+        <property name="departmentId" column="department_id" type="int"/>
 
     </class>
 </hibernate-mapping>
