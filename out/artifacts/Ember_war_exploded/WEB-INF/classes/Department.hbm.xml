@@ -35,5 +35,6 @@
         <property name="contactEmail" column="contact_email"
                   type="string"/>
 
+
     </class>
 </hibernate-mapping>

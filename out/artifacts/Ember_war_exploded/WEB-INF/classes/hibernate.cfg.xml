@@ -13,6 +13,9 @@
         <mapping resource="Department.hbm.xml" />
         <mapping class="com.jjanisch.ember.entity.Department" />
 
+        <mapping resource="Apparatus.hbm.xml" />
+        <mapping class="com.jjanisch.ember.entity.Apparatus" />
+
 
     </session-factory>
 
