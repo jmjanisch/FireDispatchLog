@@ -10,11 +10,11 @@
         </meta>
 
         <!--Add id for the key -->
-        <id name="id" type="int" column="id">
+        <id name="departmentId" type="int" column="department_id">
             <generator class="native"/>
         </id>
         <!--Add a property for all other instance variables/columns-->
-        <property name="departmentNumber" column="department_id"
+        <property name="nfirsId" column="nfirs_id"
                   type="int"/>
         <property name="departmentName" column="name"
                   type="string"/>

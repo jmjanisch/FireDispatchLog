@@ -5,8 +5,8 @@ package com.jjanisch.ember.entity;
  */
 public class Department {
 
-    private int id;
-    private int departmentNumber;
+    private int departmentId;
+    private int nfirsId;
     private String departmentName;
     private String departmentAddress;
     private String city;
@@ -20,9 +20,9 @@ public class Department {
     public Department() {
     }
 
-    public Department(int id, int departmentNumber, String departmentName, String departmentAddress, String city, String state, String zipcode, String phoneNumber, String contactFirstName, String contactLastName, String contactEmail) {
-        this.id = id;
-        this.departmentNumber = departmentNumber;
+    public Department(int departmentId, int nfirsId, String departmentName, String departmentAddress, String city, String state, String zipcode, String phoneNumber, String contactFirstName, String contactLastName, String contactEmail) {
+        this.departmentId = departmentId;
+        this.nfirsId = nfirsId;
         this.departmentName = departmentName;
         this.departmentAddress = departmentAddress;
         this.city = city;
@@ -34,20 +34,20 @@ public class Department {
         this.contactEmail = contactEmail;
     }
 
-    public int getId() {
-        return id;
+    public int getDepartmentId() {
+        return departmentId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setDepartmentId(int departmentId) {
+        this.departmentId = departmentId;
     }
 
-    public int getDepartmentNumber() {
-        return departmentNumber;
+    public int getNfirsId() {
+        return nfirsId;
     }
 
-    public void setDepartmentNumber(int departmentNumber) {
-        this.departmentNumber = departmentNumber;
+    public void setNfirsId(int nfirsId) {
+        this.nfirsId = nfirsId;
     }
 
     public String getDepartmentName() {
@@ -125,8 +125,8 @@ public class Department {
     @Override
     public String toString() {
         return "Department{" +
-                "id=" + id +
-                ", departmentNumber='" + departmentNumber + '\'' +
+                "departmentId=" + departmentId +
+                ", nfirsId='" + nfirsId + '\'' +
                 ", departmentName='" + departmentName + '\'' +
                 ", departmentAddress='" + departmentAddress + '\'' +
                 ", city='" + city + '\'' +

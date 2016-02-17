@@ -65,8 +65,8 @@ public class DepartmentDaoWithHibernateTest {
         // New Department Parameters
         Department department = new Department();
 
-        department.setId(102);
-        department.setDepartmentNumber(11111);
+        department.setDepartmentId(102);
+        department.setNfirsId(11111);
         department.setDepartmentName("Update Department");
         department.setDepartmentAddress("Update Address");
         department.setCity("UpdateCity");
@@ -87,7 +87,7 @@ public class DepartmentDaoWithHibernateTest {
 
         //create user to add
         Department department = new Department();
-        department.setDepartmentNumber(55555);
+        department.setNfirsId(55555);
         department.setDepartmentName("Test Department");
         department.setDepartmentAddress("Test Address");
         department.setCity("TestCity");
@@ -98,7 +98,7 @@ public class DepartmentDaoWithHibernateTest {
         department.setPhoneNumber("608 555-1212");
         department.setContactEmail("test@testdomain.com");
 
-        department.setId(0);
+        department.setDepartmentId(0);
 
         insertedDepartmentId = dao.addDepartment(department);
 
@@ -122,7 +122,7 @@ public class DepartmentDaoWithHibernateTest {
 
         //create department to add
         Department department = new Department();
-        department.setDepartmentNumber(55555);
+        department.setNfirsId(55555);
         department.setDepartmentName("Test Department");
         department.setDepartmentAddress("Test Address");
         department.setCity("TestCity");
@@ -133,7 +133,7 @@ public class DepartmentDaoWithHibernateTest {
         department.setPhoneNumber("608 555-1212");
         department.setContactEmail("test@testdomain.com");
 
-        department.setId(0);
+        department.setDepartmentId(0);
 
         insertedDepartmentId = dao.addDepartment(department);
 

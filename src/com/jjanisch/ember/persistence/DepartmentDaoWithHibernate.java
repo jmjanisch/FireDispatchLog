@@ -52,7 +52,7 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
         List<Department> departments = new ArrayList<Department>();
         Transaction dbTransaction = null;
 
-        String query = ("FROM Department D WHERE D.id =" + id);
+        String query = ("FROM Department D WHERE D.departmentId =" + id);
 
         try {
             dbTransaction = session.beginTransaction();
@@ -68,13 +68,13 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
         return departments.get(0);
     }
 
-    public Department getDepartmentBy(String departmentId) {
+    public Department getDepartmentBy(String nfirsId) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         List<Department> departments = new ArrayList<Department>();
         Transaction dbTransaction = null;
 
 
-        String query = ("FROM Department D WHERE D.departmentNumber = " + departmentId);
+        String query = ("FROM Department D WHERE D.nfirsId = " + nfirsId);
 
         log.info("GetDepartmentBy Query: " + query);
 
@@ -99,9 +99,9 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
         Transaction dbTransaction = null;
         try {
             dbTransaction = session.beginTransaction();
-            Department departmentUpdate = (Department)session.get(Department.class, department.getId());
+            Department departmentUpdate = (Department)session.get(Department.class, department.getDepartmentId());
 
-            departmentUpdate.setDepartmentNumber(department.getDepartmentNumber());
+            departmentUpdate.setNfirsId(department.getNfirsId());
             departmentUpdate.setDepartmentName(department.getDepartmentName());
             departmentUpdate.setDepartmentAddress(department.getDepartmentAddress());
             departmentUpdate.setCity(department.getDepartmentAddress());
@@ -131,7 +131,7 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
 
         try {
             dbTransaction = session.beginTransaction();
-            Department departmentToDelete = (Department)session.get(Department.class, department.getId());
+            Department departmentToDelete = (Department)session.get(Department.class, department.getDepartmentId());
             session.delete(departmentToDelete);
             dbTransaction.commit();
 
