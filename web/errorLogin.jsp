@@ -1,18 +1,34 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Student
-  Date: 2/17/2016
-  Time: 7:46 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Unauthorized</title>
-</head>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 // 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<c:set var="pageTitle" value="Unauthorized" scope="request" />
+
+
+<c:import url="siteHeader.jsp" />
+
 <body>
-<h1>Invalid User</h1>
-<h3>Username and/or password is incorrect.</h3>
-<a href="login.jsp">Return to Login Page</a>
+
+
+<c:import url="siteNavBar.jsp" />
+<c:import url="siteSideBar.jsp" />
+
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    <h1 class="page-header">Login Failed - Please see your system administrator.</h1>
+
+    <a href="login.jsp">Return to login page</a>
+
+</div>
+</div>
+
+<!-- Bootstrap core JavaScript-->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
 </body>
 </html>
