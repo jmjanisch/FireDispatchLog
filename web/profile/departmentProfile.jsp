@@ -17,7 +17,6 @@
 
 <c:import url="contentDepartmentProfile.jsp" />
 
-<h1>DEPARTMENT NUMBER: ${departmentInfo.departmentName}</h1>
 
 </div>
 </div>
