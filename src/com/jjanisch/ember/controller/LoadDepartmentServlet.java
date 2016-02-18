@@ -44,7 +44,7 @@ public class LoadDepartmentServlet extends HttpServlet {
 
         request.setAttribute("departmentInfo", currentDepartment);
 
-        String url = "/departmentProfile.jsp";
+        String url = "/profile/departmentProfile.jsp";
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
 

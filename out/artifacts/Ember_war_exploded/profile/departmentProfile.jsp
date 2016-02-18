@@ -7,12 +7,12 @@
 <c:set var="pageTitle" value="Department Profile" scope="request" />
 
 
-<c:import url="siteHeader.jsp" />
+<c:import url="../siteHeader.jsp" />
 
 <body>
 
-<c:import url="siteNavBar.jsp" />
-<c:import url="siteSideBar.jsp" />
+<c:import url="../siteNavBar.jsp" />
+<c:import url="../siteSideBar.jsp" />
 
 
 <c:import url="contentDepartmentProfile.jsp" />
