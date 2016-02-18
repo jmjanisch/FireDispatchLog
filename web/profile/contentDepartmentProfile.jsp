@@ -68,8 +68,6 @@
                 <input type="text" class="form-control" id="contactEmail" name="contactEmail" value='${departmentInfo.contactEmail}' placeholder="Enter Email Address">
             </div>
 
-
-
         <div class="btn-toolbar" role="toolbar"> 
             <div class="btn-group"> 
                 <button type="submit" class="btn btn-success btn-lg">Update</button>

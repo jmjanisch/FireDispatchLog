@@ -99,9 +99,12 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
         Transaction dbTransaction = null;
         try {
             dbTransaction = session.beginTransaction();
+            System.out.println("Nfirs ID: " + department.getNfirsId());
+
             Department departmentUpdate = (Department)session.get(Department.class, department.getDepartmentId());
 
-            departmentUpdate.setNfirsId(department.getNfirsId());
+            System.out.println(departmentUpdate.toString());
+            //departmentUpdate.setNfirsId(department.getNfirsId());
             departmentUpdate.setDepartmentName(department.getDepartmentName());
             departmentUpdate.setDepartmentAddress(department.getDepartmentAddress());
             departmentUpdate.setCity(department.getDepartmentAddress());
