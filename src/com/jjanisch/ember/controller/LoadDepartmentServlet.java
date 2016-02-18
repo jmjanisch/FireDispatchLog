@@ -30,14 +30,11 @@ public class LoadDepartmentServlet extends HttpServlet {
 
     }
 
-
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         currentDepartment = new Department();
         DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
 
         String departmentNumber = properties.getProperty("departmentNumber");
-        System.out.println("Department Number Parse: " + departmentNumber);
 
         currentDepartment = dao.getDepartmentBy(departmentNumber);
 
