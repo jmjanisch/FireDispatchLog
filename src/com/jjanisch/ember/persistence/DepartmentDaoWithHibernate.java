@@ -99,7 +99,6 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
         Transaction dbTransaction = null;
         try {
             dbTransaction = session.beginTransaction();
-            System.out.println("Nfirs ID: " + department.getNfirsId());
 
             Department departmentUpdate = (Department)session.get(Department.class, department.getDepartmentId());
 
@@ -107,7 +106,7 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
             //departmentUpdate.setNfirsId(department.getNfirsId());
             departmentUpdate.setDepartmentName(department.getDepartmentName());
             departmentUpdate.setDepartmentAddress(department.getDepartmentAddress());
-            departmentUpdate.setCity(department.getDepartmentAddress());
+            departmentUpdate.setCity(department.getCity());
             departmentUpdate.setState(department.getState());
             departmentUpdate.setZipcode(department.getZipcode());
             departmentUpdate.setContactFirstName(department.getContactFirstName());
