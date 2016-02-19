@@ -22,10 +22,14 @@
                     <label class="control-label" for="deptState">State
                     <br>
                     </label>                                 
-                    <select id="deptState" class="form-control" name="deptState" value="${departmentInfo.state}">
-                        <option>WI</option>                                     
-                        <option>IL</option>                                     
-                        <option>MN</option>                                     
+                    <select id="deptState" class="form-control" name="deptState" value="${departmentInfo.state}" >
+                        <option value=""></option>
+                        <option value="IA">IA</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="WI">WI</option>
                     </select>
                 </div>
 

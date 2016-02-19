@@ -27,10 +27,10 @@ public class UpdateDepartmentServlet extends HttpServlet {
         // TO DO: Error Handling / Input Validation on departmentUpdate
 
         DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
-        Department department = new Department();
+        //Department department = new Department();
 
         // Find Department id using nfirs Id
-        department = dao.getDepartmentBy(request.getParameter("nfirsId"));
+        Department department = dao.getDepartmentBy(request.getParameter("nfirsId"));
         int departmentId = department.getDepartmentId();
         System.out.println("Department ID: " + departmentId);
 
