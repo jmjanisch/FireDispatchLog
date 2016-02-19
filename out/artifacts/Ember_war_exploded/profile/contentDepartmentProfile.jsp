@@ -36,7 +36,7 @@
 
                 <div class="form-group pull-right"> 
                     <label class="control-label" for="nfirsId">Department ID#</label>
-                    <input type="text" class="form-control" id="nfirsId" name="nfirsId" value='${departmentInfo.nfirsId}' placeholder="Department ID#" disabled>
+                    <input type="text" class="form-control" id="nfirsId" name="nfirsId" value='${departmentInfo.nfirsId}' placeholder="Department ID#" readonly="readonly">
                 </div>
             </div>
 
@@ -67,8 +67,6 @@
                 <label class="control-label" for="contactEmail">Email Address</label>
                 <input type="text" class="form-control" id="contactEmail" name="contactEmail" value='${departmentInfo.contactEmail}' placeholder="Enter Email Address">
             </div>
-
-
 
         <div class="btn-toolbar" role="toolbar"> 
             <div class="btn-group"> 

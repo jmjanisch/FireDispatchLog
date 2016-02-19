@@ -22,15 +22,20 @@ public class UpdateDepartmentServlet extends HttpServlet {
         //HttpSession session = request.getSession();
         //ServletContext context = getServletContext();
 
-        System.out.println("Department ID: " + request.getAttribute("departmentInfo").toString());
+
 
         // TO DO: Error Handling / Input Validation on departmentUpdate
 
         DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
+        Department department = new Department();
+
+        // Find Department id using nfirs Id
+        department = dao.getDepartmentBy(request.getParameter("nfirsId"));
+        int departmentId = department.getDepartmentId();
+        System.out.println("Department ID: " + departmentId);
 
         // New Department Parameters
-        Department department = new Department();
-        
+        department.setDepartmentId(departmentId);
         department.setNfirsId(Integer.parseInt(request.getParameter("nfirsId")));
         department.setDepartmentName(request.getParameter("deptName"));
         department.setDepartmentAddress(request.getParameter("deptAddress"));
@@ -39,7 +44,7 @@ public class UpdateDepartmentServlet extends HttpServlet {
         department.setZipcode(request.getParameter("deptZipCode"));
         department.setContactFirstName(request.getParameter("contactFirstName"));
         department.setContactLastName(request.getParameter("contactLastName"));
-        department.setPhoneNumber(request.getParameter("deptPhone"));
+        department.setPhoneNumber(request.getParameter("phoneNumber"));
         department.setContactEmail(request.getParameter("contactEmail"));
 
         dao.updateDepartment(department);
