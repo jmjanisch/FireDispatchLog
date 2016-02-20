@@ -74,12 +74,9 @@
 
         <div class="btn-toolbar" role="toolbar"> 
             <div class="btn-group"> 
-                <button type="submit" class="btn btn-success btn-lg">Update</button>
+                <button type="submit" class="btn btn-success btn-lg">Save Changes</button>
             </div>      
 
-            <div class="btn-group"> 
-                <button type="button" class="btn btn-danger btn-lg">Cancel</button>                             
-            </div>
 
             <div class="row placeholders">
                 <div class="col-xs-6 col-sm-3 placeholder"></div>
