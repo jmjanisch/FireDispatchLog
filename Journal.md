@@ -5,6 +5,15 @@
 [Project Plan] (ProjectPlan.md)
 
 ---
+### Week of 2/15/2016
+##### Hours working on JavaEE: 16.25
+
+* Updates/Reconfigure project database (2.0)
+* Apparatus & Staff JSP's (2.0)
+* Extracurricular Activity - Volunteer with FLL (10.0)
+* Make Presentation for Extracurricular activity (2.0)
+* Journal (0.25)
+
 ### Week of 2/8/2016
 ##### Hours working on JavaEE: 10.75
 
