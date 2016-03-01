@@ -5,6 +5,13 @@
 [Project Plan] (ProjectPlan.md)
 
 ---
+### Week of 2/22/2016
+##### Hours working on JavaEE: 2.25
+* Finish excercie 3 (1.0)
+* Play around with adding methods and getting temperature utility working. (0.5)
+* Brainstorm outline for group project (0.5)
+* Journal (0.25)
+
 ### Week of 2/15/2016
 ##### Hours working on JavaEE: 16.25
 
