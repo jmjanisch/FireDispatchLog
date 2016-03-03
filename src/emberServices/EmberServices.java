@@ -1,7 +1,4 @@
-package example;
-import com.sun.net.httpserver.HttpServer;
-//import com.sun.jersey.api.container.httpserver.HttpServerFactory;
-import java.io.IOException;
+package emberServices;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Produces;
@@ -11,8 +8,8 @@ import javax.ws.rs.Path;
  * Created by Justin Janisch on 3/3/2016.
  */
 // The Java class will be hosted at the URI path "/helloworld"
-@Path("/emberHelloWorld")
-public class HelloWorld {
+@Path("/Ember")
+public class EmberServices {
     // The Java method will process HTTP GET requests
     @GET
     // The Java method will produce content identified by the MIME Media type "text/plain"
