@@ -5,6 +5,12 @@
 [Project Plan] (ProjectPlan.md)
 
 ---
+### Week of 2/29/2016
+##### Hours working on JavaEE:
+* Build UI for group project (1.0)
+* Finish Activity 3 part 4 (1.0)
+* Implement Rest service (Activity 4) into personal project (1.5)
+
 ### Week of 2/22/2016
 ##### Hours working on JavaEE: 2.25
 * Finish excercie 3 (1.0)
