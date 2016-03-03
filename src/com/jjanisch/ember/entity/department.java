@@ -1,8 +1,11 @@
 package com.jjanisch.ember.entity;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * Created by Justin Janisch on 2/5/2016.
  */
+@XmlRootElement
 public class Department {
 
     private int departmentId;
