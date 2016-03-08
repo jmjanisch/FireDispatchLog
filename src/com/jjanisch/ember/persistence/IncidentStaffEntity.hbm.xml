@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.jjanisch.ember.persistence.IncidentStaffEntity" table="incident_staff" schema="emberims">
+        <id name="staffIncidentId">
+            <column name="staff_incident_id" sql-type="int(11)"/>
+        </id>
+        <property name="staffId">
+            <column name="staff_id" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="incidentId">
+            <column name="incident_id" sql-type="int(11)" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

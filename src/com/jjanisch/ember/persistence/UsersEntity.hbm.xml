@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.jjanisch.ember.persistence.UsersEntity" table="users" schema="emberims">
+        <id name="userName">
+            <column name="user_name" sql-type="varchar(15)" length="15"/>
+        </id>
+        <property name="userPass">
+            <column name="user_pass" sql-type="varchar(60)" length="60"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.jjanisch.ember.persistence.IncidentEntity" table="incident" schema="emberims">
+        <id name="incidentId">
+            <column name="incident_id" sql-type="int(11)"/>
+        </id>
+        <property name="date">
+            <column name="date" sql-type="date"/>
+        </property>
+        <property name="address">
+            <column name="address" sql-type="varchar(60)" length="60" not-null="true"/>
+        </property>
+        <property name="city">
+            <column name="city" sql-type="varchar(30)" length="30" not-null="true"/>
+        </property>
+        <property name="state">
+            <column name="state" sql-type="varchar(2)" length="2" not-null="true"/>
+        </property>
+        <property name="zipcode">
+            <column name="zipcode" sql-type="varchar(10)" length="10" not-null="true"/>
+        </property>
+        <property name="incidentTypeCode">
+            <column name="incident_type_code" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="propertyUseCode">
+            <column name="property_use_code" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="narritative">
+            <column name="narritative" sql-type="varchar(1000)" length="1000" not-null="true"/>
+        </property>
+        <property name="apparatusIncidentId">
+            <column name="apparatus_incident_id" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="staffIncidentId">
+            <column name="staff_incident_id" sql-type="int(11)" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
