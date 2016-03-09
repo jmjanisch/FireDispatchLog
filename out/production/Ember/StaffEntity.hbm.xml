@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.jjanisch.ember.entity.StaffEntity" table="staff" schema="emberims">
+        <id name="staffId">
+            <column name="staff_id" sql-type="int(11)"/>
+        </id>
+        <property name="fireNumber">
+            <column name="fire_number" sql-type="varchar(5)" length="5" not-null="true"/>
+        </property>
+        <property name="firstName">
+            <column name="first_name" sql-type="varchar(25)" length="25"/>
+        </property>
+        <property name="lastName">
+            <column name="last_name" sql-type="varchar(25)" length="25"/>
+        </property>
+        <property name="rank">
+            <column name="rank" sql-type="varchar(25)" length="25" not-null="true"/>
+        </property>
+        <property name="hireDate">
+            <column name="hire_date" sql-type="date" not-null="true"/>
+        </property>
+        <property name="termDate">
+            <column name="term_date" sql-type="date" not-null="true"/>
+        </property>
+        <property name="departmentId">
+            <column name="department_id" sql-type="int(8)"/>
+        </property>
+    </class>
+</hibernate-mapping>
