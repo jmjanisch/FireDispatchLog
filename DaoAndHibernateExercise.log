@@ -12763,3 +12763,8 @@ com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 's
 2016-03-09 10:41:34,086 0    [main] WARN  org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - HHH000342: Could not obtain connection to query metadata : Access denied for user ''@'localhost' (using password: NO)
 2016-03-09 10:41:34,990 904  [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1045, SQLState: 28000
 2016-03-09 10:41:34,990 904  [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Access denied for user ''@'localhost' (using password: NO)
+2016-03-09 12:45:16,073 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1452, SQLState: 23000
+2016-03-09 12:45:16,074 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Cannot add or update a child row: a foreign key constraint fails (`emberims`.`apparatus`, CONSTRAINT `fk_department_id` FOREIGN KEY (`department_id`) REFERENCES `department` (`department_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2016-03-09 12:45:16,078 5    [main] ERROR com.jjanisch.ember.persistence.ApparatusDaoWithHibernate  - org.hibernate.exception.ConstraintViolationException: could not execute statement
+2016-03-09 13:21:18,678 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1054, SQLState: 42S22
+2016-03-09 13:21:18,679 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Unknown column 'apparatus0_.id' in 'field list'
