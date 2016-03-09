@@ -4,7 +4,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.jjanisch.ember.persistence.IncidentStaffEntity" table="incident_staff" schema="emberims">
+    <class name="com.jjanisch.ember.entity.IncidentStaffEntity" table="incident_staff" schema="emberims">
         <id name="staffIncidentId">
             <column name="staff_incident_id" sql-type="int(11)"/>
         </id>

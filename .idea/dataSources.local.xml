@@ -7,5 +7,11 @@
       <schema-pattern>emberims.*</schema-pattern>
       <default-schemas>emberims.*</default-schemas>
     </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="0e5b844f-e0bb-43e3-b661-65dd9f40b7c0">
+      <user-name>root</user-name>
+      <user-password>dfd9dfdedfdfdfcedfcfdfc4dfde</user-password>
+      <schema-pattern>emberims.*</schema-pattern>
+      <default-schemas>emberims.*</default-schemas>
+    </data-source>
   </component>
 </project>

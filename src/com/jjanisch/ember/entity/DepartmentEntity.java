@@ -1,4 +1,4 @@
-package com.jjanisch.ember.persistence;
+package com.jjanisch.ember.entity;
 
 /**
  * Created by Justin Janisch on 3/8/2016.

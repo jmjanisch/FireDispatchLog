@@ -1,9 +1,9 @@
-package com.jjanisch.ember.persistence;
+package com.jjanisch.ember.entity;
 
 /**
  * Created by Justin Janisch on 3/8/2016.
  */
-public class IncidentTypeEntity {
+public class PropertyUseEntity {
     private int code;
     private String description;
 
@@ -28,7 +28,7 @@ public class IncidentTypeEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        IncidentTypeEntity that = (IncidentTypeEntity) o;
+        PropertyUseEntity that = (PropertyUseEntity) o;
 
         if (code != that.code) return false;
         if (description != null ? !description.equals(that.description) : that.description != null) return false;

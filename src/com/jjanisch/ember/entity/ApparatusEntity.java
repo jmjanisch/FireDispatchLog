@@ -1,4 +1,4 @@
-package com.jjanisch.ember.persistence;
+package com.jjanisch.ember.entity;
 
 import java.sql.Date;
 

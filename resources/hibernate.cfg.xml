@@ -7,22 +7,24 @@
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
         <property name="connection.url">jdbc:mysql://localhost:3306/EmberIMS</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">student</property>
 
         <mapping resource="Department.hbm.xml" />
         <mapping class="com.jjanisch.ember.entity.Department" />
 
         <mapping resource="Apparatus.hbm.xml" />
         <mapping class="com.jjanisch.ember.entity.Apparatus" />
-        <mapping resource="com/jjanisch/ember/persistence/DepartmentEntity.hbm.xml"/>
-        <mapping resource="com/jjanisch/ember/persistence/ApparatusEntity.hbm.xml"/>
-        <mapping resource="com/jjanisch/ember/persistence/IncidentTypeEntity.hbm.xml"/>
-        <mapping resource="com/jjanisch/ember/persistence/PropertyUseEntity.hbm.xml"/>
-        <mapping resource="com/jjanisch/ember/persistence/StaffEntity.hbm.xml"/>
-        <mapping resource="com/jjanisch/ember/persistence/UserRolesEntity.hbm.xml"/>
-        <mapping resource="com/jjanisch/ember/persistence/UsersEntity.hbm.xml"/>
-        <mapping resource="com/jjanisch/ember/persistence/ApparatusIncidentEntity.hbm.xml"/>
-        <mapping resource="com/jjanisch/ember/persistence/IncidentEntity.hbm.xml"/>
-        <mapping resource="com/jjanisch/ember/persistence/IncidentStaffEntity.hbm.xml"/>
+
+
+        <mapping resource="DepartmentEntity.hbm.xml"/>
+        <mapping resource="ApparatusEntity.hbm.xml"/>
+        <mapping resource="IncidentTypeEntity.hbm.xml"/>
+        <mapping resource="PropertyUseEntity.hbm.xml"/>
+        <mapping resource="StaffEntity.hbm.xml"/>
+        <mapping resource="ApparatusIncidentEntity.hbm.xml"/>
+        <mapping resource="IncidentEntity.hbm.xml"/>
+        <mapping resource="IncidentStaffEntity.hbm.xml"/>
 
 
     </session-factory>

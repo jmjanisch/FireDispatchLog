@@ -17,6 +17,16 @@
         <mapping class="com.jjanisch.ember.entity.Apparatus" />
 
 
+        <mapping resource="DepartmentEntity.hbm.xml"/>
+        <mapping resource="ApparatusEntity.hbm.xml"/>
+        <mapping resource="IncidentTypeEntity.hbm.xml"/>
+        <mapping resource="PropertyUseEntity.hbm.xml"/>
+        <mapping resource="StaffEntity.hbm.xml"/>
+        <mapping resource="ApparatusIncidentEntity.hbm.xml"/>
+        <mapping resource="IncidentEntity.hbm.xml"/>
+        <mapping resource="IncidentStaffEntity.hbm.xml"/>
+
+
     </session-factory>
 
 </hibernate-configuration>

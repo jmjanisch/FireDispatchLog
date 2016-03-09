@@ -1,11 +1,11 @@
-package com.jjanisch.ember.persistence;
+package com.jjanisch.ember.entity;
 
 /**
  * Created by Justin Janisch on 3/8/2016.
  */
-public class UserRolesEntity {
+public class UsersEntity {
     private String userName;
-    private String roleName;
+    private String userPass;
 
     public String getUserName() {
         return userName;
@@ -15,12 +15,12 @@ public class UserRolesEntity {
         this.userName = userName;
     }
 
-    public String getRoleName() {
-        return roleName;
+    public String getUserPass() {
+        return userPass;
     }
 
-    public void setRoleName(String roleName) {
-        this.roleName = roleName;
+    public void setUserPass(String userPass) {
+        this.userPass = userPass;
     }
 
     @Override
@@ -28,10 +28,10 @@ public class UserRolesEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        UserRolesEntity that = (UserRolesEntity) o;
+        UsersEntity that = (UsersEntity) o;
 
         if (userName != null ? !userName.equals(that.userName) : that.userName != null) return false;
-        if (roleName != null ? !roleName.equals(that.roleName) : that.roleName != null) return false;
+        if (userPass != null ? !userPass.equals(that.userPass) : that.userPass != null) return false;
 
         return true;
     }
@@ -39,7 +39,7 @@ public class UserRolesEntity {
     @Override
     public int hashCode() {
         int result = userName != null ? userName.hashCode() : 0;
-        result = 31 * result + (roleName != null ? roleName.hashCode() : 0);
+        result = 31 * result + (userPass != null ? userPass.hashCode() : 0);
         return result;
     }
 }
