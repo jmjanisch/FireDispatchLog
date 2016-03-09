@@ -6,10 +6,14 @@
 
 ---
 ### Week of 2/29/2016
-##### Hours working on JavaEE:
+##### Hours working on JavaEE: 8.75
 * Build UI for group project (1.0)
 * Finish Activity 3 part 4 (1.0)
 * Implement Rest service (Activity 4) into personal project (1.5)
+* Finish Database Structure and Set-up Foreign Key Relationships (1.5)
+* Add Entities to Project (0.5)
+* Troubleshoot DB Connection Issues (3.0)
+* Journal (0.25)
 
 ### Week of 2/22/2016
 ##### Hours working on JavaEE: 2.25
