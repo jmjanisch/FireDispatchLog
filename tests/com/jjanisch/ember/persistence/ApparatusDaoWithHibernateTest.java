@@ -4,7 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.jjanisch.ember.entity.Apparatus;
+import com.jjanisch.ember.entity.ApparatusEntity;
 import java.sql.Date;
 
 import javax.ejb.TransactionAttribute;
@@ -35,7 +35,7 @@ public class ApparatusDaoWithHibernateTest {
     public void testGetApparatusByDepartment() throws Exception {
         ApparatusDaoWithHibernate dao = new ApparatusDaoWithHibernate();
 
-        List<Apparatus> apparatuses = new ArrayList<Apparatus>();
+        List<ApparatusEntity> apparatuses = new ArrayList<ApparatusEntity>();
 
         apparatuses = dao.getApparatusByDepartment();
         System.out.println("Apparatus: " + apparatuses);
@@ -59,7 +59,7 @@ public class ApparatusDaoWithHibernateTest {
         Date inServiceDate = Date.valueOf("2010-11-01");
 
         //create apparatus to add
-        Apparatus apparatus = new Apparatus();
+        ApparatusEntity apparatus = new ApparatusEntity();
         apparatus.setDesignation("E4");
         apparatus.setType("Engine");
         apparatus.setMake("Pierce");

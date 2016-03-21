@@ -1,6 +1,6 @@
 package com.jjanisch.ember.persistence;
 
-import com.jjanisch.ember.entity.Apparatus;
+import com.jjanisch.ember.entity.ApparatusEntity;
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -15,20 +15,22 @@ public class ApparatusDaoWithHibernate {
     private org.apache.log4j.Logger log = Logger.getLogger(this.getClass());
 
 
-    public List<Apparatus> getApparatusByDepartment() {
+    public List<ApparatusEntity> getApparatusByDepartment() {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
-        List<Apparatus> departmentApparatus = new ArrayList<Apparatus>();
+        List<ApparatusEntity> departmentApparatus = new ArrayList<ApparatusEntity>();
         Transaction dbTransaction = null;
+        log.info("Status of departmentApparatus list: " + departmentApparatus);
 
         try {
             dbTransaction = session.beginTransaction();
-            List apparatusInDB = session.createQuery("FROM Apparatus").list();
+            List apparatusInDB = session.createQuery("FROM ApparatusEntity ").list();
+            log.info("Status of apparatusInDB list: " + departmentApparatus);
 
             for (Iterator iterator = apparatusInDB.iterator(); iterator.hasNext();) {
 
-                Apparatus apparatus = (Apparatus) iterator.next();
+                ApparatusEntity apparatus = (ApparatusEntity) iterator.next();
                 departmentApparatus.add(apparatus);
             }
 
@@ -51,19 +53,19 @@ public class ApparatusDaoWithHibernate {
     //}
 
 
-    public void updateApparatus(Apparatus apparatus) {
+    public void updateApparatus(ApparatusEntity apparatus) {
 
     }
 
 
-    public Boolean deleteApparatus(Apparatus apparatus) {
+    public Boolean deleteApparatus(ApparatusEntity apparatus) {
 
         return true;
 
     }
 
 
-    public int addApparatus(Apparatus apparatus) {
+    public int addApparatus(ApparatusEntity apparatus) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction dbTransaction = null;

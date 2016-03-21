@@ -6,6 +6,8 @@ import java.sql.Date;
  * Created by Justin Janisch on 3/8/2016.
  */
 public class ApparatusEntity {
+
+
     private int apparatusId;
     private String designation;
     private String type;
@@ -68,6 +70,19 @@ public class ApparatusEntity {
 
     public void setDepartmentId(Integer departmentId) {
         this.departmentId = departmentId;
+    }
+
+    @Override
+    public String toString() {
+        return "ApparatusEntity{" +
+                "apparatusId=" + apparatusId +
+                ", designation='" + designation + '\'' +
+                ", type='" + type + '\'' +
+                ", make='" + make + '\'' +
+                ", inServiceDate=" + inServiceDate +
+                ", waterCapacity=" + waterCapacity +
+                ", departmentId=" + departmentId +
+                '}';
     }
 
     @Override
