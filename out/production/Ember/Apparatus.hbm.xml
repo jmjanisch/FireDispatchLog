@@ -10,7 +10,7 @@
         </meta>
 
         <!--Add id for the key -->
-        <id name="id" type="int" column="id">
+        <id name="id" type="int" column="apparatus_id">
             <generator class="native"/>
         </id>
 

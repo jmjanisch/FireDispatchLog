@@ -6,7 +6,7 @@ import java.util.*;
  */
 public class Apparatus {
 
-    private int id;
+    private int apparatusId;
     private String designation;
     private String type;
     private String make;
@@ -18,8 +18,8 @@ public class Apparatus {
 
     }
 
-    public Apparatus(int id, String designation, String type, String make, Date inServiceDate, int waterCapacity, int departmentId) {
-        this.id = id;
+    public Apparatus(int apparatusId, String designation, String type, String make, Date inServiceDate, int waterCapacity, int departmentId) {
+        this.apparatusId = apparatusId;
         this.designation = designation;
         this.type = type;
         this.make = make;
@@ -29,11 +29,11 @@ public class Apparatus {
     }
 
     public int getId() {
-        return id;
+        return apparatusId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int apparatusId) {
+        this.apparatusId = apparatusId;
     }
 
     public String getDesignation() {
@@ -87,7 +87,7 @@ public class Apparatus {
     @Override
     public String toString() {
         return "Apparatus{" +
-                "id=" + id +
+                "apparatusId=" + apparatusId +
                 ", designation='" + designation + '\'' +
                 ", type='" + type + '\'' +
                 ", make='" + make + '\'' +

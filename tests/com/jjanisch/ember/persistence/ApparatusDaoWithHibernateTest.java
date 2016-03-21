@@ -38,7 +38,7 @@ public class ApparatusDaoWithHibernateTest {
         List<Apparatus> apparatuses = new ArrayList<Apparatus>();
 
         apparatuses = dao.getApparatusByDepartment();
-
+        System.out.println("Apparatus: " + apparatuses);
         assertTrue(apparatuses.size() > 0);
     }
 
@@ -56,15 +56,15 @@ public class ApparatusDaoWithHibernateTest {
     public void testAddApparatus() throws Exception {
         ApparatusDaoWithHibernate dao = new ApparatusDaoWithHibernate();
         int insertedApparatusId = 0;
-        Date inServiceDate = Date.valueOf("2005-01-01");
+        Date inServiceDate = Date.valueOf("2010-11-01");
 
         //create apparatus to add
         Apparatus apparatus = new Apparatus();
-        apparatus.setDesignation("E3");
+        apparatus.setDesignation("E4");
         apparatus.setType("Engine");
-        apparatus.setMake("Custom");
+        apparatus.setMake("Pierce");
         apparatus.setInServiceDate(inServiceDate);
-        apparatus.setWaterCapacity(900);
+        apparatus.setWaterCapacity(1000);
         apparatus.setDepartmentId(101);
 
         //department.setDepartmentId(0);
