@@ -5,6 +5,16 @@
 [Project Plan] (ProjectPlan.md)
 
 ---
+### Weeks of 3/7/2016 & 3/14/2016
+##### Hours working on JavaEE: 8.75
+
+* Code Review of Felicia & Tim's project (1.5)
+* Attend Madison Software Developers Meetup (1.5)
+* Create Presentation Report for Meetup (0.5)
+* Build Dao & Tests for Apparatus Entity (2.0)
+* Troubleshoot Test Errors (3.0)
+* Journal Entry (0.25)
+
 ### Week of 2/29/2016
 ##### Hours working on JavaEE: 8.75
 * Build UI for group project (1.0)
