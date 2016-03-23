@@ -102,7 +102,7 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
 
             Department departmentUpdate = (Department)session.get(Department.class, department.getDepartmentId());
 
-            System.out.println(departmentUpdate.toString());
+            log.info("Updating: " + departmentUpdate.toString());
             //departmentUpdate.setNfirsId(department.getNfirsId());
             departmentUpdate.setDepartmentName(department.getDepartmentName());
             departmentUpdate.setDepartmentAddress(department.getDepartmentAddress());

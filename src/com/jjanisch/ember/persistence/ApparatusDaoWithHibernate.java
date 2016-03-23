@@ -54,6 +54,32 @@ public class ApparatusDaoWithHibernate {
 
 
     public void updateApparatus(ApparatusEntity apparatus) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+
+        Transaction dbTransaction = null;
+        try {
+            dbTransaction = session.beginTransaction();
+
+            ApparatusEntity apparatusUpdate = (ApparatusEntity) session.get(ApparatusEntity.class, apparatus.getApparatusId());
+
+            log.info("Updating: " + apparatusUpdate.toString());
+
+            apparatusUpdate.setDesignation(apparatus.getDesignation());
+            apparatusUpdate.setType(apparatus.getType());
+            apparatusUpdate.setMake(apparatus.getMake());
+            apparatusUpdate.setInServiceDate(apparatus.getInServiceDate());
+            apparatusUpdate.setWaterCapacity(apparatus.getWaterCapacity());
+            apparatusUpdate.setDepartmentId(apparatus.getDepartmentId());
+
+            session.update(apparatusUpdate);
+            dbTransaction.commit();
+
+        } catch (HibernateException error) {
+            if (dbTransaction != null) dbTransaction.rollback();
+            error.printStackTrace();
+        } finally {
+            session.close();
+        }
 
     }
 
