@@ -48,9 +48,30 @@ public class ApparatusDaoWithHibernate {
         return departmentApparatus;
     }
 
-    //public Apparatus getApparatus(Integer id) {
+    public ApparatusEntity getApparatus(Integer id) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        List<ApparatusEntity> apparatuses = new ArrayList<ApparatusEntity>();
+        Transaction dbTransaction = null;
 
-    //}
+
+        String query = ("FROM Apparatus A WHERE A.id = " + id);
+
+        System.out.println("GetApparatusBy Query: " + query);
+
+        try {
+            dbTransaction = session.beginTransaction();
+            apparatuses = session.createQuery(query).list();
+            System.out.println("Apparatus Returned: " + apparatuses);
+
+        } catch (HibernateException error) {
+            if (dbTransaction!=null) dbTransaction.rollback();
+            error.printStackTrace();
+        } finally {
+            session.close();
+        }
+
+        return apparatuses.get(0);
+    }
 
 
     public void updateApparatus(ApparatusEntity apparatus) {
@@ -80,14 +101,28 @@ public class ApparatusDaoWithHibernate {
         } finally {
             session.close();
         }
-
     }
 
 
     public Boolean deleteApparatus(ApparatusEntity apparatus) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction dbTransaction = null;
+
+        try {
+            dbTransaction = session.beginTransaction();
+            ApparatusEntity apparatusToDelete = (ApparatusEntity) session.get(ApparatusEntity.class, apparatus.getApparatusId());
+            session.delete(apparatusToDelete);
+            dbTransaction.commit();
+
+        } catch (HibernateException error) {
+            if (dbTransaction != null) dbTransaction.rollback();
+            error.printStackTrace();
+            return false;
+        } finally {
+            session.close();
+        }
 
         return true;
-
     }
 
 
@@ -99,10 +134,10 @@ public class ApparatusDaoWithHibernate {
 
         try {
             dbTransaction = session.beginTransaction();
-            id = (Integer) session.save(apparatus);
+            id = (Integer)session.save(apparatus);
             dbTransaction.commit();
 
-            log.info("Added Apparatus: " + apparatus + " with id of: " + id);
+            System.out.println("Added Apparatus with id of: " + id);
 
         } catch (HibernateException error) {
             if (dbTransaction!=null) dbTransaction.rollback();
@@ -112,6 +147,4 @@ public class ApparatusDaoWithHibernate {
         }
         return id;
     }
-
-
 }

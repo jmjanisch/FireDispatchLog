@@ -160,7 +160,7 @@ public class DepartmentDaoWithHibernate implements DepartmentDao {
             id = (Integer) session.save(department);
             dbTransaction.commit();
 
-            log.info("Added Department: " + department + " with id of: " + id);
+            System.out.println("Added Department: " + department + " with id of: " + id);
 
         } catch (HibernateException error) {
             if (dbTransaction!=null) dbTransaction.rollback();

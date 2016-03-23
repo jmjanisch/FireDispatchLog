@@ -12787,3 +12787,47 @@ com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 's
 2016-03-21 14:05:19,520 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Unknown column 'apparatus0_.id' in 'field list'
 2016-03-21 14:16:40,268 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1054, SQLState: 42S22
 2016-03-21 14:16:40,270 2    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Unknown column 'apparatus0_.id' in 'field list'
+2016-03-23 10:49:46,062 1    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-03-23 10:49:46,070 9    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.2.Final}
+2016-03-23 10:49:46,072 11   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2016-03-23 10:49:46,074 13   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2016-03-23 10:49:46,088 27   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-03-23 10:49:46,089 28   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-03-23 10:49:46,157 96   [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Department.hbm.xml
+2016-03-23 10:49:46,277 216  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Apparatus.hbm.xml
+2016-03-23 10:49:46,309 248  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: DepartmentEntity.hbm.xml
+2016-03-23 10:49:46,337 276  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ApparatusEntity.hbm.xml
+2016-03-23 10:49:46,356 295  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: IncidentTypeEntity.hbm.xml
+2016-03-23 10:49:46,365 304  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: PropertyUseEntity.hbm.xml
+2016-03-23 10:49:46,373 312  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: StaffEntity.hbm.xml
+2016-03-23 10:49:46,384 323  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: ApparatusIncidentEntity.hbm.xml
+2016-03-23 10:49:46,392 331  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: IncidentEntity.hbm.xml
+2016-03-23 10:49:46,406 345  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: IncidentStaffEntity.hbm.xml
+2016-03-23 10:49:46,411 350  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2016-03-23 10:49:46,440 379  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-03-23 10:49:46,459 398  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20
+2016-03-23 10:49:46,459 398  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2016-03-23 10:49:46,459 398  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/EmberIMS]
+2016-03-23 10:49:46,460 399  [main] INFO  org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2016-03-23 10:49:46,895 834  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-03-23 10:49:46,972 911  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-03-23 10:49:46,977 916  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2016-03-23 10:49:47,975 1914 [main] INFO  com.jjanisch.ember.persistence.ApparatusDaoWithHibernate  - Added Apparatus: ApparatusEntity{apparatusId=0, designation='Test', type='TestApparatus', make='TestMake', inServiceDate=9999-12-31, waterCapacity=9999, departmentId=102} with id of: 0
+2016-03-23 11:13:36,660 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1364, SQLState: HY000
+2016-03-23 11:13:36,661 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Field 'department_id' doesn't have a default value
+2016-03-23 11:13:36,691 31   [main] ERROR com.jjanisch.ember.persistence.DepartmentDaoWithHibernate  - org.hibernate.exception.GenericJDBCException: could not execute statement
+2016-03-23 11:14:10,613 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1364, SQLState: HY000
+2016-03-23 11:14:10,614 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Field 'department_id' doesn't have a default value
+2016-03-23 11:14:10,617 4    [main] ERROR com.jjanisch.ember.persistence.DepartmentDaoWithHibernate  - org.hibernate.exception.GenericJDBCException: could not execute statement
+2016-03-23 11:17:17,452 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1364, SQLState: HY000
+2016-03-23 11:17:17,453 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Field 'department_id' doesn't have a default value
+2016-03-23 11:17:17,456 4    [main] ERROR com.jjanisch.ember.persistence.DepartmentDaoWithHibernate  - org.hibernate.exception.GenericJDBCException: could not execute statement
+2016-03-23 12:34:47,563 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1364, SQLState: HY000
+2016-03-23 12:34:47,564 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Field 'department_id' doesn't have a default value
+2016-03-23 12:34:47,566 3    [main] ERROR com.jjanisch.ember.persistence.DepartmentDaoWithHibernate  - org.hibernate.exception.GenericJDBCException: could not execute statement
+2016-03-23 12:38:44,923 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1364, SQLState: HY000
+2016-03-23 12:38:44,924 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Field 'department_id' doesn't have a default value
+2016-03-23 12:38:44,926 3    [main] ERROR com.jjanisch.ember.persistence.DepartmentDaoWithHibernate  - org.hibernate.exception.GenericJDBCException: could not execute statement
+2016-03-23 12:55:00,410 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+2016-03-23 12:55:00,411 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry '99999' for key 'department_id_UNIQUE'
+2016-03-23 12:55:00,416 6    [main] ERROR com.jjanisch.ember.persistence.DepartmentDaoWithHibernate  - org.hibernate.exception.ConstraintViolationException: could not execute statement

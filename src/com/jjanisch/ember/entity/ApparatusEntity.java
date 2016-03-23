@@ -7,7 +7,6 @@ import java.sql.Date;
  */
 public class ApparatusEntity {
 
-
     private int apparatusId;
     private String designation;
     private String type;
@@ -15,6 +14,22 @@ public class ApparatusEntity {
     private Date inServiceDate;
     private int waterCapacity;
     private Integer departmentId;
+
+
+
+    public ApparatusEntity() {
+    }
+
+    public ApparatusEntity(int apparatusId, String designation, String type, String make, Date inServiceDate, int waterCapacity, Integer departmentId) {
+        this.apparatusId = apparatusId;
+        this.designation = designation;
+        this.type = type;
+        this.make = make;
+        this.inServiceDate = inServiceDate;
+        this.waterCapacity = waterCapacity;
+        this.departmentId = departmentId;
+    }
+
 
     public int getApparatusId() {
         return apparatusId;
