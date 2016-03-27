@@ -5,9 +5,19 @@
 <hibernate-mapping>
 
     <class name="com.jjanisch.ember.entity.ApparatusEntity" table="apparatus" schema="emberims">
-        <id name="apparatusId">
+
+
+        <!--<id name="apparatusId">
             <column name="apparatus_id" sql-type="int(11)"/>
+        </id>-->
+
+
+        <!--Add id for the key -->
+        <id name="apparatusId" type="int" column="apparatus_id">
+            <generator class="native"/>
         </id>
+
+
         <property name="designation">
             <column name="designation" sql-type="varchar(10)" length="10"/>
         </property>
