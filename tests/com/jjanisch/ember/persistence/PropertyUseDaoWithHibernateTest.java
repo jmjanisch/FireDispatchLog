@@ -33,9 +33,7 @@ public class PropertyUseDaoWithHibernateTest {
 
         propertyUseCodes = dao.getPropertyUseCodes();
         log.info("Property Use Codes: " + propertyUseCodes);
-        for (PropertyUseEntity entity : propertyUseCodes) {
-            System.out.println("Property Use Codes: " + entity.toString());
-        }
+
         assertTrue(propertyUseCodes.size() > 0);
     }
 }
