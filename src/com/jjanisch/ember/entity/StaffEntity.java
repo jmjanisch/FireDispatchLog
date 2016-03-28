@@ -80,6 +80,20 @@ public class StaffEntity {
     }
 
     @Override
+    public String toString() {
+        return "StaffEntity{" +
+                "staffId=" + staffId +
+                ", fireNumber='" + fireNumber + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", rank='" + rank + '\'' +
+                ", hireDate=" + hireDate +
+                ", termDate=" + termDate +
+                ", departmentId=" + departmentId +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
