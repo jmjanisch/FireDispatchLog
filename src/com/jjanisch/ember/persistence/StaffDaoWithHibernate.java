@@ -14,7 +14,7 @@ import java.util.*;
 public class StaffDaoWithHibernate {
     private org.apache.log4j.Logger log = Logger.getLogger(this.getClass());
 
-    public List<StaffEntity> getStaffByDepartment() {
+    public List<StaffEntity> getAllStaff() {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 

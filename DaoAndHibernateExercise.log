@@ -12831,3 +12831,6 @@ com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 's
 2016-03-23 12:55:00,410 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
 2016-03-23 12:55:00,411 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry '99999' for key 'department_id_UNIQUE'
 2016-03-23 12:55:00,416 6    [main] ERROR com.jjanisch.ember.persistence.DepartmentDaoWithHibernate  - org.hibernate.exception.ConstraintViolationException: could not execute statement
+2016-03-28 18:11:55,961 0    [main] ERROR com.jjanisch.ember.persistence.StaffDaoWithHibernate  - org.hibernate.PropertyValueException: not-null property references a null or transient value: com.jjanisch.ember.entity.StaffEntity.termDate
+2016-03-28 18:31:29,566 0    [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1054, SQLState: 42S22
+2016-03-28 18:31:29,567 1    [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Unknown column 'staffentit0_.staffId' in 'field list'

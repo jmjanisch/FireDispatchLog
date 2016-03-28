@@ -1,22 +1,8 @@
 package com.jjanisch.ember.persistence;
 
-import org.junit.Before;
 import org.junit.Test;
-
 import com.jjanisch.ember.entity.Department;
-import org.junit.Test;
-
-import javax.ejb.TransactionAttribute;
 import java.util.*;
-import java.util.List;
-
-import static org.junit.Assert.*;
-
-
-
-
-
-
 import static org.junit.Assert.*;
 
 /**

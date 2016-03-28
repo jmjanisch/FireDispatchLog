@@ -7,8 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a57136-1312-4cb0-b093-4fefe5e26a4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jjanisch/ember/entity/StaffEntity.java" afterPath="$PROJECT_DIR$/src/com/jjanisch/ember/entity/StaffEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernateTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java" afterPath="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DaoAndHibernateExercise.log" afterPath="$PROJECT_DIR$/DaoAndHibernateExercise.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/StaffEntity.hbm.xml" afterPath="$PROJECT_DIR$/resources/StaffEntity.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java" afterPath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java" />
     </list>
     <ignored path="EmberIMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,11 +58,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DepartmentDaoWithHibernateTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ApparatusDaoWithHibernate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffDaoWithHibernate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffDaoWithHibernateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8649469">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffEntity.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/StaffEntity.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.586207">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,31 +118,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StaffEntity.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/StaffEntity.hbm.xml">
+      <file leaf-file-name="ApparatusEntity.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/ApparatusEntity.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.344828">
+              <caret line="15" column="63" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StaffDaoWithHibernate.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.097117">
-              <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertyUseDaoWithHibernate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/PropertyUseDaoWithHibernate.java">
+      <file leaf-file-name="ApparatusDaoWithHibernateTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <caret line="95" column="56" selection-start-line="94" selection-start-column="8" selection-end-line="95" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -112,8 +146,8 @@
         <option value="Interface" />
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -128,9 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../FatBikeTrailReports/src/com/paulawaite/fbtr/persistence/UserDaoWithHibernate.java" />
-        <option value="$PROJECT_DIR$/../FatBikeTrailReports/src/com/paulawaite/fbtr/persistence/Database.java" />
-        <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/SessionFactoryProvider.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDao.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/LoadDepartmentServlet.java" />
         <option value="$PROJECT_DIR$/web/departmentProfile.jsp" />
@@ -168,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/ApparatusEntity.java" />
-        <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java" />
         <option value="$PROJECT_DIR$/resources/ApparatusEntity.hbm.xml" />
         <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/PropertyUseEntity.java" />
@@ -179,6 +209,10 @@
         <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/IncidentTypeDaoWithHibernateTest.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/StaffEntity.java" />
         <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java" />
+        <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java" />
+        <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernateTest.java" />
+        <option value="$PROJECT_DIR$/resources/StaffEntity.hbm.xml" />
       </list>
     </option>
   </component>
@@ -471,116 +505,13 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\Documents\JavaEE\Ember\src\com\jjanisch\ember\persistence" />
       <recent name="C:\Users\Student\Documents\JavaEE\Ember\resources" />
       <recent name="C:\Users\Student\Documents\JavaEE\Ember\src\com\jjanisch\ember\entity" />
       <recent name="C:\Users\Student\Documents\JavaEE\Ember\web" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IncidentTypeDaoWithHibernateTest.testGetIncidentType">
-    <configuration default="false" name="ApparatusDaoWithHibernateTest.testAddApparatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Ember" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
-      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.ApparatusDaoWithHibernateTest" />
-      <option name="METHOD_NAME" value="testAddApparatus" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PropertyUseDaoWithHibernateTest.testGetPropertyUseCodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Ember" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
-      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.PropertyUseDaoWithHibernateTest" />
-      <option name="METHOD_NAME" value="testGetPropertyUseCodes" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PropertyUseDaoWithHibernateTest.testGetPropertyUse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Ember" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
-      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.PropertyUseDaoWithHibernateTest" />
-      <option name="METHOD_NAME" value="testGetPropertyUse" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="IncidentTypeDaoWithHibernateTest.testGetAllIncidentTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Ember" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
-      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.IncidentTypeDaoWithHibernateTest" />
-      <option name="METHOD_NAME" value="testGetAllIncidentTypes" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.StaffDaoWithHibernateTest.testUpdateStaff">
     <configuration default="false" name="IncidentTypeDaoWithHibernateTest.testGetIncidentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -594,6 +525,110 @@
       <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
       <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.IncidentTypeDaoWithHibernateTest" />
       <option name="METHOD_NAME" value="testGetIncidentType" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StaffDaoWithHibernateTest.testGetAllStaff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Ember" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.StaffDaoWithHibernateTest" />
+      <option name="METHOD_NAME" value="testGetAllStaff" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StaffDaoWithHibernateTest.testGetStaffById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Ember" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.StaffDaoWithHibernateTest" />
+      <option name="METHOD_NAME" value="testGetStaffById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StaffDaoWithHibernateTest.testAddStaff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Ember" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.StaffDaoWithHibernateTest" />
+      <option name="METHOD_NAME" value="testAddStaff" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StaffDaoWithHibernateTest.testUpdateStaff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jjanisch.ember.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Ember" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jjanisch.ember.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.jjanisch.ember.persistence.StaffDaoWithHibernateTest" />
+      <option name="METHOD_NAME" value="testUpdateStaff" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1186,19 +1221,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="TomEE Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="TomEE Server.TomEE 7.0.63" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ApparatusDaoWithHibernateTest.testAddApparatus" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PropertyUseDaoWithHibernateTest.testGetPropertyUseCodes" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PropertyUseDaoWithHibernateTest.testGetPropertyUse" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.IncidentTypeDaoWithHibernateTest.testGetAllIncidentTypes" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.IncidentTypeDaoWithHibernateTest.testGetIncidentType" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IncidentTypeDaoWithHibernateTest.testGetIncidentType" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StaffDaoWithHibernateTest.testGetAllStaff" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StaffDaoWithHibernateTest.testGetStaffById" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.StaffDaoWithHibernateTest.testAddStaff" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.StaffDaoWithHibernateTest.testUpdateStaff" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IncidentTypeDaoWithHibernateTest.testGetIncidentType" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IncidentTypeDaoWithHibernateTest.testGetAllIncidentTypes" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PropertyUseDaoWithHibernateTest.testGetPropertyUse" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PropertyUseDaoWithHibernateTest.testGetPropertyUseCodes" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ApparatusDaoWithHibernateTest.testAddApparatus" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StaffDaoWithHibernateTest.testUpdateStaff" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StaffDaoWithHibernateTest.testAddStaff" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StaffDaoWithHibernateTest.testGetStaffById" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StaffDaoWithHibernateTest.testGetAllStaff" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.IncidentTypeDaoWithHibernateTest.testGetIncidentType" />
       </list>
     </recent_temporary>
   </component>
@@ -1242,51 +1277,60 @@
       <workItem from="1458779871599" duration="435000" />
       <workItem from="1458919427556" duration="239000" />
       <workItem from="1459003967924" duration="7615000" />
-      <workItem from="1459118861244" duration="9243000" />
+      <workItem from="1459118861244" duration="15067000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IncidentTypeDaoWithHibernateTest_testGetAllIncidentTypes - 2016.03.28 at 15h 06m 25s.xml">
-      <configuration name="IncidentTypeDaoWithHibernateTest.testGetAllIncidentTypes" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testAddStaff - 2016.03.28 at 18h 11m 56s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testAddStaff" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncidentTypeDaoWithHibernateTest_testGetIncidentType - 2016.03.28 at 15h 14m 22s.xml">
-      <configuration name="IncidentTypeDaoWithHibernateTest.testGetIncidentType" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testAddStaff - 2016.03.28 at 18h 17m 01s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testAddStaff" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertyUseDaoWithHibernateTest_testGetPropertyUse - 2016.03.27 at 19h 33m 11s.xml">
-      <configuration name="PropertyUseDaoWithHibernateTest.testGetPropertyUse" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testAddStaff - 2016.03.28 at 18h 24m 50s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testAddStaff" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertyUseDaoWithHibernateTest_testGetPropertyUse - 2016.03.27 at 19h 33m 58s.xml">
-      <configuration name="PropertyUseDaoWithHibernateTest.testGetPropertyUse" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testGetStaffById - 2016.03.28 at 17h 51m 14s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testGetStaffById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertyUseDaoWithHibernateTest_testGetPropertyUseCodes - 2016.03.27 at 19h 14m 03s.xml">
-      <configuration name="PropertyUseDaoWithHibernateTest.testGetPropertyUseCodes" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testGetStaffById - 2016.03.28 at 17h 52m 25s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testGetStaffById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertyUseDaoWithHibernateTest_testGetPropertyUseCodes - 2016.03.27 at 19h 15m 42s.xml">
-      <configuration name="PropertyUseDaoWithHibernateTest.testGetPropertyUseCodes" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testGetStaffById - 2016.03.28 at 17h 53m 02s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testGetStaffById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertyUseDaoWithHibernateTest_testGetPropertyUseCodes - 2016.03.27 at 19h 16m 01s.xml">
-      <configuration name="PropertyUseDaoWithHibernateTest.testGetPropertyUseCodes" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testGetStaffById - 2016.03.28 at 17h 53m 21s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testGetStaffById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertyUseDaoWithHibernateTest_testGetPropertyUseCodes - 2016.03.27 at 19h 18m 59s.xml">
-      <configuration name="PropertyUseDaoWithHibernateTest.testGetPropertyUseCodes" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testGetStaffById - 2016.03.28 at 17h 54m 06s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testGetStaffById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertyUseDaoWithHibernateTest_testGetPropertyUseCodes - 2016.03.27 at 19h 20m 33s.xml">
-      <configuration name="PropertyUseDaoWithHibernateTest.testGetPropertyUseCodes" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testUpdateStaff - 2016.03.28 at 18h 31m 29s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testUpdateStaff" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertyUseDaoWithHibernateTest_testGetPropertyUseCodes - 2016.03.27 at 19h 21m 39s.xml">
-      <configuration name="PropertyUseDaoWithHibernateTest.testGetPropertyUseCodes" configurationId="JUnit" />
+    <history-entry file="StaffDaoWithHibernateTest_testUpdateStaff - 2016.03.28 at 18h 38m 37s.xml">
+      <configuration name="StaffDaoWithHibernateTest.testUpdateStaff" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181411000" />
+    <option name="totallyTimeSpent" value="187235000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1295,7 +1339,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45389506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45389506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21025437" sideWeight="0.6343402" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1303,6 +1347,7 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21025437" sideWeight="0.6248013" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16931638" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18600954" sideWeight="0.17885533" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1313,7 +1358,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1321,7 +1365,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1331,13 +1375,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.354531" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45419848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45389506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21025437" sideWeight="0.6343402" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14705883" sideWeight="0.8211447" order="0" side_tool="true" content_ui="combo" />
@@ -1369,13 +1413,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/siteNavBar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6596306">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/controller/UpdateDepartmentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1587,14 +1624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/ApparatusEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25925925">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7681756">
@@ -1615,14 +1644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="35" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1683,14 +1704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/IncidentTypeEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1723,34 +1736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/PropertyUseDaoWithHibernateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21092564">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/StaffEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/StaffEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1763,10 +1752,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/DepartmentDaoWithHibernateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.097117">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="56" selection-start-line="94" selection-start-column="8" selection-end-line="95" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/StaffEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ApparatusEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.344828">
+          <caret line="15" column="63" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/StaffEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.586207">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8649469">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
