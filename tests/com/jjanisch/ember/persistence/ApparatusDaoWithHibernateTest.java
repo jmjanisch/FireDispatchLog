@@ -10,7 +10,6 @@ import org.apache.log4j.Logger;
 
 import javax.ejb.TransactionAttribute;
 import java.util.*;
-import java.util.List;
 import java.util.function.BooleanSupplier;
 
 import static org.junit.Assert.*;
