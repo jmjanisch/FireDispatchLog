@@ -53,7 +53,26 @@ public class StaffDaoWithHibernateTest {
 
     @Test
     public void testDeleteStaff() throws Exception {
+        StaffDaoWithHibernate dao = new StaffDaoWithHibernate();
+        int insertedStaffId = 0;
+        Date hireDate = Date.valueOf("9999-12-31");
+        StaffEntity testStaffMember = new StaffEntity();
 
+        testStaffMember.setFireNumber("00");
+        testStaffMember.setFirstName("FirstName");
+        testStaffMember.setLastName("LastName");
+        testStaffMember.setRank("Rank");
+        testStaffMember.setHireDate(hireDate);
+        testStaffMember.setDepartmentId(101);
+
+        insertedStaffId = dao.addStaff(testStaffMember);
+
+        // Verify Staff Member was added to Database
+        assertTrue(insertedStaffId > 0);
+
+        // Delete Staff Member
+        Boolean wasStaffMemberRemoved = dao.deleteStaff(testStaffMember);
+        assertTrue(wasStaffMemberRemoved);
     }
 
     @Test
