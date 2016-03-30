@@ -5,6 +5,20 @@
 [Project Plan] (ProjectPlan.md)
 
 ---
+### Week of 3/21/2016
+##### Hours working on JavaEE: 24.0
+
+* Setup Group Project in IntelliJ (0.5)
+* Configure Log4J, Hibernate, Jersey, and JUnit for group project (8.0)
+* Build initial webservice for group project (1.0)
+* Research on consuming Json in a webservice (6.0)
+* Build Database structure in mySql for group project (0.5)
+* Bulid Hibernate Entities, Config Files, DAO, and Tests for group project (4.0)
+* Finish DAO's for IncidentType, PropertyUse, and Staff for Personal Project (1.5)
+* Test Code for 3 DAO's (1.5) 
+* Research on Many-to-Many relationship setup in Hibernate (1.0)
+* Journal (0.25)
+
 ### Weeks of 3/7/2016 & 3/14/2016
 ##### Hours working on JavaEE: 8.75
 
