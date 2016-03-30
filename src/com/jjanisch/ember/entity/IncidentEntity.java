@@ -1,6 +1,7 @@
 package com.jjanisch.ember.entity;
 
 import java.sql.Date;
+import java.util.*;
 
 /**
  * Created by Justin Janisch on 3/8/2016.
@@ -15,8 +16,29 @@ public class IncidentEntity {
     private Integer incidentTypeCode;
     private Integer propertyUseCode;
     private String narritative;
-    private Integer apparatusIncidentId;
-    private Integer staffIncidentId;
+
+    private Set<ApparatusEntity> apparatus = new HashSet<ApparatusEntity>(0);
+    private Set<StaffEntity> staff = new HashSet<StaffEntity>(0);
+    //private Integer apparatusIncidentId;
+    //private Integer staffIncidentId;
+
+    public IncidentEntity() {
+
+    }
+
+    public IncidentEntity(int incidentId, Date date, String address, String city, String state, String zipcode, Integer incidentTypeCode, Integer propertyUseCode, String narritative, Set<ApparatusEntity> apparatus, Set<StaffEntity> staff) {
+        this.incidentId = incidentId;
+        this.date = date;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.zipcode = zipcode;
+        this.incidentTypeCode = incidentTypeCode;
+        this.propertyUseCode = propertyUseCode;
+        this.narritative = narritative;
+        this.apparatus = apparatus;
+        this.staff = staff;
+    }
 
     public int getIncidentId() {
         return incidentId;
@@ -90,22 +112,40 @@ public class IncidentEntity {
         this.narritative = narritative;
     }
 
-    public Integer getApparatusIncidentId() {
-        return apparatusIncidentId;
+    public Set<ApparatusEntity> getApparatus() {
+        return apparatus;
     }
 
-    public void setApparatusIncidentId(Integer apparatusIncidentId) {
-        this.apparatusIncidentId = apparatusIncidentId;
+    public void setApparatus(Set<ApparatusEntity> apparatus) {
+        this.apparatus = apparatus;
     }
 
-    public Integer getStaffIncidentId() {
-        return staffIncidentId;
+    public Set<StaffEntity> getStaff() {
+        return staff;
     }
 
-    public void setStaffIncidentId(Integer staffIncidentId) {
-        this.staffIncidentId = staffIncidentId;
+    public void setStaff(Set<StaffEntity> staff) {
+        this.staff = staff;
     }
 
+    @Override
+    public String toString() {
+        return "IncidentEntity{" +
+                "incidentId=" + incidentId +
+                ", date=" + date +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zipcode='" + zipcode + '\'' +
+                ", incidentTypeCode=" + incidentTypeCode +
+                ", propertyUseCode=" + propertyUseCode +
+                ", narritative='" + narritative + '\'' +
+                ", apparatus=" + apparatus +
+                ", staff=" + staff +
+                '}';
+    }
+
+    /*
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -147,4 +187,5 @@ public class IncidentEntity {
         result = 31 * result + (staffIncidentId != null ? staffIncidentId.hashCode() : 0);
         return result;
     }
+    */
 }
