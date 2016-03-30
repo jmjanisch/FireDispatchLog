@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a57136-1312-4cb0-b093-4fefe5e26a4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/IncidentDaoWithHibernate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java" afterPath="$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/IncidentEntity.hbm.xml" afterPath="$PROJECT_DIR$/resources/IncidentEntity.hbm.xml" />
     </list>
     <ignored path="EmberIMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +53,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IncidentEntity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IncidentEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
+            <state vertical-scroll-proportion="0.0">
               <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncidentEntity.hbm.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/IncidentEntity.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65029144">
+              <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -89,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jjanisch/ember/LoadDepartmentServlet.java" />
         <option value="$PROJECT_DIR$/web/departmentProfile.jsp" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/Staff.java" />
         <option value="$PROJECT_DIR$/resources/Department.hbm.xml" />
@@ -140,6 +147,7 @@
         <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernateTest.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/IncidentDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java" />
+        <option value="$PROJECT_DIR$/resources/IncidentEntity.hbm.xml" />
       </list>
     </option>
   </component>
@@ -1205,7 +1213,7 @@
       <workItem from="1458919427556" duration="239000" />
       <workItem from="1459003967924" duration="7615000" />
       <workItem from="1459118861244" duration="17172000" />
-      <workItem from="1459292606386" duration="2262000" />
+      <workItem from="1459292606386" duration="3917000" />
     </task>
     <servers />
   </component>
@@ -1242,7 +1250,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191602000" />
+    <option name="totallyTimeSpent" value="193257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1254,7 +1262,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1461,14 +1469,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/ApparatusIncidentEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/IncidentEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1709,8 +1709,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
+        <state vertical-scroll-proportion="0.0">
           <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/IncidentEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65029144">
+          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
           <folding />
         </state>
       </provider>
