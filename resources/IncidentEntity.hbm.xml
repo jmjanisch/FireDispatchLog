@@ -35,7 +35,7 @@
         </property>
 
 
-        <set name="apparatus" table="apparatus_incident" inverse="false" lazy="true" fetch="select" cascade="all">
+        <set name="apparatus" table="apparatus_incident" inverse="false" lazy="false" fetch="select" cascade="all">
             <key>
                 <column name="incident_id" not-null="true" />
             </key>
@@ -45,7 +45,7 @@
             </many-to-many>
         </set>
 
-        <set name="staff" table="incident_staff" inverse="false" lazy="true" fetch="select" cascade="all">
+        <set name="staff" table="incident_staff" inverse="false" lazy="false" fetch="select" cascade="all">
             <key>
                 <column name="incident_id" not-null="true" />
             </key>

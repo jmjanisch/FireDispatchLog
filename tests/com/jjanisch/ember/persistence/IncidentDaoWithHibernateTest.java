@@ -20,6 +20,18 @@ public class IncidentDaoWithHibernateTest {
     private org.apache.log4j.Logger log = Logger.getLogger(this.getClass());
 
     @Test
+    public void testGetAllIncidents() throws Exception {
+        IncidentDaoWithHibernate dao = new IncidentDaoWithHibernate();
+        List<IncidentEntity> allIncidents = new ArrayList<IncidentEntity>();
+
+        allIncidents = dao.getAllIncidents();
+
+        System.out.println("All Incidents: " + allIncidents);
+
+    }
+
+
+    @Test
     public void testAddIncident() throws Exception {
         IncidentDaoWithHibernate incidentDao = new IncidentDaoWithHibernate();
         ApparatusDaoWithHibernate apparatusDao = new ApparatusDaoWithHibernate();
