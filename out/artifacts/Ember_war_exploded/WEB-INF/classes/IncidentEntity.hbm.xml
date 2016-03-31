@@ -5,8 +5,8 @@
 <hibernate-mapping>
 
     <class name="com.jjanisch.ember.entity.IncidentEntity" table="incident" schema="emberims">
-        <id name="incidentId">
-            <column name="incident_id" sql-type="int(11)"/>
+        <id name="incidentId" type="int" column="incident_id">
+            <generator class="native" />
         </id>
 
         <property name="date">
@@ -35,9 +35,9 @@
         </property>
 
 
-        <set name="apparatus" table="apparatus_incident" inverse="false" lazy="true" fetch="select" cascade="all">
+        <set name="apparatus" table="apparatus_incident" inverse="false" lazy="false" fetch="select" cascade="all">
             <key>
-                <column name="INCIDENT_ID" not-null="true" />
+                <column name="incident_id" not-null="true" />
             </key>
 
             <many-to-many entity-name="com.jjanisch.ember.entity.ApparatusEntity" >
@@ -45,7 +45,7 @@
             </many-to-many>
         </set>
 
-        <set name="staff" table="incident_staff" inverse="false" lazy="true" fetch="select" cascade="all">
+        <set name="staff" table="incident_staff" inverse="false" lazy="false" fetch="select" cascade="all">
             <key>
                 <column name="incident_id" not-null="true" />
             </key>

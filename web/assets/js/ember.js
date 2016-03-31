@@ -1,8 +1,14 @@
-function highlightButton() {
+(function($) {
+	$(document).ready(function() {
+	// Ember JQuery functions
 
-	var btnDepartment = document.getElementById("bntDepartment");
-	var btnReport = document.getElementById("btnReport");
+		$(document).ready(function() {
+			$("a").on("click", function () {
+				$("a").find(".active").removeClass("active");
+				$(this).parent().addClass("active");
+			});
+		});
 
-	btnReport.className = "active";
-	
-}
+
+	})
+})(jQuery)

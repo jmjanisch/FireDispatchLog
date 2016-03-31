@@ -6,7 +6,7 @@
                 <li><a href="#">Create Incident</a></li>
                 <li><a href="#">Personnel</a></li>
                 <li id="btnReport"><a href="#">Reports</a></li>
-                <li id="btnDepartment"><a href="/loadDepartmentInfo" onclick="highlightButton();">Department Profile</a></li>
+                <li id="btnDepartment"><a href="/loadDepartmentInfo">Department Profile</a></li>
                 <li><a href="#">Export File</a></li>
             </ul>
         </div>
