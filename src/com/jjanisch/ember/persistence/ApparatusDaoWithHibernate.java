@@ -54,7 +54,7 @@ public class ApparatusDaoWithHibernate {
         Transaction dbTransaction = null;
 
 
-        String query = ("FROM Apparatus A WHERE A.id = " + id);
+        String query = ("FROM ApparatusEntity A WHERE A.apparatusId = " + id);
 
         System.out.println("GetApparatusBy Query: " + query);
 

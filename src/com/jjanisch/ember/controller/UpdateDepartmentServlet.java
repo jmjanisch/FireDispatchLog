@@ -22,8 +22,6 @@ public class UpdateDepartmentServlet extends HttpServlet {
         //HttpSession session = request.getSession();
         //ServletContext context = getServletContext();
 
-
-
         // TO DO: Error Handling / Input Validation on departmentUpdate
 
         DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();

@@ -8,6 +8,7 @@
         <id name="incidentId">
             <column name="incident_id" sql-type="int(11)"/>
         </id>
+
         <property name="date">
             <column name="date" sql-type="date"/>
         </property>
@@ -32,11 +33,36 @@
         <property name="narritative">
             <column name="narritative" sql-type="varchar(1000)" length="1000" not-null="true"/>
         </property>
-        <property name="apparatusIncidentId">
+
+
+        <set name="apparatus" table="apparatus_incident" inverse="false" lazy="true" fetch="select" cascade="all">
+            <key>
+                <column name="INCIDENT_ID" not-null="true" />
+            </key>
+
+            <many-to-many entity-name="com.jjanisch.ember.entity.ApparatusEntity" >
+                <column name="apparatus_id" not-null="true" />
+            </many-to-many>
+        </set>
+
+        <set name="staff" table="incident_staff" inverse="false" lazy="true" fetch="select" cascade="all">
+            <key>
+                <column name="incident_id" not-null="true" />
+            </key>
+
+            <many-to-many entity-name="com.jjanisch.ember.entity.StaffEntity" >
+                <column name="staff_id" not-null="true" />
+            </many-to-many>
+        </set>
+        <!--<property name="apparatusIncidentId">
             <column name="apparatus_incident_id" sql-type="int(11)" not-null="true"/>
         </property>
         <property name="staffIncidentId">
             <column name="staff_incident_id" sql-type="int(11)" not-null="true"/>
-        </property>
+        </property>-->
+
+
+
+
     </class>
 </hibernate-mapping>

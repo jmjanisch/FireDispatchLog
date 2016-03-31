@@ -23,7 +23,6 @@
                     <br>
                     </label>                                 
                     <select id="deptState" class="form-control" name="deptState" value="${departmentInfo.state}" >
-                        <option value=""></option>
                         <option value="IA">IA</option>
                         <option value="IL">IL</option>
                         <option value="IN">IN</option>
