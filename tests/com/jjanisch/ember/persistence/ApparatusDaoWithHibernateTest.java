@@ -7,10 +7,8 @@ import org.junit.Test;
 import com.jjanisch.ember.entity.ApparatusEntity;
 import java.sql.Date;
 import org.apache.log4j.Logger;
-
-import javax.ejb.TransactionAttribute;
 import java.util.*;
-import java.util.function.BooleanSupplier;
+
 
 import static org.junit.Assert.*;
 

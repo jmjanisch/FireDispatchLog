@@ -7,8 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a57136-1312-4cb0-b093-4fefe5e26a4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/resources/hibernate.cfg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/IncidentDaoWithHibernateTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/IncidentEntity.hbm.xml" afterPath="$PROJECT_DIR$/resources/IncidentEntity.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/IncidentDaoWithHibernate.java" afterPath="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/IncidentDaoWithHibernate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java" afterPath="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java" />
     </list>
     <ignored path="EmberIMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,21 +56,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApparatusDaoWithHibernate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java">
+      <file leaf-file-name="IncidentEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="76" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="76" />
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IncidentDaoWithHibernate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IncidentEntity.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/IncidentEntity.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-32.310345">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApparatusDaoWithHibernate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncidentDaoWithHibernate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/IncidentDaoWithHibernate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71428573">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncidentDaoWithHibernateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/IncidentDaoWithHibernateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6666667">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApparatusDaoWithHibernateTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -82,8 +124,8 @@
         <option value="Interface" />
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -98,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/departmentProfile.jsp" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/Staff.java" />
         <option value="$PROJECT_DIR$/resources/Department.hbm.xml" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithSql.java" />
@@ -129,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/DepartmentDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/ApparatusEntity.java" />
         <option value="$PROJECT_DIR$/resources/ApparatusEntity.hbm.xml" />
-        <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/PropertyUseEntity.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/PropertyUseDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/IncidentTypeDaoWithHibernate.java" />
@@ -142,13 +182,15 @@
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/StaffDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/resources/StaffEntity.hbm.xml" />
         <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/StaffDaoWithHibernateTest.java" />
-        <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java" />
-        <option value="$PROJECT_DIR$/resources/IncidentEntity.hbm.xml" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/web/profile/contentDepartmentProfile.jsp" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/controller/UpdateDepartmentServlet.java" />
         <option value="$PROJECT_DIR$/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java" />
+        <option value="$PROJECT_DIR$/resources/IncidentEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java" />
         <option value="$PROJECT_DIR$/src/com/jjanisch/ember/persistence/IncidentDaoWithHibernate.java" />
+        <option value="$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/IncidentDaoWithHibernateTest.java" />
       </list>
     </option>
   </component>
@@ -433,11 +475,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.jjanisch.ember.persistence" />
     </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="com.jjanisch.ember.persistence" />
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.jjanisch.ember.persistence" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1215,7 +1257,7 @@
       <workItem from="1459003967924" duration="7615000" />
       <workItem from="1459118861244" duration="17172000" />
       <workItem from="1459292606386" duration="4508000" />
-      <workItem from="1459381932857" duration="3849000" />
+      <workItem from="1459381932857" duration="5829000" />
     </task>
     <servers />
   </component>
@@ -1252,7 +1294,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197697000" />
+    <option name="totallyTimeSpent" value="199677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1277,7 +1319,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2516704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2516704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21025437" sideWeight="0.6343402" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1319,7 +1361,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3674833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2516704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21025437" sideWeight="0.6343402" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2238806" sideWeight="0.8211447" order="0" side_tool="true" content_ui="combo" />
@@ -1351,18 +1393,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/8cc17b4b/513e88af-59e0-41db-82d5-639d11ab66bd/emberims.apparatus">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.016260162">
@@ -1683,34 +1713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/IncidentEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7776428">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39906102">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.172414">
           <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1731,17 +1737,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java">
+    <entry file="file://$PROJECT_DIR$/resources/IncidentEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="76" />
+        <state vertical-scroll-proportion="-32.310345">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/IncidentDaoWithHibernate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71428573">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/ApparatusDaoWithHibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/entity/IncidentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jjanisch/ember/persistence/ApparatusDaoWithHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/jjanisch/ember/persistence/IncidentDaoWithHibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>

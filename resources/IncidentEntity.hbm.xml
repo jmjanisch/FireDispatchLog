@@ -37,7 +37,7 @@
 
         <set name="apparatus" table="apparatus_incident" inverse="false" lazy="true" fetch="select" cascade="all">
             <key>
-                <column name="INCIDENT_ID" not-null="true" />
+                <column name="incident_id" not-null="true" />
             </key>
 
             <many-to-many entity-name="com.jjanisch.ember.entity.ApparatusEntity" >

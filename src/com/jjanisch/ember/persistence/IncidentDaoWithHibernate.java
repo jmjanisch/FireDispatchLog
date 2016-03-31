@@ -1,6 +1,7 @@
 package com.jjanisch.ember.persistence;
 
 import com.jjanisch.ember.entity.IncidentEntity;
+
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
