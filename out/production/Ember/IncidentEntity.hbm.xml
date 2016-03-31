@@ -5,8 +5,8 @@
 <hibernate-mapping>
 
     <class name="com.jjanisch.ember.entity.IncidentEntity" table="incident" schema="emberims">
-        <id name="incidentId">
-            <column name="incident_id" sql-type="int(11)"/>
+        <id name="incidentId" type="int" column="incident_id">
+            <generator class="native" />
         </id>
 
         <property name="date">
