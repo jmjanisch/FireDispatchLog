@@ -22,21 +22,21 @@
         </tr>
         </thead>
         <tbody>
-            <c:forEach var="staff" items="${staffInfo}">
+            <c:forEach var="staff" items="${staffInfo[0]}">
 
                 <li>${staff}</li>
-                <!--<tr>
+                <tr>
                     <td>${staff.fireNumber}</td>
                     <td>${staff.firstName}</td>
                     <td>${staff.lastName}</td>
                     <td>${staff.rank}</td>
                     <td>${staff.hireDate}</td>
-                </tr>-->
+                </tr>
             </c:forEach>
         </tbody>
     </table>
 
-    <p>Staff info - ${staffInfo}</p>
+    <p>Staff info - ${staffInfo[0].firstName}</p>
     <br>
     <p>All Staff - ${staffInfo}</p>
 

@@ -79,7 +79,7 @@ public class StaffEntity {
         this.departmentId = departmentId;
     }
 
-
+/*
     @Override
     public String toString() {
         return "{" +
@@ -125,4 +125,5 @@ public class StaffEntity {
         result = 31 * result + departmentId;
         return result;
     }
+    */
 }
