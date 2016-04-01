@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.*;
 
@@ -33,7 +34,9 @@ public class LoadStaffServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        List<StaffEntity> allStaff = new ArrayList<StaffEntity>();
+        HttpSession session = request.getSession();
+        ArrayList<StaffEntity> allStaff = new ArrayList<StaffEntity>();
+
         StaffDaoWithHibernate dao = new StaffDaoWithHibernate();
         String departmentNumber = properties.getProperty("departmentNumber");
 
@@ -41,8 +44,12 @@ public class LoadStaffServlet extends HttpServlet {
         // TO DO: THEN to get all staff by department and "active status"
         allStaff = dao.getAllStaff();
 
+        //for(StaffEntity staff :initialStaffList) {
 
-        request.setAttribute("staffInfo", allStaff);
+        //}
+
+        session.setAttribute("staffInfo", allStaff);
+
 
         // SET
         String url = "/profile/staff.jsp";

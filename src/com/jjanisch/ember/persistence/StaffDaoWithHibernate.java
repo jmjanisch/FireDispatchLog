@@ -14,11 +14,11 @@ import java.util.*;
 public class StaffDaoWithHibernate {
     private org.apache.log4j.Logger log = Logger.getLogger(this.getClass());
 
-    public List<StaffEntity> getAllStaff() {
+    public ArrayList<StaffEntity> getAllStaff() {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
-        List<StaffEntity> departmentStaff = new ArrayList<StaffEntity>();
+        ArrayList<StaffEntity> departmentStaff = new ArrayList<StaffEntity>();
         Transaction dbTransaction = null;
 
         try {

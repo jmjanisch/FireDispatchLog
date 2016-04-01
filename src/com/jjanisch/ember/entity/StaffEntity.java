@@ -79,9 +79,10 @@ public class StaffEntity {
         this.departmentId = departmentId;
     }
 
+
     @Override
     public String toString() {
-        return "StaffEntity{" +
+        return "{" +
                 "staffId=" + staffId +
                 ", fireNumber='" + fireNumber + '\'' +
                 ", firstName='" + firstName + '\'' +
