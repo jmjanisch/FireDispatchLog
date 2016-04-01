@@ -2,9 +2,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 // 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
-<c:set var="pageTitle" value="Staff Listing" scope="request" />
+<c:set var="pageTitle" value="Personnel" scope="request" />
 
 
 <c:import url="../siteHeader.jsp" />
@@ -16,6 +18,7 @@
 
 <div class="container-fluid">
     <div class="row">
+
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="/loadStaffInfo">PERSONNEL<span class="sr-only">(current)</span></a></li>
@@ -28,14 +31,56 @@
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <h1 class="page-header">Add/Edit Personnel Information</h1>
-            <div class="row placeholders">
-                <div class="col-xs-6 col-sm-3 placeholder">
-                </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                </div>
+            <!-- Add Personnel -->
 
+            <form action="/addPersonnel" method="POST">
+                <div>
+                    <div class="form-group pull-left">
+                        <label class="control-label" for="fireNumber">Fire Number:</label>
+                        <input type="text" class="form-control" id="fireNumber" name="fireNumber" />
+                    </div>
+                    <div><p> </p></div>
+                    <div class="form-group pull-left">
+                        <label class="control-label" for="firstName">First Name: </label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" />
+                    </div>
+
+                    <div class="form-group pull-left">
+                        <label class="control-label" for="lastName">Last Name: </label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" />
+                    </div>
+
+                    <div class="form-group pull-left">
+                        <label class="control-label" for="rank">State
+                            <br>
+                        </label>
+                        <select id="rank" class="form-control" name="rank"  />
+                            <option value="probationary">Probationary</option>
+                            <option value="firefighter">Fire Fighter</option>
+                            <option value="lieutenant">Lieutenant</option>
+                            <option value="captain">Captain</option>
+                            <option value="assistantChief">Deputy Chief</option>
+                            <option value="chief">Chief</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group pull-left">
+                        <label class="control-label" for="hireDate">Hire Date: </label>
+                        <input type="text" class="form-control" id="hireDate" name="hireDate" />
+                    </div>
+
+                    <br /><br /><br /><br />
+                    <div class="btn-group">
+                        <button type="submit" class="btn btn-success btn">Save Changes</button>
+                    </div>
+                </div>
+            </form>
+            <!-- End add Personnel -->
+
+            <div class="row placeholders">
+                <div class="col-xs-6 col-sm-3 placeholder"></div>
+                <div class="col-xs-6 col-sm-3 placeholder"></div>
+                <div class="col-xs-6 col-sm-3 placeholder"></div>
             </div>
 
             <h2 class="sub-header">Active Personnel</h2>
@@ -52,8 +97,6 @@
                     </thead>
                     <tbody>
                     <c:forEach var="staff" items="${staffInfo}">
-
-                        <li>${staff}</li>
                         <tr>
                             <td>${staff.fireNumber}</td>
                             <td>${staff.firstName}</td>
@@ -64,13 +107,11 @@
                     </c:forEach>
                     </tbody>
                 </table>
-
-                <p>Staff info - ${staffInfo[0].firstName}</p>
-                <br>
-                <p>All Staff - ${staffInfo}</p>
             </div>
-
         </div>
+        <hr />
+
+
     </div>
 </div>
 

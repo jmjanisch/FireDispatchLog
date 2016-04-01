@@ -6,10 +6,6 @@ import com.jjanisch.ember.persistence.DepartmentDaoWithHibernate;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
-import javax.servlet.*;
-//import javax.servlet.http.HttpServlet;
-//import javax.servlet.http.HttpServletRequest;
-//import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
@@ -19,18 +15,14 @@ import java.io.IOException;
 public class UpdateDepartmentServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //HttpSession session = request.getSession();
-        //ServletContext context = getServletContext();
 
         // TO DO: Error Handling / Input Validation on departmentUpdate
 
         DepartmentDaoWithHibernate dao = new DepartmentDaoWithHibernate();
-        //Department department = new Department();
 
         // Find Department id using nfirs Id
         Department department = dao.getDepartmentBy(request.getParameter("nfirsId"));
         int departmentId = department.getDepartmentId();
-        System.out.println("Department ID: " + departmentId);
 
         // New Department Parameters
         department.setDepartmentId(departmentId);
@@ -51,6 +43,4 @@ public class UpdateDepartmentServlet extends HttpServlet {
 
         response.sendRedirect(url);
     }
-
-
 }

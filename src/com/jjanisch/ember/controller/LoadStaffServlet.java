@@ -21,7 +21,6 @@ import java.util.*;
 @WebServlet(name = "LoadStaffServlet", urlPatterns = {"/loadStaffInfo"})
 public class LoadStaffServlet extends HttpServlet {
     private Properties properties;
-    private Department currentDepartment;
 
     public void init() throws ServletException {
         loadProperties("/ember.properties");
@@ -36,7 +35,6 @@ public class LoadStaffServlet extends HttpServlet {
 
         HttpSession session = request.getSession();
         ArrayList<StaffEntity> allStaff = new ArrayList<StaffEntity>();
-
         StaffDaoWithHibernate dao = new StaffDaoWithHibernate();
         String departmentNumber = properties.getProperty("departmentNumber");
 
@@ -44,21 +42,15 @@ public class LoadStaffServlet extends HttpServlet {
         // TO DO: THEN to get all staff by department and "active status"
         allStaff = dao.getAllStaff();
 
-        //for(StaffEntity staff :initialStaffList) {
-
-        //}
-
         session.setAttribute("staffInfo", allStaff);
 
-
-        // SET
         String url = "/profile/staff.jsp";
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
 
         dispatcher.forward(request, response);
-
     }
+
 
     public void loadProperties(String filePath) {
         properties = new Properties();

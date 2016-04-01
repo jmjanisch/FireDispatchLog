@@ -79,7 +79,7 @@ public class StaffEntity {
         this.departmentId = departmentId;
     }
 
-/*
+
     @Override
     public String toString() {
         return "{" +
@@ -93,7 +93,7 @@ public class StaffEntity {
                 ", departmentId=" + departmentId +
                 '}';
     }
-
+/*
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

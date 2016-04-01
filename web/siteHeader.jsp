@@ -10,16 +10,17 @@
     <link href="dashboard.css" rel="stylesheet" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/ember.js"></script>
+    <!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+    <script src="assets/js/ember.js" type="text/javascript" charset="utf-8"></script>
     <![endif]-->
 
-    <script>
+    <!--<script>
         $(document).ready(function() {
             $("a").on("click", function () {
                 $("a").find(".active").removeClass("active");
                 $(this).parent().addClass("active");
             });
         });
-    </script>
+    </script>-->
 
 </head>
