@@ -39,7 +39,7 @@
                         <label class="control-label" for="fireNumber">Fire Number:</label>
                         <input type="text" class="form-control" id="fireNumber" name="fireNumber" />
                     </div>
-                    <div><p> </p></div>
+
                     <div class="form-group pull-left">
                         <label class="control-label" for="firstName">First Name: </label>
                         <input type="text" class="form-control" id="firstName" name="firstName" />
@@ -69,9 +69,9 @@
                         <input type="text" class="form-control" id="hireDate" name="hireDate" />
                     </div>
 
-                    <br /><br /><br /><br />
+                    <br /><br />
                     <div class="btn-group">
-                        <button type="submit" class="btn btn-success btn">Save Changes</button>
+                        <button type="submit" class="btn btn-success btn">Add</button>
                     </div>
                 </div>
             </form>
@@ -98,7 +98,7 @@
                     <tbody>
                     <c:forEach var="staff" items="${staffInfo}">
                         <tr>
-                            <td>${staff.fireNumber}</td>
+                            <td><a class="personnelRecord" href="">${staff.fireNumber}</a></td>
                             <td>${staff.firstName}</td>
                             <td>${staff.lastName}</td>
                             <td>${staff.rank}</td>

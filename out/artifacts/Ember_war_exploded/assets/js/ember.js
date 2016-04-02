@@ -7,7 +7,10 @@
 			$(this).parent().addClass("active");
 		});
 
+		$(".personnelRecord").on("click", function() {
+			alert($(this).val());
 
+		});
 
 
 	})
