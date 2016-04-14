@@ -5,6 +5,27 @@
 [Project Plan] (ProjectPlan.md)
 
 ---
+### Week of 4/11/2016
+##### Hours working on JavaEE: 16.5
+* Review Json Parsing implementation materials and Implement Jackson in IntelliJ (2.0)
+* Create POJO's for team project (1.0)
+* Build Webservice Response and Test output for team project (1.0)
+* Build Jackson implementation of Json request to POJO's and test feature to ensure response is converted properly (1.5)
+* Add additional logging to team project (0.25)
+* Troubleshoot issues with team project and team project deployment (10.5)
+* Journal Entries (0.25)
+
+
+### Week of 4/4/2016
+##### Hours working on JavaEE: 0.0
+* Wasn't able to focus on Java this week due to projects in other classes being due.
+
+### Week of 3/28/2016
+##### Hours working on JavaEE: 13.75
+* Added .gitignore and cleaned up project Errors (7.5)
+* Attempt to implement Jersey (6.0)
+* Journal Entries (0.25)
+
 ### Week of 3/21/2016
 ##### Hours working on JavaEE: 24.0
 
