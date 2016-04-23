@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.jjanisch.ember.entity.ApparatusEntity" table="apparatus" schema="emberims">
+
+
+        <!--<id name="apparatusId">
+            <column name="apparatus_id" sql-type="int(11)"/>
+        </id>-->
+
+
+        <!--Add id for the key -->
+        <id name="apparatusId" type="int" column="apparatus_id">
+            <generator class="native"/>
+        </id>
+
+
+        <property name="designation">
+            <column name="designation" sql-type="varchar(10)" length="10"/>
+        </property>
+        <property name="type">
+            <column name="type" sql-type="varchar(15)" length="15"/>
+        </property>
+        <property name="make">
+            <column name="make" sql-type="varchar(25)" length="25"/>
+        </property>
+        <property name="inServiceDate">
+            <column name="in_service_date" sql-type="date"/>
+        </property>
+        <property name="waterCapacity">
+            <column name="water_capacity" sql-type="int(11)"/>
+        </property>
+        <property name="departmentId">
+            <column name="department_id" sql-type="int(8)" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -21,32 +21,37 @@
 more detail.
 
 ### Week 3
-- [ ] Create project structure in IntelliJ
+- [X] Create project structure in IntelliJ
 - [ ] Finalize UI Screens
-- [ ] Create database and all tables/columns locally
-- [ ] Weekly journal entry
+- [X] Create database and all tables/columns locally
+- [X] Weekly journal entry
 - [ ] Create class diagram
-- [ ] Set up logging
-- [ ] Set up unit testing
+- [X] Set up logging
+- [X] Set up unit testing
 
 ### Week 4
-- [ ] Add Hibernate config
+- [X] Add Hibernate config
 - [ ] Determine possible Web Services or APIs to use
-- [ ] Complete database design
-- [ ] List technologies and how they will be used
-- [ ] Create DAO for user crud
-- [ ] Add unit tests for DAO
+- [X] Complete database design
+- [X] List technologies and how they will be used
+- [X] Create DAO for user crud
+- [X] Add unit tests for DAO
 - [ ] Add user login
 - [ ] Add user registration
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
 
 
 ### Week 5
 - [ ] Weekly journal entry
 - [ ] Code review
 - [ ] Begin creating JSPs
+- [ ] Create Department Profile Servlets
+- [ ] Create Staff Servlets
+- [ ] Create Apparatus Servlets
 
 ### Week 6
+- [ ] Finalize Incident Report JSP
+- [ ] Build Incident Report Servlet
 - [ ] Weekly journal entry
 - [ ] Set up Continuous Integration on openshift
 - [ ] Complete remaining JSPs
@@ -54,11 +59,14 @@ more detail.
 
 ### Week 7
 - [ ] Weekly journal entry
+- [ ] Populate Incident Type Table
+- [ ] Populate Property Use Table
 - [ ] Add search functionality
 - [ ] Determine how to add paging of search results
 
 ### Week 8
 - [ ] Weekly journal entry
+- [ ] Write IncidentDAO Tests
 - [ ] Implement paging of search results
 - [ ] Code review
 
